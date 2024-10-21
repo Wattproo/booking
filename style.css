@@ -51,3 +51,100 @@
     text-transform: uppercase;
     text-decoration: underline;
 }
+/* section contact */
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* Côté gauche */
+.contact .leftHand{
+    width: 50%;
+}
+.contact .leftHand h1{
+    text-align: center;
+}
+.contact .leftHand hr{
+    width: 20%;
+    border: 1.5px solid black;
+    border-radius: 50px;
+}
+.contact .leftHand ul{
+    list-style-type: none;
+}
+ul li .conteinerLi{
+    display: flex;
+    align-items: center;
+}
+.conteinerLi div{
+    padding: 10px;
+}
+.conteinerLi div p{
+    margin: 0px;
+}
+.conteinerLi div h4{
+    margin: 0px;
+}
+/* Côté droite */
+.contact .rightHand{
+    width: 50%;
+}
+.rightHand form{
+    display: flex;
+    flex-direction: column;
+    line-height: 2;
+    width: 80%;
+    margin: 0 auto;
+}
+form input{
+    border-radius: 10px;
+    padding: 7px;
+}
+input[type="submit"]{
+    width: 20%;
+    margin: 0 auto;
+    margin-top: 2%;
+}
+form textarea{
+    border-radius: 10px;
+    padding: 5px;
+}
+/* Configuration responsive */
+@media (max-width: 900px){
+    .contact{
+        display: block;
+        width: 90%;
+        margin: 0 auto;
+        align-items: center;
+    } 
+    .leftHand{
+        width: 90%;
+        display: block;
+        margin: 0 auto;
+    }
+    .leftHand ul{
+        padding: 0px;
+        width: 90%;
+        margin: 0 auto;
+    }
+    }
+    .rightHand{
+        width: 90%;
+        display: block;
+        margin: 0 auto;
+    }
+    .rightHand form{
+        padding: 0px;
+        width: 90%;
+        margin: 0 auto;
+    }
+    form label{
+        text-align: center;
+    }
+    form input[type="submit"]{
+        width: 40%;
+    }
+}
+
+
+
