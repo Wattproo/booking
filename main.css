@@ -1,0 +1,51 @@
+body{
+    object-fit: contain;
+    /* width: 800px;
+    height: 434px; */
+    background-repeat: no-repeat;
+    position: relative;
+}
+img{
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+.connexion{
+    width: 500px;
+    height: 200px;
+    margin: auto;
+    /* background-color: #fff; */
+    margin-top: 200px;
+    border-radius: 10px;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 30%;
+}
+#logo{
+    /* border: 1px solid black; */
+    border-radius: 20px;
+}
+.boutton{
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+
+}
+.boutton ul{
+    display: flex;
+    justify-content: space-around;
+}
+.boutton ul li{
+    text-align: center;
+    background-color: coral;
+    list-style-type: none;
+    width: 120px;
+    height: 30px;
+    border-radius: 20px;
+}
+.boutton ul li a{
+    text-decoration: none;
+    color: rgb(24, 3, 3);
+    line-height: 30px;
+}

@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="style.css" type="text/css">
     <title>logo</title>
     <link rel="stylesheet" href="publics/bootstrap-4.6.2-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
 </head>
 <body>
     <header>
@@ -13,16 +14,16 @@
 
             <ul class="navbar-nav">
                 <a class="navbar-brand" href="#">
-                    <img src="publics/photos/teambg.jpg" alt="Logo" style="width: 50px; border-radius: 50%;">
+                    <img src="logoMada.jpg" alt="Logo" style="width: 70px; border-radius: 50%;">
                 </a>
                 <li class="nav-item">
                     <a class="nav-link" href="index.php?action=accueil">accueil</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="index.php?action=formation">formation</a>
+                    <a class="nav-link  active" href="index.php?action=destination">Déstination</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" href="index.php?action=article">article</a>
+                    <a class="nav-link" href="index.php?action=hebergement">Hebergement</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="index.php?action=contact">contact</a>
@@ -33,8 +34,7 @@
                 <button class="btn btn-warning" type="submit">Search</button>
             </form>
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-                <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-log-in"></span>Se Déconnecter</a></li>
             </ul>
 
         </nav>
