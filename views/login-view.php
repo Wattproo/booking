@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MADA-TRAVEL.com</title>
+    <link rel="stylesheet" href="sigin-login.css">
+    <title>CONNEXION-MADA_TRAVEL.com</title>
     <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="publics/bootstrap-4.6.2-dist/css/bootstrap.css">
 </head>
-<body>
+<body class="login">
     <div class="container">
         <form action="" method="post">
             <h1>connexion</h1>
@@ -17,10 +18,10 @@
             </div>
             <div class="form-group">
                 <label>Votre mot de passe</label>
-                <input type="password" class="form-control" name="pwd" required>
+                <input type="password" class="form-control" name="password" required>
             </div>
             <div class="form-group">                
-                <input type="submit" class="form-control btn btn-success" name="soumettre" value="se connecter">
+                <input type="submit" class="form-control" id="lavie" name="soumettre" value="se connecter">
             </div>
         </form>
     </div>
