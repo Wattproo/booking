@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="sigin-login.css">
+    <title>INSCRIPTION-MADA_TRAVEL.com</title>
     <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="publics/bootstrap-4.6.2-dist/css/bootstrap.css">
 </head>
@@ -35,7 +36,7 @@
                 <label for="pwd">Confirmer Votre mot de passe:</label>
                 <input type="password" class="form-control"  name="pass2" required>
             </div>
-            <input type="submit" class="btn btn-danger" name="btnRegister" value="S'inscrire">
+            <input type="submit" class="form-control" id="mavie" name="btnRegister" value="S'inscrire">
            
         </div>
         

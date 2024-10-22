@@ -22,11 +22,30 @@ class membre_model{
     public function confirmPseudoPass($pseudo,$pass){
         
     }
-    public function verifyEmail($email){
+    public function verifyEmail(){
         $req = $this->bdd->prepare("SELECT * FROM client WHERE email=:email");
         $req->bindParam(':email', $email, PDO::PARAM_STR).
         // return $req->rowCount();
         $req->execute($email);
+        if ($_SERVER["REQUEST_METHOD"]== "POST"){
+            $email= $_POST['email2'];
+            $password = $_POST['password'];
+            if($req->rowCount() > 0 ){
+                $user = $req->fetch(PDO::FETCH_ASSOC);
+                if (password_verify($this->bdd,$user[''])) {
+                    $_SESSION['user_id'] = $user['id'];
+                    $_SESSION['email'] = $user['email'];
+                    echo"Connexion réussie ! bienvenue ☻" . htmlspecialchars($user['email'] . ".");
+                    include("views/home.php");
+                    exit();
+                }else{
+                    echo"Mots de passe incorrect.!";
+                }
+                
+            }else{
+                echo "l'adresse e-mail n'existe pas!!";
+            }
+        }
     }
     public function deleteMember($id){
         $req = $this->bdd->prepare("DELETE FROM client WHERE id=?");

@@ -1,25 +1,15 @@
 <?php
-
-if(isset($_GET["action"])){
+session_start();
+if(isset($_GET["action"])){  
     if($_GET["action"]=="login"){
         include("views/login-view.php");
         if (isset($_POST['soumettre'])) {
             include("model/membre_model.php");
-            $cc= new membre_model();           
-            if ($_SERVER["REQUEST_METHOD"]){
-                $email= $_POST['email'];
-                $cc->verifyEmail($email);
-                if($req->rowCount() > 0 ){
-                    echo "vous êtes connecté";
-                    include("views/home.php");
-                }else{
-                    echo "l'adresse e-mail n'existe pas!!";
-                }
-            }else{
-                //redirection
-                header('location:index.php?action=login');
-            }
-
+            $cc= new membre_model();
+            $cc->verifyEmail();                  
+        }else{
+            //redirection
+            header: 'location:index.php?action=login';
         }
     }elseif ($_GET["action"]=="hebergement") {
         include("views/hebergement.php");
@@ -37,6 +27,8 @@ if(isset($_GET["action"])){
             $m= new membre ();
             $m->enregistrer($_POST["nom"],$_POST["prenom"],$_POST["pseudo"],$_POST["email"],$_POST["pass1"],$_POST["pass2"]);
             include("views/home.php");
+        }else{
+            include("register-view.php");
         }
     }elseif($_GET["action"]=="accueil"){
         if(isset($_SESSION['pseudo'])){
@@ -61,7 +53,6 @@ if(isset($_GET["action"])){
     }
     
 }else{
-    session_start();
     include("views/home-view.php");
     
 }
