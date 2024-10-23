@@ -11,119 +11,139 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-
-            <ul class="navbar-nav">
-                <a class="navbar-brand" href="#">
-                    <img src="logoMada.jpg" alt="Logo" style="width: 70px; border-radius: 50%;">
-                </a>
-                <li class="nav-item">
+        <p class="menuBar" onclick="afficheMenu()">
+            <i class="fa fa-bars"></i>
+        </p>
+        <nav class="navBar" bg="#016ac6">
+            <div class="navLogo">
+                <img src="logoMada.jpg" alt="Logo">
+            </div>
+            <ul class="navLinks">
+                <li>
                     <a class="nav-link" href="index.php?action=accueil">accueil</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link  active" href="index.php?action=destination">Déstination</a>
+                <li>
+                    <a class="nav-link" href="index.php?action=destination">Déstination</a>
                 </li>
-                <li class="nav-item">
+                <li>
                     <a class="nav-link" href="index.php?action=hebergement">Hebergement</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="index.php?action=contact">contact</a>
+                <li>
+                    <a class="nav-link active" href="index.php?action=contact">contact</a>
                 </li>
             </ul>
-            <form class="form-inline" action="/action_page.php">
-                <input class="form-control mr-sm-2" type="text" placeholder="Search">
-                <button class="btn btn-warning" type="submit">Search</button>
-            </form>
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="#"><span class="glyphicon glyphicon-log-in"></span>Se Déconnecter</a></li>
-            </ul>
-
+            <div class="desconnect">
+                <i class="fa fa-user"></i>
+                <a href="#">Se Déconnecter</a>
+            </div>
+            <div class="form-inline">
+                <form action="/action_page.php">
+                    <input type="search" placeholder="Search" id="recherche">
+                    <label for="recherche"><i class="fa fa-search"></i></label>
+                </form>
+            </div>
         </nav>
     </header>
 
 <div class="destination">
-<div class="card dest" style="width:500px" id="moi">
-  <img class="card-img-top" src="morondava.jpg" alt="Card image">
-  <div class="card-img-overlay">
-    <h4 class="card-title" style="color:greenyellow; font-family: 'Arial', sans-serif;">MADA_TRAVEL.com</h4>
-    <p class="card-text" style="color:#fff; font-family: 'Arial', sans-serif;">♥ L'incroyable allée des Baobab ♥</p>
-    <a href="index.php?action=morondava" class="btn btn-primary">Découvrir</a>
-  </div>
+    <div class="card dest" style="width:500px" id="moi">
+    <img class="card-img-top" src="morondava.jpg" alt="Card image">
+    <div class="card-img-overlay">
+        <h4 class="card-title" style="color:greenyellow; font-family: 'Arial', sans-serif;">MADA_TRAVEL.com</h4>
+        <p class="card-text" style="color:#fff; font-family: 'Arial', sans-serif;">♥ L'incroyable allée des Baobab ♥</p>
+        <a href="index.php?action=morondava" class="btn btn-primary">Découvrir</a>
+    </div>
+    </div>
+    <div class="card dest" style="width:500px" id="moi">
+    <img class="card-img-top" src="ampefy.jfif" alt="Card image">
+    <div class="card-img-overlay">
+        <h4 class="card-title" style="color:greenyellow; font-family: 'Arial', sans-serif;">MADA_TRAVEL.com</h4>
+        <p class="card-text" style="color:#fff; font-family: 'Arial', sans-serif;">♥ Un paysage calme et paisible ♥</p>
+        <a href="index.php?action=ampefy" class="btn btn-primary">Découvrir</a>
+    </div>
+    </div>
+    <div class="card dest" style="width:500px" id="moi">
+    <img class="card-img-top" src="majunga.jpg" alt="Card image">
+    <div class="card-img-overlay">
+        <h4 class="card-title" style="color:greenyellow; font-family: 'Arial', sans-serif;">MADA_TRAVEL.com</h4>
+        <p class="card-text" style="color:#fff; font-family: 'Arial', sans-serif;">♥ Baobab, l'arbre mythique de Majunga ♥</p>
+        <a href="index.php?action=majunga" class="btn btn-primary">Découvrir</a>
+    </div>
+    </div>
+    <div class="card dest" style="width:500px" id="moi">
+    <img class="card-img-top" src="foulpointe.jpg" alt="Card image">
+    <div class="card-img-overlay">
+        <h4 class="card-title" style="color:greenyellow; font-family: 'Arial', sans-serif;">MADA_TRAVEL.com</h4>
+        <p class="card-text" style="color:#fff; font-family: 'Arial', sans-serif;">♥ La richesse de la faune et de la flore ♥</p>
+        <a href="index.php?action=foulpointe" class="btn btn-primary">Découvrir</a>
+    </div>
+    </div>
+    <div class="card dest" style="width:500px" id="moi">
+    <img class="card-img-top" src="tulear.jpg" alt="Card image">
+    <div class="card-img-overlay">
+        <h4 class="card-title"style="color:greenyellow; font-family: 'Arial', sans-serif;">MADA_TRAVEL.com</h4>
+        <p class="card-text" style="color:#fff; font-family: 'Arial', sans-serif;">♥ Les sables Blancs vous attend ♥</p>
+        <a href="index.php?action=tulear" class="btn btn-primary">See Profile</a>
+    </div>
+    </div>
+    <div class="card dest" style="width:500px" id="moi">
+    <img class="card-img-top" src="diego.jpg" alt="Card image">
+    <div class="card-img-overlay">
+        <h4 class="card-title" style="color:orange; font-family: 'Arial', sans-serif;">MADA_TRAVEL.com</h4>
+        <p class="card-text" style="color:#fff; font-family: 'Arial', sans-serif;">♥ La ville francophile, pleine d'histoire ♥</p>
+        <a href="index.php?action=diego" class="btn btn-primary">Découvrir</a>
+    </div>
+    </div>
+    <div class="card dest" style="width:500px" id="moi">
+    <img class="card-img-top" src="tana.jpg" alt="Card image">
+    <div class="card-img-overlay">
+        <h4 class="card-title" style="greenyellow; font-family: 'Arial', sans-serif;">MADA_TRAVEL.com</h4>
+        <p class="card-text" style="color:#fff; font-family: 'Arial', sans-serif;">♥ La capitale surprenante ♥</p>
+        <a href="index.php?action=tana" class="btn btn-primary">Découvrir</a>
+    </div>
+    </div>
+    <div class="card dest" style="width:500px" id="moi">
+    <img class="card-img-top" src="antsirabe.png" alt="Card image">
+    <div class="card-img-overlay">
+        <h4 class="card-title" style="color:greenyellow; font-family: 'Arial', sans-serif;">MADA_TRAVEL.com</h4>
+        <p class="card-text" style="color:#fff; font-family: 'Arial', sans-serif;" >♥ La ville des produits laitiers ♥</p>
+        <a href="index.php?action=antsirabe" class="btn btn-primary">Découvrir</a>
+    </div>
+    </div>
+    <div class="card dest" style="width:500px" id="moi">
+    <img class="card-img-top" src="nosybe.jpg" alt="Card image">
+    <div class="card-img-overlay">
+        <h4 class="card-title" style="color:orange; font-family: 'Arial', sans-serif;">MADA_TRAVEL.com</h4>
+        <p class="card-text" style="color:#fff; font-family: 'Arial', sans-serif;">♥ La plage de vos rêves ♥</p>
+        <a href="index.php?action=nosybe" class="btn btn-primary" style="bottom: 10px;">Découvrir</a>
+    </div>
+    </div>
+    <div class="card dest" style="width:500px" id="moi">
+    <img class="card-img-top" src="tamatave.jpg" alt="Card image">
+    <div class="card-img-overlay">
+        <h4 class="card-title" style="color:greenyellow; font-family: 'Arial', sans-serif;">MADA_TRAVEL.com</h4>
+        <p class="card-text" style="color:#fff; font-family: 'Arial', sans-serif;">♥ La ville haute en couleurs ♥</p>
+        <a href="index.php?action=tamatave" class="btn btn-primary">Découvrir</a>
+    </div>
+    </div>
 </div>
-<div class="card dest" style="width:500px" id="moi">
-  <img class="card-img-top" src="ampefy.jfif" alt="Card image">
-  <div class="card-img-overlay">
-    <h4 class="card-title" style="color:greenyellow; font-family: 'Arial', sans-serif;">MADA_TRAVEL.com</h4>
-    <p class="card-text" style="color:#fff; font-family: 'Arial', sans-serif;">♥ Un paysage calme et paisible ♥</p>
-    <a href="index.php?action=ampefy" class="btn btn-primary">Découvrir</a>
-  </div>
-</div>
-<div class="card dest" style="width:500px" id="moi">
-  <img class="card-img-top" src="majunga.jpg" alt="Card image">
-  <div class="card-img-overlay">
-    <h4 class="card-title" style="color:greenyellow; font-family: 'Arial', sans-serif;">MADA_TRAVEL.com</h4>
-    <p class="card-text" style="color:#fff; font-family: 'Arial', sans-serif;">♥ Baobab, l'arbre mythique de Majunga ♥</p>
-    <a href="index.php?action=majunga" class="btn btn-primary">Découvrir</a>
-  </div>
-</div>
-<div class="card dest" style="width:500px" id="moi">
-  <img class="card-img-top" src="foulpointe.jpg" alt="Card image">
-  <div class="card-img-overlay">
-    <h4 class="card-title" style="color:greenyellow; font-family: 'Arial', sans-serif;">MADA_TRAVEL.com</h4>
-    <p class="card-text" style="color:#fff; font-family: 'Arial', sans-serif;">♥ La richesse de la faune et de la flore ♥</p>
-    <a href="index.php?action=foulpointe" class="btn btn-primary">Découvrir</a>
-  </div>
-</div>
-<div class="card dest" style="width:500px" id="moi">
-  <img class="card-img-top" src="tulear.jpg" alt="Card image">
-  <div class="card-img-overlay">
-    <h4 class="card-title"style="color:greenyellow; font-family: 'Arial', sans-serif;">MADA_TRAVEL.com</h4>
-    <p class="card-text" style="color:#fff; font-family: 'Arial', sans-serif;">♥ Les sables Blancs vous attend ♥</p>
-    <a href="index.php?action=tulear" class="btn btn-primary">See Profile</a>
-  </div>
-</div>
-<div class="card dest" style="width:500px" id="moi">
-  <img class="card-img-top" src="diego.jpg" alt="Card image">
-  <div class="card-img-overlay">
-    <h4 class="card-title" style="color:orange; font-family: 'Arial', sans-serif;">MADA_TRAVEL.com</h4>
-    <p class="card-text" style="color:#fff; font-family: 'Arial', sans-serif;">♥ La ville francophile, pleine d'histoire ♥</p>
-    <a href="index.php?action=diego" class="btn btn-primary">Découvrir</a>
-  </div>
-</div>
-<div class="card dest" style="width:500px" id="moi">
-  <img class="card-img-top" src="tana.jpg" alt="Card image">
-  <div class="card-img-overlay">
-    <h4 class="card-title" style="greenyellow; font-family: 'Arial', sans-serif;">MADA_TRAVEL.com</h4>
-    <p class="card-text" style="color:#fff; font-family: 'Arial', sans-serif;">♥ La capitale surprenante ♥</p>
-    <a href="index.php?action=tana" class="btn btn-primary">Découvrir</a>
-  </div>
-</div>
-<div class="card dest" style="width:500px" id="moi">
-  <img class="card-img-top" src="antsirabe.png" alt="Card image">
-  <div class="card-img-overlay">
-    <h4 class="card-title" style="color:greenyellow; font-family: 'Arial', sans-serif;">MADA_TRAVEL.com</h4>
-    <p class="card-text" style="color:#fff; font-family: 'Arial', sans-serif;" >♥ La ville des produits laitiers ♥</p>
-    <a href="index.php?action=antsirabe" class="btn btn-primary">Découvrir</a>
-  </div>
-</div>
-<div class="card dest" style="width:500px" id="moi">
-  <img class="card-img-top" src="nosybe.jpg" alt="Card image">
-  <div class="card-img-overlay">
-    <h4 class="card-title" style="color:orange; font-family: 'Arial', sans-serif;">MADA_TRAVEL.com</h4>
-    <p class="card-text" style="color:#fff; font-family: 'Arial', sans-serif;">♥ La plage de vos rêves ♥</p>
-    <a href="index.php?action=nosybe" class="btn btn-primary" style="bottom: 10px;">Découvrir</a>
-  </div>
-</div>
-<div class="card dest" style="width:500px" id="moi">
-  <img class="card-img-top" src="tamatave.jpg" alt="Card image">
-  <div class="card-img-overlay">
-    <h4 class="card-title" style="color:greenyellow; font-family: 'Arial', sans-serif;">MADA_TRAVEL.com</h4>
-    <p class="card-text" style="color:#fff; font-family: 'Arial', sans-serif;">♥ La ville haute en couleurs ♥</p>
-    <a href="index.php?action=tamatave" class="btn btn-primary">Découvrir</a>
-  </div>
-</div>
-</div>
-
-  
+    <script>
+        let navBar = document.querySelector(".navBar");
+        let menuBar = document.querySelector(".menuBar");
+        let form = document.querySelector(".form-inline")
+        let desconnect = document.querySelector(".desconnect");
+        function afficheMenu () {
+            navBar.classList.toggle("afficheMenu");
+            // form.style.position = "absolute";
+            // form.style.width = "25%";
+            // form.style.right = "2px";
+            desconnect.style.width = "15%";
+            desconnect.style.padding = "0px";
+            desconnect.style.textAlign = "center";
+        }
+        function survol() {
+            desconnect.classList.toggle("survol");
+        }
+    </script>
 </body>
 </html>

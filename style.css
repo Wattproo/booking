@@ -1,76 +1,141 @@
-.nav-link{
-  margin-left: 0px;
-  color: lightsalmon;
+.navBar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3245e9;
+}
+.navLogo{
+  width: 10%;
+}
+.navLogo img{
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+  border: 1px solid #eee;
+  border-radius: 80px;
+}
+.navBar .navLinks{
+  display: flex;
+  list-style-type: none;
+  padding: 0px;
+  width: 40%;
+  justify-content: center;
+}
+.navLinks li{
+  padding: 10px;
+}
+.navLinks li a{
+  padding: 10px;
+  color: white;
+}
+.navBar ul li:hover{
+  background: #1c2fdb86;
+  border: 1px solid #1c2fdb86;
+  border-radius: 30px;
+}
+#recherche{
+  border-radius: 30px;
+  padding: 10px;
+}
+.navBar ul li a:hover{
+  /* background: #1c2fdb86; */
+  color: black;
 }
 .form-inline{
-    margin-left: 20px;
-    margin-right: 2px;
+  width: 20%;
+  padding: 10px;
 }
-.glyphicon-log-in{
-    margin-right: 10px;
+.form-inline form{
+  width: 100%;
+  display: flex;
 }
-.nav-link:hover{
-    background-color: #555;
-    border-radius: 20px;
-    color: coral;
+.form-inline input[type="search"]{
+  width: 80%;
+  border: none;
 }
+.form-inline form label{
+  width: 20%;
+}
+.fa-search{
+  color: white;
+}
+.desconnect{
+  width: 10%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+}
+.desconnect a{
+  color: white;
+}
+.desconnect:hover{
+  background-color: #e76814f5;
+  border-radius: 10px;
+}
+.menuBar{
+  display: none;
+}
+
 /* section contact */
 .contact{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 /* Côté gauche */
 .contact .leftHand{
-    width: 50%;
+  width: 50%;
 }
 .contact .leftHand h1{
-    text-align: center;
+  text-align: center;
 }
 .contact .leftHand hr{
-    width: 20%;
-    border: 1.5px solid black;
-    border-radius: 50px;
+  width: 20%;
+  border: 1.5px solid black;
+  border-radius: 50px;
 }
 .contact .leftHand ul{
-    list-style-type: none;
+  list-style-type: none;
 }
 ul li .conteinerLi{
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 .conteinerLi div{
-    padding: 10px;
+  padding: 10px;
 }
 .conteinerLi div p{
-    margin: 0px;
+  margin: 0px;
 }
 .conteinerLi div h4{
-    margin: 0px;
+  margin: 0px;
 }
 /* Côté droite */
 .contact .rightHand{
-    width: 50%;
+  width: 50%;
 }
 .rightHand form{
-    display: flex;
-    flex-direction: column;
-    line-height: 2;
-    width: 80%;
-    margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  line-height: 2;
+  width: 80%;
+  margin: 0 auto;
 }
-form input{
-    border-radius: 10px;
-    padding: 7px;
+.rightHand form input{
+  border-radius: 10px;
+  padding: 7px;
 }
-input[type="submit"]{
-    width: 20%;
-    margin: 0 auto;
-    margin-top: 2%;
+.rightHand form input[type="submit"]{
+  width: 20%;
+  margin: 0 auto;
+  margin-top: 2%;
 }
-form textarea{
-    border-radius: 10px;
-    padding: 5px;
+.rightHand form textarea{
+  border-radius: 10px;
+  padding: 5px;
 }
 /* Configuration responsive */
 @media (max-width: 900px){
@@ -107,6 +172,78 @@ form textarea{
     form input[type="submit"]{
         width: 40%;
     }
+  }
+@media (max-width: 700px){
+  /* NavBar */
+  .menuBar{
+      display: block;
+      background-color: hsl(208, 99%, 39%);
+      margin-bottom: 0px;
+  }
+  .navBar{
+      display: none;
+  }
+  .afficheMenu{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-direction: column;
+  }
+  .navLinks{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+  .navLinks li{
+      width: 100%;
+      text-align: center;
+  }
+  .form-inline form{
+      display: flex;
+      align-items: center;
+      width: 100%;
+  }
+  /* Fin NavBar */
+  /* Contact */
+  .contact{
+      display: block;
+      width: 90%;
+      margin: 0 auto;
+      align-items: center;
+  } 
+  .leftHand{
+      width: 90%;
+      display: block;
+      margin: 0 auto;
+  }
+  .leftHand ul{
+      padding: 0px;
+      width: 90%;
+      margin: 0 auto;
+  }
+  .rightHand{
+      width: 90%;
+      display: block;
+      margin: 0 auto;
+  }
+  .rightHand form{
+      padding: 0px;
+      width: 90%;
+      margin: 0 auto;
+  }
+  .rightHand form label{
+      text-align: center;
+  }
+  .rightHand form input[type="submit"]{
+      width: 40%;
+  }
+  .form-inline{
+      display: none;
+  }
+  .survol:hover{
+      background-color: #e71717;
+  }
+
 }
 .navhome{
     display: flex;
