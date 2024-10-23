@@ -10,33 +10,37 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-
-            <ul class="navbar-nav">
-                <a class="navbar-brand" href="#">
-                    <img src="logoMada.jpg" alt="Logo" style="width: 70px; border-radius: 50%;">
-                </a>
-                <li class="nav-item">
+        <p class="menuBar" onclick="afficheMenu()">
+            <i class="fa fa-bars"></i>
+        </p>
+        <nav class="navBar" bg="#016ac6">
+            <div class="navLogo">
+                <img src="logoMada.jpg" alt="Logo">
+            </div>
+            <ul class="navLinks">
+                <li>
                     <a class="nav-link" href="index.php?action=accueil">accueil</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link  active" href="index.php?action=destination">Déstination</a>
+                <li>
+                    <a class="nav-link" href="index.php?action=destination">Déstination</a>
                 </li>
-                <li class="nav-item">
+                <li>
                     <a class="nav-link" href="index.php?action=hebergement">Hebergement</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="index.php?action=contact">contact</a>
+                <li>
+                    <a class="nav-link active" href="index.php?action=contact">contact</a>
                 </li>
             </ul>
-            <form class="form-inline" action="/action_page.php">
-                <input class="form-control mr-sm-2" type="text" placeholder="Search">
-                <button class="btn btn-warning" type="submit">Search</button>
-            </form>
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="#"><span class="glyphicon glyphicon-log-in"></span>Se Déconnecter</a></li>
-            </ul>
-
+            <div class="desconnect">
+                <i class="fa fa-user"></i>
+                <a href="#">Se Déconnecter</a>
+            </div>
+            <div class="form-inline">
+                <form action="/action_page.php">
+                    <input type="search" placeholder="Search" id="recherche">
+                    <label for="recherche"><i class="fa fa-search"></i></label>
+                </form>
+            </div>
         </nav>
     </header>
     <div class=un><a href=""><img src="34436609610_bae0a770d5_k-e1496139102149.jpg" alt=""></a></div>
@@ -52,6 +56,24 @@
     <div class=onze><a href=""><img src="quelle-meilleure-periode-aller-nosy-be-2.jpg" alt=""></a></div>
     <div class=douze><a href=""><img src="ville-de-toamasina.jpg" alt=""></a></div>
     <div class=treize><a href=""><img src="" alt="madagascar-anton-balahz.jpg"></a></div>
-  
+    <!-- Script JS -->
+    <script>
+        let navBar = document.querySelector(".navBar");
+        let menuBar = document.querySelector(".menuBar");
+        let form = document.querySelector(".form-inline")
+        let desconnect = document.querySelector(".desconnect");
+        function afficheMenu () {
+            navBar.classList.toggle("afficheMenu");
+            // form.style.position = "absolute";
+            // form.style.width = "25%";
+            // form.style.right = "2px";
+            desconnect.style.width = "15%";
+            desconnect.style.padding = "0px";
+            desconnect.style.textAlign = "center";
+        }
+        function survol() {
+            desconnect.classList.toggle("survol");
+        }
+    </script>
 </body>
 </html>
