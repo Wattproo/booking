@@ -50,6 +50,26 @@ if(isset($_GET["action"])){
         require_once("models/membre_model.php");
         $mm = new membre_model(); 
         include("views/profil-view.php");
+    }elseif($_GET["action"]=="morondava"){
+        include("views/morondava.php");
+    }elseif($_GET["action"]=="ampefy"){
+        include("views/ampefy.php");
+    }elseif($_GET["action"]=="majunga"){
+        include("views/majunga.php");
+    }elseif($_GET["action"]=="foulpointe"){
+        include("views/foulpointe.php");
+    }elseif($_GET["action"]=="tulear"){
+        include("views/tulear.php");
+    }elseif($_GET["action"]=="diego"){
+        include("views/diego.php");
+    }elseif($_GET["action"]=="tana"){
+        include("views/tana.php");
+    }elseif($_GET["action"]=="antsirabe"){
+        include("views/antsirabe.php");
+    }elseif($_GET["action"]=="nosybe"){
+        include("views/nosybe.php");
+    }elseif($_GET["action"]=="tamatave"){
+        include("views/tamatave.php");
     }
     
 }else{

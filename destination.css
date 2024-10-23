@@ -1,0 +1,16 @@
+
+
+#moi{
+    margin: auto;
+    margin-top: 20px;
+}
+.body{
+    background-image:  linear-gradient(to top left,rgba(9, 209, 216, 0.788), rgba(232, 233, 225, 0) ),url('fond22.jpg');
+}
+.destination{
+    background-image:  linear-gradient(to top left,rgba(10, 85, 245, 0.952), rgba(230, 134, 9, 0.952) ),url('');
+    width: 100%;
+    height: auto;
+    margin-top: -20px;
+    padding-top: 20px;
+}
