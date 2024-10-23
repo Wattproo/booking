@@ -26,7 +26,7 @@
                     <a class="nav-link" href="index.php?action=destination">Destination</a>
                 </li>
                 <li>
-                    <a class="nav-link" href="index.php?action=hebergement">Offres</a>
+                    <a class="nav-link" href="index.php?action=offres">Offres</a>
                 </li>
                 <li>
                     <a class="nav-link active" href="index.php?action=contact">Contact</a>

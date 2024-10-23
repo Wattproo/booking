@@ -49,3 +49,8 @@ img{
     color: rgb(24, 3, 3);
     line-height: 30px;
 }
+.nosy-be{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}

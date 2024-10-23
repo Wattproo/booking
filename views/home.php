@@ -4,9 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css" type="text/css">
+    <!-- <link rel="stylesheet" href="destination.css" type="text/css"> -->
     <title>Accueil-MADA_TRAVEL.com</title>
     <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="publics/bootstrap-4.6.2-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="views/fontawesome-free-5.15.3-web/css/all.css">
 </head>
 <body>
     <header>
@@ -25,7 +27,7 @@
                     <a class="nav-link" href="index.php?action=destination">Destination</a>
                 </li>
                 <li>
-                    <a class="nav-link" href="index.php?action=hebergement">Offres</a>
+                    <a class="nav-link" href="index.php?action=offres">Offres</a>
                 </li>
                 <li>
                     <a class="nav-link " href="index.php?action=contact">Contact</a>
@@ -33,7 +35,7 @@
             </ul>
             <div class="desconnect">
                 <i class="fa fa-user"></i>
-                <a href="#">Se Déconnecter</a>
+                <a href="index.php?action=logout">Se Déconnecter</a>
             </div>
             <div class="form-inline">
                 <form action="/action_page.php">

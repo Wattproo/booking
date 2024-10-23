@@ -8,6 +8,7 @@
     <title>Destination-MADA_TRAVEL.com</title>
     <link rel="stylesheet" href="publics/bootstrap-4.6.2-dist/css/bootstrap.css">
     <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="views/fontawesome-free-5.15.3-web/css/all.css">
 </head>
 <body>
     <header>
@@ -26,7 +27,7 @@
                     <a class="nav-link" href="index.php?action=destination">Destination</a>
                 </li>
                 <li>
-                    <a class="nav-link" href="index.php?action=hebergement">Offres</a>
+                    <a class="nav-link" href="index.php?action=offres">Offres</a>
                 </li>
                 <li>
                     <a class="nav-link active" href="index.php?action=contact">Contact</a>
@@ -34,7 +35,7 @@
             </ul>
             <div class="desconnect">
                 <i class="fa fa-user"></i>
-                <a href="#">Se Déconnecter</a>
+                <a href="index.php?action=logout">Se Déconnecter</a>
             </div>
             <div class="form-inline">
                 <form action="/action_page.php">
@@ -47,23 +48,23 @@
 
 <div class="destination">
     <div class="card dest" style="width:500px" id="moi">
-    <img class="card-img-top" src="morondava.jpg" alt="Card image">
+    <img class="card-img-top" src="photo/morondava1.png" alt="Card image">
     <div class="card-img-overlay">
-        <h4 class="card-title" style="color:greenyellow; font-family: 'Arial', sans-serif;">MADA_TRAVEL.com</h4>
+        <h4 class="card-title" style="color:orange; font-family: 'Arial', sans-serif;">MADA_TRAVEL.com</h4>
         <p class="card-text" style="color:#fff; font-family: 'Arial', sans-serif;">♥ L'incroyable allée des Baobab ♥</p>
         <a href="index.php?action=morondava" class="btn btn-primary">Découvrir</a>
     </div>
     </div>
     <div class="card dest" style="width:500px" id="moi">
-    <img class="card-img-top" src="ampefy.jfif" alt="Card image">
+    <img class="card-img-top" src="photo/ampefy1.png" alt="Card image">
     <div class="card-img-overlay">
-        <h4 class="card-title" style="color:greenyellow; font-family: 'Arial', sans-serif;">MADA_TRAVEL.com</h4>
+        <h4 class="card-title" style="color:orange; font-family: 'Arial', sans-serif;">MADA_TRAVEL.com</h4>
         <p class="card-text" style="color:#fff; font-family: 'Arial', sans-serif;">♥ Un paysage calme et paisible ♥</p>
         <a href="index.php?action=ampefy" class="btn btn-primary">Découvrir</a>
     </div>
     </div>
     <div class="card dest" style="width:500px" id="moi">
-    <img class="card-img-top" src="majunga.jpg" alt="Card image">
+    <img class="card-img-top" src="photo/majunga1.png" alt="Card image">
     <div class="card-img-overlay">
         <h4 class="card-title" style="color:greenyellow; font-family: 'Arial', sans-serif;">MADA_TRAVEL.com</h4>
         <p class="card-text" style="color:#fff; font-family: 'Arial', sans-serif;">♥ Baobab, l'arbre mythique de Majunga ♥</p>
@@ -71,23 +72,23 @@
     </div>
     </div>
     <div class="card dest" style="width:500px" id="moi">
-    <img class="card-img-top" src="foulpointe.jpg" alt="Card image">
+    <img class="card-img-top" src="photo/foulpointe1.png" alt="Card image">
     <div class="card-img-overlay">
-        <h4 class="card-title" style="color:greenyellow; font-family: 'Arial', sans-serif;">MADA_TRAVEL.com</h4>
+        <h4 class="card-title" style="color:orange; font-family: 'Arial', sans-serif;">MADA_TRAVEL.com</h4>
         <p class="card-text" style="color:#fff; font-family: 'Arial', sans-serif;">♥ La richesse de la faune et de la flore ♥</p>
         <a href="index.php?action=foulpointe" class="btn btn-primary">Découvrir</a>
     </div>
     </div>
     <div class="card dest" style="width:500px" id="moi">
-    <img class="card-img-top" src="tulear.jpg" alt="Card image">
+    <img class="card-img-top" src="photo/tulear1.png" alt="Card image">
     <div class="card-img-overlay">
-        <h4 class="card-title"style="color:greenyellow; font-family: 'Arial', sans-serif;">MADA_TRAVEL.com</h4>
+        <h4 class="card-title"style="color:orange; font-family: 'Arial', sans-serif;">MADA_TRAVEL.com</h4>
         <p class="card-text" style="color:#fff; font-family: 'Arial', sans-serif;">♥ Les sables Blancs vous attend ♥</p>
-        <a href="index.php?action=tulear" class="btn btn-primary">See Profile</a>
+        <a href="index.php?action=tulear" class="btn btn-primary">Découvrir</a>
     </div>
     </div>
     <div class="card dest" style="width:500px" id="moi">
-    <img class="card-img-top" src="diego.jpg" alt="Card image">
+    <img class="card-img-top" src="photo/diego1.png" alt="Card image">
     <div class="card-img-overlay">
         <h4 class="card-title" style="color:orange; font-family: 'Arial', sans-serif;">MADA_TRAVEL.com</h4>
         <p class="card-text" style="color:#fff; font-family: 'Arial', sans-serif;">♥ La ville francophile, pleine d'histoire ♥</p>
@@ -95,36 +96,44 @@
     </div>
     </div>
     <div class="card dest" style="width:500px" id="moi">
-    <img class="card-img-top" src="tana.jpg" alt="Card image">
+    <img class="card-img-top" src="photo/tana.jpg" alt="Card image">
     <div class="card-img-overlay">
-        <h4 class="card-title" style="greenyellow; font-family: 'Arial', sans-serif;">MADA_TRAVEL.com</h4>
+        <h4 class="card-title" style="orange; font-family: 'Arial', sans-serif;">MADA_TRAVEL.com</h4>
         <p class="card-text" style="color:#fff; font-family: 'Arial', sans-serif;">♥ La capitale surprenante ♥</p>
         <a href="index.php?action=tana" class="btn btn-primary">Découvrir</a>
     </div>
     </div>
     <div class="card dest" style="width:500px" id="moi">
-    <img class="card-img-top" src="antsirabe.png" alt="Card image">
+    <img class="card-img-top" src="photo/antsirabe1.png" alt="Card image">
     <div class="card-img-overlay">
-        <h4 class="card-title" style="color:greenyellow; font-family: 'Arial', sans-serif;">MADA_TRAVEL.com</h4>
+        <h4 class="card-title" style="color:orange; font-family: 'Arial', sans-serif;">MADA_TRAVEL.com</h4>
         <p class="card-text" style="color:#fff; font-family: 'Arial', sans-serif;" >♥ La ville des produits laitiers ♥</p>
         <a href="index.php?action=antsirabe" class="btn btn-primary">Découvrir</a>
     </div>
     </div>
     <div class="card dest" style="width:500px" id="moi">
-    <img class="card-img-top" src="nosybe.jpg" alt="Card image">
-    <div class="card-img-overlay">
-        <h4 class="card-title" style="color:orange; font-family: 'Arial', sans-serif;">MADA_TRAVEL.com</h4>
-        <p class="card-text" style="color:#fff; font-family: 'Arial', sans-serif;">♥ La plage de vos rêves ♥</p>
-        <a href="index.php?action=nosybe" class="btn btn-primary" style="bottom: 10px;">Découvrir</a>
-    </div>
+        <img class="card-img-top" src="photo/nosybe1.png" alt="Card image">
+        <div class="card-img-overlay">
+            <h4 class="card-title" style="color:orange; font-family: 'Arial', sans-serif;">MADA_TRAVEL.com</h4>
+            <p class="card-text" style="color:#fff; font-family: 'Arial', sans-serif;">♥ La plage de vos rêves ♥</p>
+            <a href="index.php?action=nosybe" class="btn btn-primary" style="bottom: 10px;">Découvrir</a>
+        </div>
     </div>
     <div class="card dest" style="width:500px" id="moi">
-    <img class="card-img-top" src="tamatave.jpg" alt="Card image">
-    <div class="card-img-overlay">
-        <h4 class="card-title" style="color:greenyellow; font-family: 'Arial', sans-serif;">MADA_TRAVEL.com</h4>
-        <p class="card-text" style="color:#fff; font-family: 'Arial', sans-serif;">♥ La ville haute en couleurs ♥</p>
-        <a href="index.php?action=tamatave" class="btn btn-primary">Découvrir</a>
+        <img class="card-img-top" src="photo/tamatave1.png" alt="Card image">
+        <div class="card-img-overlay">
+            <h4 class="card-title" style="color:orange; font-family: 'Arial', sans-serif;">MADA_TRAVEL.com</h4>
+            <p class="card-text" style="color:#fff; font-family: 'Arial', sans-serif;">♥ La ville haute en couleurs ♥</p>
+            <a href="index.php?action=tamatave" class="btn btn-primary">Découvrir</a>
+        </div>
     </div>
+    <div class="card dest" style="width:500px" id="moi">
+        <img class="card-img-top" src="photo/St-Marie.png" alt="Card image">
+        <div class="card-img-overlay">
+            <h4 class="card-title" style="color:orange; font-family: 'Arial', sans-serif;">MADA_TRAVEL.com</h4>
+            <p class="card-text" style="color:#fff; font-family: 'Arial', sans-serif;">♥ La ville haute en couleurs ♥</p>
+            <a href="index.php?action=tamatave" class="btn btn-primary">Découvrir</a>
+        </div>
     </div>
 </div>
     <script>

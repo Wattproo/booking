@@ -33,7 +33,7 @@
             </ul>
             <div class="desconnect">
                 <i class="fa fa-user"></i>
-                <a href="#" onclick="survorl()">Se Déconnecter</a>
+                <a href="index.php?action=logout" onclick="survorl()">Se Déconnecter</a>
             </div>
             <div class="form-inline">
                 <form action="/action_page.php">
