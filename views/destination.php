@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link rel="stylesheet" href="style.css" type="text/css"> -->
+    <link rel="stylesheet" href="style.css" type="text/css">
     <link rel="stylesheet" href="destination.css" type="text/css">
-    <title>Déqtination-MADA_TRAVEL.com</title>
+    <title>Destination-MADA_TRAVEL.com</title>
     <link rel="stylesheet" href="publics/bootstrap-4.6.2-dist/css/bootstrap.css">
     <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
 </head>
@@ -20,16 +20,16 @@
             </div>
             <ul class="navLinks">
                 <li>
-                    <a class="nav-link" href="index.php?action=accueil">accueil</a>
+                    <a class="nav-link" href="index.php?action=accueil">Accueil</a>
                 </li>
                 <li>
-                    <a class="nav-link" href="index.php?action=destination">Déstination</a>
+                    <a class="nav-link" href="index.php?action=destination">Destination</a>
                 </li>
                 <li>
-                    <a class="nav-link" href="index.php?action=hebergement">Hebergement</a>
+                    <a class="nav-link" href="index.php?action=hebergement">Offres</a>
                 </li>
                 <li>
-                    <a class="nav-link active" href="index.php?action=contact">contact</a>
+                    <a class="nav-link active" href="index.php?action=contact">Contact</a>
                 </li>
             </ul>
             <div class="desconnect">

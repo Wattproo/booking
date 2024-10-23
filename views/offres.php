@@ -22,13 +22,13 @@
                     <a class="nav-link" href="index.php?action=accueil">Accueil</a>
                 </li>
                 <li>
-                    <a class="nav-link" href="index.php?action=destination">Déstination</a>
+                    <a class="nav-link" href="index.php?action=destination">Destination</a>
                 </li>
                 <li>
-                    <a class="nav-link" href="index.php?action=hebergement">Hebergement</a>
+                    <a class="nav-link active" href="index.php?action=ofres">Offres</a>
                 </li>
                 <li>
-                    <a class="nav-link active" href="index.php?action=contact">Contact</a>
+                    <a class="nav-link " href="index.php?action=contact">Contact</a>
                 </li>
             </ul>
             <div class="desconnect">

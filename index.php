@@ -11,8 +11,8 @@ if(isset($_GET["action"])){
             //redirection
             header: 'location:index.php?action=login';
         }
-    }elseif ($_GET["action"]=="hebergement") {
-        include("views/hebergement.php");
+    }elseif ($_GET["action"]=="offres") {
+        include("views/offres.php");
     }elseif($_GET["action"]=="destination"){
         include("views/destination.php");
     }elseif($_GET["action"]=="contact"){
