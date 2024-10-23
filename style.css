@@ -1,4 +1,89 @@
+/* body{
+    background-color: skyblue;
+} */
+nav{
+    background: hsl(208, 99%, 39%);
+}
+.navBar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navLogo{
+    width: 10%;
+}
+.navLogo img{
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #eee;
+    border-radius: 80px;
+}
+.navBar .navLinks{
+    display: flex;
+    list-style-type: none;
+    padding: 0px;
+    width: 40%;
+    justify-content: center;
+}
+.navLinks li{
+    padding: 10px;
+}
+.navLinks li a{
+    padding: 10px;
+    color: white;
+}
+.navBar ul li:hover{
+    background: #1c2fdb86;
+    border: 1px solid #1c2fdb86;
+    border-radius: 30px;
+}
+#recherche{
+    border-radius: 30px;
+    padding: 10px;
+}
+.navBar ul li a:hover{
+    /* background: #1c2fdb86; */
+    color: black;
+}
+.form-inline{
+    width: 20%;
+    padding: 3px;
+}
+.form-inline form{
+    width: 100%;
+    display: flex;
+}
+.form-inline input[type="search"]{
+    width: 80%;
+    border: none;
+}
+.form-inline form label{
+    width: 20%;
+}
+.fa-search{
+    color: white;
+}
+.desconnect{
+    width: 10%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+}
+.desconnect:hover{
+    background-color: #e71717;
+}
 .nav-link{
+    color: lightsalmon;
+}
+.menuBar{
+    display: none;
+}
+
+/* .nav-link{
     margin-left: 0px;
     color: lightsalmon;
 }
@@ -13,7 +98,7 @@
     background-color: #555;
     border-radius: 20px;
     color: coral;
-}
+} */
 /* section contact */
 .contact{
     display: flex;
@@ -59,21 +144,52 @@ ul li .conteinerLi{
     width: 80%;
     margin: 0 auto;
 }
-form input{
+.rightHand form input{
     border-radius: 10px;
     padding: 7px;
 }
-input[type="submit"]{
+.rightHand form input[type="submit"]{
     width: 20%;
     margin: 0 auto;
     margin-top: 2%;
 }
-form textarea{
+.rightHand form textarea{
     border-radius: 10px;
     padding: 5px;
 }
 /* Configuration responsive */
 @media (max-width: 900px){
+    /* NavBar */
+    .menuBar{
+        display: block;
+        background-color: hsl(208, 99%, 39%);
+        margin-bottom: 0px;
+    }
+    .navBar{
+        display: none;
+    }
+    .afficheMenu{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }
+    .navLinks{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .navLinks li{
+        width: 100%;
+        text-align: center;
+    }
+    .form-inline form{
+        display: flex;
+        align-items: center;
+        width: 100%;
+    }
+    /* Fin NavBar */
+    /* Contact */
     .contact{
         display: block;
         width: 90%;
@@ -101,18 +217,26 @@ form textarea{
         width: 90%;
         margin: 0 auto;
     }
-    form label{
+    .rightHand form label{
         text-align: center;
     }
-    form input[type="submit"]{
+    .rightHand form input[type="submit"]{
         width: 40%;
     }
+    .form-inline{
+        display: none;
+    }
+    .survol:hover{
+        background-color: #e71717;
+    }
+
+    /* Fin contact */
 }
-.navhome{
+/* .navhome{
     display: flex;
     justify-content: space-around;
     width: 1000px;
-}
+} */
 
 
 
