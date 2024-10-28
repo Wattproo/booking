@@ -5,46 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css" type="text/css">
     <link rel="stylesheet" href="destination.css" type="text/css">
+    <link rel="stylesheet" href="nav.css">
     <title>Destination-MADA_TRAVEL.com</title>
     <link rel="stylesheet" href="publics/bootstrap-4.6.2-dist/css/bootstrap.css">
     <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="views/fontawesome-free-5.15.3-web/css/all.css">
 </head>
 <body>
-    <header>
-        <p class="menuBar" onclick="afficheMenu()">
-            <i class="fa fa-bars"></i>
-        </p>
-        <nav class="navBar" bg="#016ac6">
-            <div class="navLogo">
-                <img src="logoMada.jpg" alt="Logo">
-            </div>
-            <ul class="navLinks">
-                <li>
-                    <a class="nav-link" href="index.php?action=accueil">Accueil</a>
-                </li>
-                <li>
-                    <a class="nav-link" href="index.php?action=destination">Destination</a>
-                </li>
-                <li>
-                    <a class="nav-link" href="index.php?action=offres">Offres</a>
-                </li>
-                <li>
-                    <a class="nav-link active" href="index.php?action=contact">Contact</a>
-                </li>
+<nav class="navBar">
+        <a href="" class="logo"><img src="logoMada.jpg" alt="Logo"></a>
+        <div class="navLinks">
+            <ul>
+                <li><a href="#">Acceuil</a></li>
+                <li><a href="#">Destination</a></li>
+                <li><a href="#">Offres</a></li>
+                <li><a href="#">Contact</a></li>
             </ul>
-            <div class="desconnect">
-                <i class="fa fa-user"></i>
-                <a href="index.php?action=logout">Se Déconnecter</a>
+        </div>
+        <form action="" class="searchBar">
+            <input type="search" id="recherche" placeholder="Search">
+            <label for="recherche"><i class="fa fa-search"></i></label>
+        </form>
+        <div class="menuHumberger"><i class="fa fa-bars"></i></div>
+        <div class="desconnectButton">
+            <i class="fa fa-user"></i>
+            <div class="desconnectList">
+                <ul>
+                    <li><a href="#">Se déconnecter</a></li>
+                    <li><a href="#">Se connecter</a></li>
+                </ul>
             </div>
-            <div class="form-inline">
-                <form action="/action_page.php">
-                    <input type="search" placeholder="Search" id="recherche">
-                    <label for="recherche"><i class="fa fa-search"></i></label>
-                </form>
-            </div>
-        </nav>
-    </header>
+        </div>
+    </nav>
 
 <div class="destination">
     <div class="heberge1">
@@ -153,22 +145,18 @@
     
 </div>
     <script>
-        let navBar = document.querySelector(".navBar");
-        let menuBar = document.querySelector(".menuBar");
-        let form = document.querySelector(".form-inline")
-        let desconnect = document.querySelector(".desconnect");
-        function afficheMenu () {
-            navBar.classList.toggle("afficheMenu");
-            // form.style.position = "absolute";
-            // form.style.width = "25%";
-            // form.style.right = "2px";
-            desconnect.style.width = "15%";
-            desconnect.style.padding = "0px";
-            desconnect.style.textAlign = "center";
-        }
-        function survol() {
-            desconnect.classList.toggle("survol");
-        }
+        const menuHumberger = document.querySelector(".menuHumberger");
+        const navLinks = document.querySelector(".navLinks");
+        const desconnectButton = document.querySelector(".desconnectButton");
+        const desconnectList = document.querySelector(".desconnectList");
+        
+        menuHumberger.addEventListener("click", () => {
+            navLinks.classList.toggle("mobileMenu");
+        })
+
+        desconnectButton.addEventListener("click", () => {
+            desconnectList.classList.toggle("showDesconnectList");
+        })
     </script>
 </body>
 </html>

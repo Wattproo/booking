@@ -1,0 +1,160 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+.navBar{
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 1px;
+    box-sizing: border-box;
+    align-items: center;
+    background-color: blue;
+    max-height: 70px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.logo {
+    padding: 2px;
+    max-width: 20%;
+    max-height: 70px;
+}
+.logo img {
+    object-fit: cover;
+    max-width: 100%;
+    max-height: 70px;
+    border-radius: 120px;
+}
+.navLinks ul{
+    display: flex;
+}
+.navLinks ul li a{
+    color: white;
+    padding: 10px;
+    font-size: 120%;
+}
+.navLinks ul li a:hover{
+    background-color: rgba(56, 17, 230, 0.603);
+}
+.menuHumberger{
+    font-size: 200%;
+    display: none;
+}
+.menuHumberger{
+    font-size: 200%;
+    display: none;
+}
+.fa-user{
+    font-size: 120%;
+}
+.desconnectButton{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    border-radius: 50px;
+}
+.desconnectButton:hover{
+    background-color: orangered;
+}
+.desconnectList{
+    display: none;
+    background-color: rgba(3, 3, 68, 0.945);
+    padding: 10%;
+}
+.desconnectList ul li a{
+    display: block;
+    color: white;
+    width: 100%;
+}
+.desconnectList ul li a:hover{
+    background-color:  rgba(227, 227, 240, 0.815);
+} 
+.showDesconnectList{
+    display: block;
+    position: absolute;
+    top: 100%;
+    box-sizing: border-box;
+    text-align: center;
+}
+.searchBar{
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 1%;
+    background-color: white;
+}
+.searchBar input{
+    border: none;
+    padding: 0.5%;
+    border-radius: 20px;
+    outline: none;
+}
+@media (max-width: 900px) {
+    .menuHumberger{
+        display: block;
+        z-index: 999;
+    }
+    .menuHumberger .fa-bars:hover{
+        color: white;
+    }
+    .navLinks{
+        top: 0;
+        left: 0;
+        position: absolute;
+        background-color: rgba(56, 17, 230, 0.466);
+        /* flouter l'arrière plan => */
+        backdrop-filter: blur(1px);
+        /* end => */
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-left: -100%;
+        transition: all 0.5s ease;
+        /* display: none; */
+    }
+    .mobileMenu{
+        margin-left: 0;
+    }
+    .navLinks ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        /* display: none; */
+    }
+    .navLinks ul li{
+        width: 100%;
+        text-align: center;
+    }
+    .navLinks ul li a{
+        display: block;
+        font-size: 35px;
+        width: 100%;
+        padding: 2%;
+    }
+    .navLinks ul li a:hover{
+        background-color: rgba(56, 17, 230, 0.603);
+    }
+    .searchBar{
+        width: 40%;
+        display: flex;
+        border: 1px solid black;
+        border-radius: 20px;
+        padding: 2%;
+    }
+    .searchBar input{
+        width: 90%;
+        border: none;
+        padding: 1%;
+        border-radius: 20px;
+        outline: none;
+    }
+}
