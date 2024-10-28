@@ -70,6 +70,18 @@ if(isset($_GET["action"])){
         include("views/nosybe.php");
     }elseif($_GET["action"]=="tamatave"){
         include("views/tamatave.php");
+    }elseif($_GET["action"]=="ravintsaraoffre"){
+        include("vue-hotel/nosybe-offre/ravintsara/ravintsara_offre.php");
+    }elseif($_GET["action"]=="exoraoffre"){
+        include("vue-hotel/nosybe-offre/exora/exora_offre.php");
+    }elseif($_GET["action"]=="gboffre"){
+        include("vue-hotel/nosybe-offre/grandBleu/grandBleu_offre.php");
+    }elseif($_GET["action"]=="biraoffre"){
+        include("vue-hotel/antsirabe-offre/biraHotel/biraHotel_offre.php");
+    }elseif($_GET["action"]=="mahafayoffre"){
+        include("vue-hotel/antsirabe-offre/mahafayHotel/mahafayhotel_offre.php");
+    }elseif($_GET["action"]=="suimangaoffre"){
+        include("vue-hotel/antsirabe-offre/suimanga/suimanga_offre.php");
     }
     
 }else{

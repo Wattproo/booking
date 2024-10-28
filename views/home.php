@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css" type="text/css">
-    <link rel="stylesheet" href="nav.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/nav.css" type="text/css">
     <!-- <link rel="stylesheet" href="destination.css" type="text/css"> -->
     <title>Accueil-MADA_TRAVEL.com</title>
     <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
@@ -16,10 +16,10 @@
         <a href="" class="logo"><img src="logoMada.jpg" alt="Logo"></a>
         <div class="navLinks">
             <ul>
-                <li><a href="#">Acceuil</a></li>
-                <li><a href="#">Destination</a></li>
-                <li><a href="#">Offres</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="index.php?action=accueil">Acceuil</a></li>
+                <li><a href="index.php?action=destination">Destination</a></li>
+                <li><a href="index.php?action=offres">Offres</a></li>
+                <li><a href="index.php?action=contact">Contact</a></li>
             </ul>
         </div>
         <form action="" class="searchBar">
@@ -31,8 +31,8 @@
             <i class="fa fa-user"></i>
             <div class="desconnectList">
                 <ul>
-                    <li><a href="#">Se déconnecter</a></li>
-                    <li><a href="#">Se connecter</a></li>
+                    <li><a href="index.php?action=logout">Se déconnecter</a></li>
+                    <li><a href="index.php?action=login">changer de compte</a></li>
                 </ul>
             </div>
         </div>

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="nosybe.css">
+    <link rel="stylesheet" href="css/nosybe.css">
     <title>Listes des hôtels à Nosy-be</title>
     <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
 </head>
@@ -52,7 +52,7 @@
   <div class="content">
     <img src="photo/logoravintsara.jpeg" alt="Bear" style="width:100%">
     <h3>EXORA BEACH HÔTEL  <a href="photo/logoravintsara.jpeg">voir Logo</a></h3>
-    <form action="" method="post">
+    <form action="index.php?action=ravintsaraoffre" method="post">
       <input type="submit" value="voir les offres" class="btn btn-primary">
   </form>
   </div>
@@ -109,7 +109,7 @@
   <div class="content">
     <img src="photo/exoralogo.jpg" alt="Bear" style="width:100%">
     <h3>EXORA BEACH HÔTEL  <a href="photo/exoralogo.jpg">voir Logo</a></h3>
-    <form action="" method="post">
+    <form action="index.php?action=exoraoffre" method="post">
       <input type="submit" value="voir les offres" class="btn btn-primary">
   </form>
   </div>
@@ -161,7 +161,7 @@
   <div class="content">
     <img src="photo/logoGB.png" alt="Bear" style="width:100%">
     <h3>LE GRAND BLEU  <a href="photo/logoGB.png">voir logo</a></h3>
-    <form action="" method="post">
+    <form action="index.php?action=gboffre" method="post">
       <input type="submit" value="voir les offres" class="btn btn-primary">
   </form>
   </div>
