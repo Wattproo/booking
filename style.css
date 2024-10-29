@@ -1,0 +1,99 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #f6f3ef;
+    
+}
+
+.offres-weekend{
+    text-align: center;
+    padding: 20px;
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+p{
+    font-size: 16px;
+    color: #555;
+}
+.hotels{
+    width: 100%;
+    text-align: center;
+    margin: 10px;
+    
+}
+
+.swico{
+    padding-top: -10p;
+}
+
+.hotel-card{
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 2px 8px rgba( 0, 0, 0, 0.5 );
+    overflow: hidden;
+    width: 320px;
+    text-align: left;
+    display: inline-block;
+    margin-left: 50px;
+}
+.hotel-card img{
+    width: 100%;
+    height: auto;
+    display: inline-block;
+}
+.info{
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+h2{
+    font-size: 40px;
+    margin-left: 20px;
+    text-align: center;
+    color: #2a11a8;
+}
+u h2{
+    color: #2a11a8;
+}
+p{
+    margin: 5px ;
+}
+.rating{
+    font-size: 18px;
+    color: #0071c2;
+}
+
+.price{
+    font-size: 14px;
+    color: #472b7a;
+    margin-left: 150px;
+}
+
+.button{
+    display: inline-block;
+    background-color: #f6ac0e;
+    color: #000;
+    padding: 5px 20px;
+    font-size: 16px;
+    font-family: Arial , sans-serif;
+    text-decoration: none;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: #e5b03e;
+}
+
+.hotel-card ul li{
+    list-style-type: none;
+    text-decoration: none;
+    color: blue;
+    font-size: 18px;
+}
+
