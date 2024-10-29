@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
 </head>
 <body>
-<div class="majungac:\xampp\htdocs\booking 0\kalymaraina.jpg">
+<div class="majunga">
   <div class="main" id="main1">
 
   <h1 style="color:white;">MADA_TRAVEL.COM</h1>
@@ -21,37 +21,37 @@
   <div class="row">
     <div class="column">
       <div class="content">
-        <img src="kalymaraina.jpg" alt="Mountains" style="width:100%">
+        <img src="photo/majunga photo/kalymaraina.jpg" alt="Mountains" style="width:100%">
         <h3>Le petit-déjeuner</h3>
-        <p>Un vrai régal <a href="kalymaraina.jpg">voir</a></p>
+        <p>Un vrai régal <a href="photo/majunga photo/kalymaraina.jpg">voir</a></p>
       </div>
     </div>
     <div class="column">
       <div class="content">
-        <img src="massaage.jpg" alt="Lights" style="width:100%">
+        <img src="photo/majunga photo/massaage.jpg" alt="Lights" style="width:100%">
         <h3>Spa</h3>
-        <p>Relaxation au maximum <a href="photo/appercuRV.jpeg">voir</a></p>
+        <p>Relaxation au maximum <a href="photo/majunga photo/massaage.jpg">voir</a></p>
       </div>
     </div>
     <div class="column">
       <div class="content">
-        <img src="chambre b.jpg" alt="Nature" style="width:100%">
+        <img src="photo/majunga photo/chambre b.jpg" alt="Nature" style="width:100%">
         <h3>Chambre de luxe</h3>
-        <p>Le confort est à porter de mains <a href="photo/rvchambre.jpeg">voir</a></p>
+        <p>Le confort est à porter de mains <a href="photo/majunga photo/chambre b.jpg">voir</a></p>
       </div>
     </div>
     <div class="column">
       <div class="content">
-        <img src="piscine.jpg" alt="Mountains" style="width:100%">
+        <img src="photo/majunga photo/piscine.jpg" alt="Mountains" style="width:100%">
         <h3>La piscine</h3>
-        <p>Avec une vue à couper de souffle <a href="photo/piscineRV.jpeg">voir</a></p>
+        <p>Avec une vue à couper de souffle <a href="photo/majunga photo/piscine.jpg">voir</a></p>
       </div>
     </div>
   </div>
 
   <div class="content">
-    <img src="shop.png" alt="Bear" style="width:100%">
-    <h3>BAOBAB TREE HOTEL &#38; SPA  <a href="shop.png">voir Logo</a></h3>
+    <img src="photo/majunga photo/shop.png" alt="Bear" style="width:100%">
+    <h3>BAOBAB TREE HOTEL &#38; SPA  <a href="photo/majunga photo/shop.png">voir Logo</a></h3>
     <form action="" method="post">
       <input type="submit" value="voir les offres" class="btn btn-primary">
   </form>
@@ -75,37 +75,37 @@
   <div class="row">
     <div class="column">
       <div class="content">
-        <img src="ppd.jpg" alt="Mountains" style="width:100%">
+        <img src="photo/majunga photo/ppd.jpg" alt="Mountains" style="width:100%">
         <h3>Le petit-déjeuner</h3>
-        <p>Tous simplement divin <a href="ppd.jpg">voir</a></p>
+        <p>Tous simplement divin <a href="photo/majunga photo/ppd.jpg">voir</a></p>
       </div>
     </div>
     <div class="column">
       <div class="content">
-        <img src="retsoration paps.jpg" alt="Lights" style="width:100%">
+        <img src="photo/majunga photo/retsoration paps.jpg" alt="Lights" style="width:100%">
         <h3>Restauration</h3>
-        <p>Restaurant de qualité avec des plats savoureux <a href="retsoration paps.jpg">voir</a></p>
+        <p>Restaurant de qualité avec des plats savoureux <a href="photo/majunga photo/retsoration paps.jpg">voir</a></p>
       </div>
     </div>
     <div class="column">
       <div class="content">
-        <img src="ch paps.jpg" alt="Nature" style="width:100%">
+        <img src="photo/majunga photo/ch paps.jpg" alt="Nature" style="width:100%">
         <h3>Chambre de luxe</h3>
-        <p>Mettez-vous à votre aise <a href="ch paps.jpg">voir</a></p>
+        <p>Mettez-vous à votre aise <a href="photo/majunga photo/ch paps.jpg">voir</a></p>
       </div>
     </div>
     <div class="column">
       <div class="content">
-        <img src="pisc paps.jpg" alt="Mountains" style="width:100%">
+        <img src="photo/majunga photo/pisc paps.jpg" alt="Mountains" style="width:100%">
         <h3>La piscine</h3>
-        <p>Piscine privée et un paysage splendide <a href="pisc paps.jpg">voir</a></p>
+        <p>Piscine privée et un paysage splendide <a href="photo/majunga photo/pisc paps.jpg">voir</a></p>
       </div>
     </div>
   </div>
 
   <div class="content">
-    <img src="logo psp.png" alt="Bear" style="width:100%">
-    <h3>PAP'S CHAMBRE D'HÔTES <a href="logo psp.png">voir Logo</a></h3>
+    <img src="photo/majunga photo/logo psp.png" alt="Bear" style="width:100%">
+    <h3>PAP'S CHAMBRE D'HÔTES <a href="photo/majunga photo/logo psp.png">voir Logo</a></h3>
     <form action="" method="post">
       <input type="submit" value="voir les offres" class="btn btn-primary">
   </form>
