@@ -23,21 +23,21 @@
       <div class="content">
         <img src="photo/tableRV.jpeg" alt="Mountains" style="width:100%">
         <h3>Le petit-déjeuner</h3>
-        <p>tous à vos goûts <a href="photo/tableRV.jpeg">voir</a></p>
+        <p>Tous à vos goûts <a href="photo/tableRV.jpeg">voir</a></p>
       </div>
     </div>
     <div class="column">
       <div class="content">
         <img src="photo/appercuRV.jpeg" alt="Lights" style="width:100%">
         <h3>L'hôtel de rêve</h3>
-        <p>Spécialement conçue pour vous <a href="photo/appercuRV.jpeg">voir</a></p>
+        <p>Spécialement conçu pour vous <a href="photo/appercuRV.jpeg">voir</a></p>
       </div>
     </div>
     <div class="column">
       <div class="content">
         <img src="photo/rvchambre.jpeg" alt="Nature" style="width:100%">
         <h3>Chambre de luxe</h3>
-        <p>Le confort est à porter des mains <a href="photo/rvchambre.jpeg">voir</a></p>
+        <p>Le confort est à porter de mains <a href="photo/rvchambre.jpeg">voir</a></p>
       </div>
     </div>
     <div class="column">
@@ -80,28 +80,28 @@
       <div class="content">
         <img src="photo/tableExora.jpg" alt="Mountains" style="width:100%">
         <h3>Le petit-déjeuner</h3>
-        <p>tous à vos goûts <a href="photo/tableExora.jpg">voir</a></p>
+        <p>Chaque bouchée sera un pur plaisir <a href="photo/tableExora.jpg">voir</a></p>
       </div>
     </div>
     <div class="column">
       <div class="content">
         <img src="photo/inapercu_exora.webp" alt="Lights" style="width:100%">
         <h3>L'hôtel de rêve</h3>
-        <p>Spécialement conçue pour vous <a href="photo/inapercu_exora.webp">voir</a></p>
+        <p>Ça donne envie de rester<a href="photo/inapercu_exora.webp">voir</a></p>
       </div>
     </div>
     <div class="column">
       <div class="content">
         <img src="photo/chambre1.webp" alt="Nature" style="width:100%">
         <h3>Chambre de luxe</h3>
-        <p>Le confort est à porter des mains <a href="photo/chambre1.webp">voir</a></p>
+        <p>Des chambres haut de gamme <a href="photo/chambre1.webp">voir</a></p>
       </div>
     </div>
     <div class="column">
       <div class="content">
         <img src="photo/plage_entrevu.webp" alt="Mountains" style="width:100%">
         <h3>La piscine</h3>
-        <p>Idéale pour se rafraîchir <a href="photo/plage_entrevu.webp">voir</a></p>
+        <p>Idéale pour passer des moments innoubliables <a href="photo/plage_entrevu.webp">voir</a></p>
       </div>
     </div>
   </div>
@@ -132,7 +132,7 @@
       <div class="content">
         <img src="photo/ptitdejGB.jpeg" alt="Mountains" style="width:100%">
         <h3>Le petit-déjeuner</h3>
-        <p>tous à vos goûts  <a href="photo/ptitdejGB.jpeg">voir</a></p>
+        <p>Cuisine impécable et délicieuse  <a href="photo/ptitdejGB.jpeg">voir</a></p>
       </div>
     </div>
     <div class="column">
