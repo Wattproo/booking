@@ -8,10 +8,11 @@
     <title>Hébergement-MADA_TRAVEL.com</title>
     <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="publics/bootstrap-4.6.2-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="views/fontawesome-free-5.15.3-web/css/all.css">
 </head>
 <body class="hebergement">
 <nav class="navBar">
-        <a href="" class="logo"><img src="logoMada.jpg" alt="Logo"></a>
+        <a href="" class="logo"><img src="photo/logoMada.jpg" alt="Logo"></a>
         <div class="navLinks">
             <ul>
                 <li><a href="index.php?action=accueil">Acceuil</a></li>

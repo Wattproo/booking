@@ -13,7 +13,7 @@
 </head>
 <body>
 <nav class="navBar">
-        <a href="" class="logo"><img src="logoMada.jpg" alt="Logo"></a>
+        <a href="" class="logo"><img src="photo/logoMada.jpg" alt="Logo"></a>
         <div class="navLinks">
             <ul>
                 <li><a href="index.php?action=accueil">Acceuil</a></li>

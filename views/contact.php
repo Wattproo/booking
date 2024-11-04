@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/styleContact.css" type="text/css">
     <link rel="stylesheet" href="css/nav.css">
     <title>Contact-MADA_TRAVEL.com</title>
     <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
@@ -12,7 +12,7 @@
 </head>
 <body>
 <nav class="navBar">
-        <a href="" class="logo"><img src="logoMada.jpg" alt="Logo"></a>
+        <a href="" class="logo"><img src="photo/logoMada.jpg" alt="Logo"></a>
         <div class="navLinks">
             <ul>
                 <li><a href="index.php?action=accueil">Acceuil</a></li>
@@ -43,7 +43,7 @@
             <ul>
                 <li>
                     <div class="conteinerLi">
-                        <p><i class="fas fa-phone-alt"></i></p>
+                        <p><i class="fa fa-phone-alt"></i></p>
                         <div>
                             <h4>Téléphone</h4>
                             <p>+261 38 90 561 15</p>
