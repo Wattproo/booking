@@ -129,37 +129,37 @@
   <div class="row">
     <div class="column">
       <div class="content">
-        <img src="Resto-ATS-101.png" alt="Mountains" style="width:100%">
+        <img src="photo/majunga photo/Resto-ATS-101.png" alt="Mountains" style="width:100%">
         <h3>Restauration</h3>
-        <p>Restaurant luxueux <a href="Resto-ATS-101.png">voir</a></p>
+        <p>Restaurant luxueux <a href="photo/majunga photo/Resto-ATS-101.png">voir</a></p>
       </div>
     </div>
     <div class="column">
       <div class="content">
-        <img src="plage antsa.jpg" alt="Lights" style="width:100%">
+        <img src="photo/majunga photo/plage antsa.jpg" alt="Lights" style="width:100%">
         <h3>Plage</h3>
-        <p>La meilleure de toutes <a href="plage antsa.jpg">voir</a></p>
+        <p>La meilleure de toutes <a href="photo/majunga photo/plage antsa.jpg">voir</a></p>
       </div>
     </div>
     <div class="column">
       <div class="content">
-        <img src="ch ants.jpg" alt="Nature" style="width:100%">
+        <img src="photo/majunga photo/ch ants.jpg" alt="Nature" style="width:100%">
         <h3>Vos chambres</h3>
-        <p>A la traditionnelle  <a href="ch ants.jpg">voir</a></p>
+        <p>A la traditionnelle  <a href="photo/majunga photo/ch ants.jpg">voir</a></p>
       </div>
     </div>
     <div class="column">
       <div class="content">
-        <img src="ants pisc.jfif" alt="Mountains" style="width:100%">
+        <img src="photo/majunga photo/ants pisc.jfif" alt="Mountains" style="width:100%">
         <h3>Grande piscine</h3>
-        <p>La soeur d'Eden <a href="ants pisc.jfif">Voir</a></p>
+        <p>La soeur d'Eden <a href="photo/majunga photo/ants pisc.jfif">Voir</a></p>
       </div>
     </div>
   </div>
 
   <div class="content">
-    <img src="LOGO antsa.png" alt="Bear" style="width:100%">
-    <h3>ANTSANITIA RESORT <a href="LOGO antsa.png">voir logo</a></h3>
+    <img src="photo/majunga photo/LOGO antsa.png" alt="Bear" style="width:100%">
+    <h3>ANTSANITIA RESORT <a href="photo/majunga photo/LOGO antsa.png">voir logo</a></h3>
     <form action="" method="post">
       <input type="submit" value="voir les offres" class="btn btn-primary">
   </form>
