@@ -14,7 +14,8 @@
   <h1 style="color:white;">MADA_TRAVEL.COM</h1>
   <hr>
   <p>
-  Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto nostrum, in voluptates praesentium impedit assumenda ea repellat fugit natus commodi? Earum ipsam laudantium molestiae veritatis, nemo cumque consequatur iusto tenetur!
+  Situé à Toliara, à 2,5 km de la plage de la Batterie, L'Amazone Hotel Tulear propose un salon commun, un parking privé gratuit, une terrasse et un restaurant. Chaque hébergement de cet hôtel 3 étoiles offre une vue sur la ville et vous aurez accès à une piscine intérieure. Il propose une réception ouverte 24h/24, des transferts aéroport, un service d'étage et une connexion Wi-Fi gratuite dans l'ensemble de ses locaux.
+
 
   </p>
 
@@ -22,37 +23,37 @@
   <div class="row">
     <div class="column">
       <div class="content">
-        <img src="ptitdejlacigale.jpg" alt="Mountains" style="width:100%">
+        <img src="ptitdej aht.jpg" alt="Mountains" style="width:100%">
         <h3>Le petit-déjeuner</h3>
-        <p>Un vrai régal <a href="ptitdejlacigale.jpg">voir</a></p>
+        <p>Un vrai régal <a href="ptitdej aht.jpg">voir</a></p>
       </div>
     </div>
     <div class="column">
       <div class="content">
-        <img src="restolacigale.jpg" alt="Lights" style="width:100%">
-        <h3>Restauration</h3>
-        <p>Exellente table ,tout à la perfection <a href="restolacigale.jpg">voir</a></p>
+        <img src="salle de bain.jpg" alt="Lights" style="width:100%">
+        <h3>Salle de bain</h3>
+        <p>Exellente table ,tout à la perfection <a href="salle de bain.jpg">voir</a></p>
       </div>
     </div>
     <div class="column">
       <div class="content">
-        <img src="chambrelacigale.jpg" alt="Nature" style="width:100%">
+        <img src="chambre.jpg" alt="Nature" style="width:100%">
         <h3>Chambre de luxe</h3>
-        <p>Le confort est à porter de mains <a href="chambrelacigale.jpg">voir</a></p>
+        <p>Le confort est à porter de mains <a href="chambre.jpg">voir</a></p>
       </div>
     </div>
     <div class="column">
       <div class="content">
-        <img src="piscinelacigale.jpg" alt="Mountains" style="width:100%">
+        <img src="piscinaht.jpg" alt="Mountains" style="width:100%">
         <h3>La piscine</h3>
-        <p>Baigner sans interruption <a href="piscinelacigale.jpg">voir</a></p>
+        <p>Piscine intérieure magnifique <a href="piscinaht.jpg">voir</a></p>
       </div>
     </div>
   </div>
 
   <div class="content">
-    <img src="logolacigale.png" alt="Bear" style="width:100%">
-    <h3>LA CIGALE  <a href="logolacigale.png">voir Logo</a></h3>
+    <img src="logoaht.png" alt="Bear" style="width:100%">
+    <h3>HOTEL AMAZONE TULEAR <a href="logoaht.png">voir Logo</a></h3>
     <form action="" method="post">
       <input type="submit" value="voir les offres" class="btn btn-primary">
   </form>
@@ -69,44 +70,46 @@
   <h1 style="color:white;">MADA_TRAVEL.COM</h1>
   <hr>
   <p>
- Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, soluta. Veniam corporis hic suscipit blanditiis mollitia eveniet deserunt, et voluptas voluptates, eum quaerat corrupti! Sapiente cumque ipsa a maiores dignissimos!
+  Située à Toliara, la Villa Claire propose un hébergement climatisé avec une piscine privée, une vue sur la montagne et une terrasse. Cet hébergement en bord de mer dispose d'un balcon, d'une table de ping-pong ainsi que d'une connexion Wi-Fi et d'un parking privé gratuits. Il propose une réception ouverte 24h/24, un service de sécurité et un service de change.
+Cette villa spacieuse comprend 3 chambres, une salle de bains, du linge de lit, des serviettes, une télévision à écran plat avec des services de streaming, un coin repas, une cuisine entièrement équipée et une terrasse avec vue sur la mer. Une entrée privée vous mènera à la villa, où vous pourrez déguster du vin ou du champagne et des fruits. Cette villa est non-fumeurs et insonorisée.
+Un petit-déjeuner continental et américain est servi tous les matins sur place. Le restaurant sur place sert une cuisine africaine ainsi que des plats végétariens et halal.
   </p>
 
   <!-- Portfolio Gallery Grid -->
   <div class="row">
     <div class="column">
       <div class="content">
-        <img src="ptitdej lelagon.jpg" alt="Mountains" style="width:100%">
+        <img src="ptitdejvc.jpg" alt="sakafo" style="width:100%">
         <h3>Le petit-déjeuner</h3>
-        <p>Tous simplement divin <a href="ptitdej lelagon.jpg">voir</a></p>
+        <p>Tous simplement divin <a href="ptitdejvc.jpg">voir</a></p>
       </div>
     </div>
     <div class="column">
       <div class="content">
-        <img src="bungalowlelagon.jpg" alt="Lights" style="width:100%">
-        <h3>Bungalow</h3>
-        <p>Chaleureux et confortable <a href="bungalowlelagon.jpg">voir</a></p>
+        <img src="vue.jpg" alt="Lights" style="width:100%">
+        <h3>Endroit </h3>
+        <p>Vue imprenable sur la mer <a href="vue.jpg">voir</a></p>
       </div>
     </div>
     <div class="column">
       <div class="content">
-        <img src="chambre-lelagon.jpg" alt="Nature" style="width:100%">
+        <img src="chambrevc.jpg" alt="Nature" style="width:100%">
         <h3>Chambre de luxe</h3>
-        <p>Mettez-vous à votre aise <a href="chambre-lelagon.jpg">voir</a></p>
+        <p>Mettez-vous à votre aise <a href="chambrevc.jpg">voir</a></p>
       </div>
     </div>
     <div class="column">
       <div class="content">
-        <img src="plage lelagon.jpg" alt="Mountains" style="width:100%">
-        <h3>Plage</h3>
-        <p>Plage splendide <a href="plage lelagon.jpg">voir</a></p>
+        <img src="piscinevc.jpg" alt="Mountains" style="width:100%">
+        <h3>Piscine</h3>
+        <p>Piscine splendide <a href="piscinevc.jpg">voir</a></p>
       </div>
     </div>
   </div>
 
   <div class="content">
-    <img src="logolag.png" alt="Bear" style="width:100%">
-    <h3>LE LAGON <a href="logolag.png">voir Logo</a></h3>
+    <img src="villaclaire.jpg" alt="Bear" style="width:100%">
+    <h3>VILLA CLAIRE <a href="villaclaire.jpg">voir Logo</a></h3>
     <form action="" method="post">
       <input type="submit" value="voir les offres" class="btn btn-primary">
   </form>
@@ -123,44 +126,46 @@
   <h1 style="color:white;">MADA_TRAVEL.COM</h1>
   <hr>
   <p>
-  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur perferendis, nesciunt pariatur eius amet sunt quis molestiae quae consectetur doloremque rem animi minus quisquam tenetur unde eum aliquid ad non? 
+  Situé à Toliara, à seulement 5,6 km du musée Rabesandratana, le Serena Village Tulear propose un hébergement avec accès à une piscine à débordement, un jardin et une réception ouverte 24h/24. Vous bénéficierez gratuitement d'un parking privé et d'une connexion Wi-Fi. Cet établissement non-fumeurs se trouve à 7,9 km de l'arboretum d'Antsokay.
+Cette villa spacieuse comprend 3 chambres, 2 salles de bains, du linge de lit, des serviettes, une télévision à écran plat avec services de streaming, une cuisine entièrement équipée et une terrasse avec vue sur le jardin. Ce logement climatisé dispose d'une douche à l'italienne et d'un dressing. Pour plus d'intimité, l'hébergement dispose d'une entrée privée et est protégé par une sécurité d'une journée.
+
   </p>
 
   <!-- Portfolio Gallery Grid -->
   <div class="row">
     <div class="column">
       <div class="content">
-        <img src="restosanctuary2.jpg" alt="Mountains" style="width:100%">
-        <h3>Restauration</h3>
-        <p>Restaurant luxueux <a href="restosanctuary2.jpg">voir</a></p>
+        <img src="ptitdejs.jpg" alt="Mountains" style="width:100%">
+        <h3>Petit déjener</h3>
+        <p>Un vrai délice <a href="ptitdejs.jpg">voir</a></p>
       </div>
     </div>
     <div class="column">
       <div class="content">
-        <img src="piscinesanctuary.jpg" alt="Lights" style="width:100%">
+        <img src="piscines.jpg" alt="Lights" style="width:100%">
         <h3>Piscine </h3>
-        <p>La meilleure de toutes <a href="piscinesanctuary.jpg">voir</a></p>
+        <p>La meilleure de toutes <a href="piscines.jpg">voir</a></p>
       </div>
     </div>
     <div class="column">
       <div class="content">
-        <img src="chambre the sanctuary.jpg" alt="Nature" style="width:100%">
+        <img src="chambres.jpg" alt="Nature" style="width:100%">
         <h3>Vos chambres</h3>
-        <p>Passez de belles nuits  <a href="chambre the sanctuary.jpg">voir</a></p>
+        <p>Passez de belles nuits  <a href="chambres.jpg">voir</a></p>
       </div>
     </div>
     <div class="column">
       <div class="content">
-        <img src="kalysanctuary.jpg" alt="Mountains" style="width:100%">
-        <h3>Menu </h3>
-        <p>Tout exquis <a href="kalysanctuary.jpg">Voir</a></p>
+        <img src="activité.jpg" alt="Mountains" style="width:100%">
+        <h3>Activités</h3>
+        <p>Ping Pong <a href="activité.jpg">Voir</a></p>
       </div>
     </div>
   </div>
 
   <div class="content">
-    <img src="logos.jpg" alt="Bear" style="width:100%">
-    <h3>THE SANCTUARY LODGE <a href="logos.jpg">voir logo</a></h3>
+    <img src="serenas.png" alt="Bear" style="width:100%">
+    <h3>HOTEL SERENA  <a href="serenas.png">voir logo</a></h3>
     <form action="" method="post">
       <input type="submit" value="voir les offres" class="btn btn-primary">
   </form>
