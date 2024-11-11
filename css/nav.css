@@ -106,16 +106,8 @@
     text-align: center;
     width: 200%;
 }
-/* configuration responsive */
-@media (max-width: 900px){
-    .menuHumberger{
-        display: block;
-        cursor: pointer;
-        font-size: 30px;
-    }
-    .menuHumberger .fa:hover{
-        color: white;
-    }
+
+@media (max-width: 900px) {
     .menuHumberger{
         display: block;
         z-index: 999;
