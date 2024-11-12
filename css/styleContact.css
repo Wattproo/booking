@@ -10,6 +10,9 @@
     width: 50%;
     margin: 0;
     padding: 0;
+    /* background-color: rgba(0, 0, 205, 0.212); */
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 .leftHand hr{
     width: 90%;
@@ -22,6 +25,7 @@
     width: 40%;
     margin: 0 auto;
     list-style: none;
+    line-height: 1.5;
 }
 .leftHand ul li{
     width: 100%;
@@ -43,6 +47,8 @@
     width: 50%;
     margin: 0;
     padding: 0;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 .rightHand form{
     width: 100%;
