@@ -93,6 +93,33 @@
             </form>
         </div>
     </section>
+    <footer>
+    <div class="texte">
+        <div class="texte1">
+            <h5>L'AGENCE</h5>
+            <p>Qui sommes-nous?</p>
+            <p>Agence Web|Refonte de sites</p>
+            <p>Agence Media|voyage,résérvation</p>
+        </div>
+        <div class="texte2">
+            <h5>NOS CLIENTS</h5>
+            <p>Cas Assurance & Mutuelle</p>
+            <p>Voyageurs</p>
+            <p>Avis clients</p>
+        </div>
+        <div class="texte3">
+            <h5>RESTONS EN CONTACT</h5>
+            <p><i class="fas fa-mail-bulk "> Email</i></p>
+            <p><i class="fab fa-facebook"> Facebook</i></p>
+            <p><i class="fab fa-youtube"> Youtube</i></p>
+        </div>
+    </div>
+    <hr>
+    <div class="pied">
+        <p> &copy copyright site créer par "nous" </p>
+    </div>
+
+</footer>
     <script>
         const menuHumberger = document.querySelector(".menuHumberger");
         const navLinks = document.querySelector(".navLinks");

@@ -137,4 +137,31 @@ h1{
         margin: 0 auto;
     }
 }
+.texte{
+    display: flex;
+    justify-content: space-around;
+}
+.pied{
+    line-height: center;
+    text-align: center;
+}
+hr{
+    background-color:white;
+}
+footer{
+    background-color: rgb(3, 3, 94);
+    color: white;
+    padding-top: 20px;
+    font-size: 17px;
+    font-family: sans-serif;
+}
+.fa-mail-bulk{
+    color: white;
+}
+.fa-facebook{
+    color: skyblue;
+}
+.fa-youtube{
+    color: red;
+}
 
