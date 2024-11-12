@@ -13,7 +13,7 @@
 </head>
 <body>
 <nav class="navBar">
-        <a href="" class="logo"><img src="logoMada.jpg" alt="Logo"></a>
+        <a href="" class="logo"><img src="photo/logoMada.jpg" alt="Logo"></a>
         <div class="navLinks">
             <ul>
                 <li><a href="index.php?action=accueil">Acceuil</a></li>
@@ -44,34 +44,34 @@
         <div class="card dest" style="width:500px" id="moi">
             <img class="card-img-top" src="photo/ampefy1.png" alt="Card image">
             <div class="card-img-overlay">
-                <h4 class="card-title" style="color:orange;">MADA_TRAVEL.com</h4>
-                <p class="card-text" style="color:#fff;">♥ Un paysage calme et paisible ♥</p>
+                <h4 class="card-title" style=";">ʍɑժɑ_ԵɾɑѵҽӀ.ϲօʍᴳᵒ</h4>
+                <p class="card-text" style="color:;">♥ Un paysage calme et paisible ♥</p>
                 <a href="index.php?action=ampefy" class="btn btn-primary">Découvrir</a>
             </div>
         </div>
         <div class="card dest" style="width:500px" id="moi">
             <img class="card-img-top" src="photo/majunga1.png" alt="Card image">
             <div class="card-img-overlay">
-                <h4 class="card-title" style="color:greenyellow;">MADA_TRAVEL.com</h4>
-                <p class="card-text" style="color:#fff;">♥ Baobab, l'arbre mythique de Majunga ♥</p>
+                <h4 class="card-title" style="color:;">ʍɑժɑ_ԵɾɑѵҽӀ.ϲօʍᴳᵒ</h4>
+                <p class="card-text" style="color:;">♥ Baobab, l'arbre mythique de Majunga ♥</p>
                 <a href="index.php?action=majunga" class="btn btn-primary">Découvrir</a>
             </div>
         </div>
     </div>
     <div class="heberge2">
-        <div class="card dest" style="width:500px" id="moi">
+        <div class="card dest" style="width:650px" id="moi">
             <img class="card-img-top" src="photo/foulpointe1.png" alt="Card image">
             <div class="card-img-overlay">
-                <h4 class="card-title" style="color:orange;">MADA_TRAVEL.com</h4>
-                <p class="card-text" style="color:#fff;">♥ La richesse de la faune et de la flore ♥</p>
+                <h4 class="card-title" style="color:;">ʍɑժɑ_ԵɾɑѵҽӀ.ϲօʍᴳᵒ</h4>
+                <p class="card-text" style="color:;">♥ La richesse de la faune et de la flore ♥</p>
                 <a href="index.php?action=foulpointe" class="btn btn-primary">Découvrir</a>
             </div>
         </div>
-        <div class="card dest" style="width:500px" id="moi">
+        <div class="card dest" style="width:600px" id="moi">
             <img class="card-img-top" src="photo/tulear1.png" alt="Card image">
             <div class="card-img-overlay">
-                <h4 class="card-title"style="color:orange;">MADA_TRAVEL.com</h4>
-                <p class="card-text" style="color:#fff;">♥ Les sables Blancs vous attend ♥</p>
+                <h4 class="card-title"style="color:;">ʍɑժɑ_ԵɾɑѵҽӀ.ϲօʍᴳᵒ</h4>
+                <p class="card-text" style="color:;">♥ Les sables Blancs vous attend ♥</p>
                 <a href="index.php?action=tulear" class="btn btn-primary">Découvrir</a>
             </div>
         </div>
@@ -80,16 +80,16 @@
         <div class="card dest" style="width:500px" id="moi">
             <img class="card-img-top" src="photo/diego1.png" alt="Card image">
             <div class="card-img-overlay">
-                <h4 class="card-title" style="color:orange;">MADA_TRAVEL.com</h4>
-                <p class="card-text" style="color:#fff;">♥ La ville francophile, pleine d'histoire ♥</p>
+                <h4 class="card-title" style="color:;">ʍɑժɑ_ԵɾɑѵҽӀ.ϲօʍᴳᵒ</h4>
+                <p class="card-text" style="color:;">♥ La ville francophile, pleine d'histoire ♥</p>
                 <a href="index.php?action=diego" class="btn btn-primary">Découvrir</a>
             </div>
         </div>
         <div class="card dest" style="width:500px" id="moi">
             <img class="card-img-top" src="photo/tana.jpg" alt="Card image">
             <div class="card-img-overlay">
-                <h4 class="card-title" style="orange;">MADA_TRAVEL.com</h4>
-                <p class="card-text" style="color:#fff;">♥ La capitale surprenante ♥</p>
+                <h4 class="card-title" style=";">ʍɑժɑ_ԵɾɑѵҽӀ.ϲօʍᴳᵒ</h4>
+                <p class="card-text" style="color:;">♥ La capitale surprenante ♥</p>
                 <a href="index.php?action=tana" class="btn btn-primary">Découvrir</a>
             </div>
         </div>
@@ -99,17 +99,17 @@
         <div class="card dest" style="width:500px" id="moi">
             <img class="card-img-top" src="photo/antsirabe1.png" alt="Card image">
             <div class="card-img-overlay">
-                <h4 class="card-title" style="color:orange;">MADA_TRAVEL.com</h4>
-                <p class="card-text" style="color:#fff;" >♥ La ville des produits laitiers ♥</p>
+                <h4 class="card-title" style="color:;">ʍɑժɑ_ԵɾɑѵҽӀ.ϲօʍᴳᵒ</h4>
+                <p class="card-text" style="color:;" >♥ La ville des produits laitiers ♥</p>
                 <a href="index.php?action=antsirabe" class="btn btn-primary">Découvrir</a>
             </div>
         </div>
         <div class="card dest" style="width:500px" id="moi">
             <img class="card-img-top" src="photo/nosybe1.png" alt="Card image">
             <div class="card-img-overlay">
-                <h4 class="card-title" style="color:orange;">MADA_TRAVEL.com</h4>
-                <p class="card-text" style="color:#fff;">♥ La plage de vos rêves ♥</p>
-                <a href="index.php?action=nosybe" class="btn btn-primary" style="bottom: 10px;">Découvrir</a>
+                <h4 class="card-title" style="color:;">ʍɑժɑ_ԵɾɑѵҽӀ.ϲօʍᴳᵒ</h4>
+                <p class="card-text" style="color;">♥ La plage de vos rêves ♥</p>
+                <a href="index.php?action=nosybe" class="btn btn-primary" style="background: blue" style="bottom: 10px;">Découvrir</a>
             </div>
         </div>
     </div>
@@ -118,16 +118,16 @@
         <div class="card dest" style="width:500px" id="moi">
             <img class="card-img-top" src="photo/tamatave1.png" alt="Card image">
             <div class="card-img-overlay">
-                <h4 class="card-title" style="color:orange;">MADA_TRAVEL.com</h4>
-                <p class="card-text" style="color:#fff; font-family: 'Arial', sans-serif;">♥ La ville haute en couleurs ♥</p>
+                <h4 class="card-title" style="color:">ʍɑժɑ_ԵɾɑѵҽӀ.ϲօʍᴳᵒ</h4>
+                <p class="card-text" style="color:; font-family: 'Arial', sans-serif;">♥ La ville haute en couleurs ♥</p>
                 <a href="index.php?action=tamatave" class="btn btn-primary">Découvrir</a>
             </div>
         </div>
         <div class="card dest" style="width:500px" id="moi">
             <img class="card-img-top" src="photo/St-Marie.png" alt="Card image">
             <div class="card-img-overlay">
-                <h4 class="card-title" style="color:orange;">MADA_TRAVEL.com</h4>
-                <p class="card-text" style="color:#fff;">♥ Sainte-Marie, Une île de rêve ♥</p>
+                <h4 class="card-title" style="color:">ʍɑժɑ_ԵɾɑѵҽӀ.ϲօʍᴳᵒ</h4>
+                <p class="card-text" style="color:;">♥ Sainte-Marie, Une île de rêve ♥</p>
                 <a href="index.php?action=tamatave" class="btn btn-primary">Découvrir</a>
             </div>
         </div>
@@ -137,8 +137,8 @@
         <div class="card dest" style="width:500px" id="moi">
             <img class="card-img-top" src="photo/morondava2.jpg" alt="Card image">
             <div class="card-img-overlay">
-                <h4 class="card-title" style="color:orange;">MADA_TRAVEL.com</h4>
-                <p class="card-text" style="color:#fff;">♥ L'incroyable allée des Baobab ♥</p>
+                <h4 class="card-title" style="color:>ʍɑժɑ_ԵɾɑѵҽӀ.ϲօʍᴳᵒ</h4>
+                <p class="card-text" style="color:;">♥ L'incroyable allée des Baobab ♥</p>
                 <a href="index.php?action=morondava" class="btn btn-primary">Découvrir</a>
             </div>
         </div>
@@ -146,6 +146,33 @@
     
 </div>
 </section>
+<footer>
+    <div class="texte">
+        <div class="texte1">
+            <h5>L'AGENCE</h5>
+            <p>Qui sommes-nous?</p>
+            <p>Agence Web|Refonte de sites</p>
+            <p>Agence Media|voyage,résérvation</p>
+        </div>
+        <div class="texte2">
+            <h5>NOS CLIENTS</h5>
+            <p>Cas Assurance & Mutuelle</p>
+            <p>Voyageurs</p>
+            <p>Avis clients</p>
+        </div>
+        <div class="texte3">
+            <h5>RESTONS EN CONTACT</h5>
+            <p><i class="fas fa-mail-bulk "> Email</i></p>
+            <p><i class="fab fa-facebook"> Facebook</i></p>
+            <p><i class="fab fa-youtube"> Youtube</i></p>
+        </div>
+    </div>
+    <hr>
+    <div class="pied">
+        <p> &copy copyright site créer par "nous" </p>
+    </div>
+
+</footer>
     <script>
         const menuHumberger = document.querySelector(".menuHumberger");
         const navLinks = document.querySelector(".navLinks");

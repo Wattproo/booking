@@ -3,55 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="nosybe.css">
-    <title>Listes des hôtels à Nosy-be</title>
+    <link rel="stylesheet" href="css/tulear.css">
+    <title>Document</title>
     <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
 </head>
 <body>
-<div class="nosybe">
+<div class="foulpointe">
   <div class="main" id="main1">
 
   <h1 style="color:white;">MADA_TRAVEL.COM</h1>
   <hr>
   <p>
-  LE RAVINTSARA WELLNESS est un Hôtel né d’une rencontre harmonieuse de la nature et du luxe. Situé à seulement 35 min de l’aéroport de Nosy-Be (Fascene) et 20 min du centre ville (Hell Ville) sur la côte ouest, face à l’ile de Sakatia où le soleil du soir dévoile ses couleurs chatoyantes. L’hôtel accueille ses hôtes dans un jardin tropical de 5 hectares calme et relaxant, rehaussé par la végétation luxuriante de Madagascar. Les sons et les odeurs de cette nature étant propice au bien être, le Ravintsara Wellness Hôtel vous donne la sensation d’être immergé en pleine nature. Soucieux de votre bien être et parce que nous pensons que luxe rime avec espace, nos bungalows ont été pensés pour vous offrir tout le raffinement et le confort d’un hôtel 4 étoiles.
+  Situé à Toliara, à 2,5 km de la plage de la Batterie, L'Amazone Hotel Tulear propose un salon commun, un parking privé gratuit, une terrasse et un restaurant. Chaque hébergement de cet hôtel 3 étoiles offre une vue sur la ville et vous aurez accès à une piscine intérieure. Il propose une réception ouverte 24h/24, des transferts aéroport, un service d'étage et une connexion Wi-Fi gratuite dans l'ensemble de ses locaux.
+
+
   </p>
 
   <!-- Portfolio Gallery Grid -->
   <div class="row">
     <div class="column">
       <div class="content">
-        <img src="photo/tableRV.jpeg" alt="Mountains" style="width:100%">
+        <img src="ptitdej aht.jpg" alt="Mountains" style="width:100%">
         <h3>Le petit-déjeuner</h3>
-        <p>tous à vos goûts <a href="photo/tableRV.jpeg">voir</a></p>
+        <p>Un vrai régal <a href="ptitdej aht.jpg">voir</a></p>
       </div>
     </div>
     <div class="column">
       <div class="content">
-        <img src="photo/appercuRV.jpeg" alt="Lights" style="width:100%">
-        <h3>L'hôtel de rêve</h3>
-        <p>Spécialement conçue pour vous <a href="photo/appercuRV.jpeg">voir</a></p>
+        <img src="salle de bain.jpg" alt="Lights" style="width:100%">
+        <h3>Salle de bain</h3>
+        <p>Exellente table ,tout à la perfection <a href="salle de bain.jpg">voir</a></p>
       </div>
     </div>
     <div class="column">
       <div class="content">
-        <img src="photo/rvchambre.jpeg" alt="Nature" style="width:100%">
+        <img src="chambre.jpg" alt="Nature" style="width:100%">
         <h3>Chambre de luxe</h3>
-        <p>Le confort est à porter des mains <a href="photo/rvchambre.jpeg">voir</a></p>
+        <p>Le confort est à porter de mains <a href="chambre.jpg">voir</a></p>
       </div>
     </div>
     <div class="column">
       <div class="content">
-        <img src="photo/piscineRV.jpeg" alt="Mountains" style="width:100%">
+        <img src="piscinaht.jpg" alt="Mountains" style="width:100%">
         <h3>La piscine</h3>
-        <p>Idéale pour se rafraîchir <a href="photo/piscineRV.jpeg">voir</a></p>
+        <p>Piscine intérieure magnifique <a href="piscinaht.jpg">voir</a></p>
       </div>
     </div>
   </div>
 
   <div class="content">
-    <img src="photo/logoravintsara.jpeg" alt="Bear" style="width:100%">
-    <h3>EXORA BEACH HÔTEL  <a href="photo/logoravintsara.jpeg">voir Logo</a></h3>
+    <img src="logoaht.png" alt="Bear" style="width:100%">
+    <h3>HOTEL AMAZONE TULEAR <a href="logoaht.png">voir Logo</a></h3>
     <form action="" method="post">
       <input type="submit" value="voir les offres" class="btn btn-primary">
   </form>
@@ -68,47 +70,46 @@
   <h1 style="color:white;">MADA_TRAVEL.COM</h1>
   <hr>
   <p>
-    L’hôtel Exora Beach à Nosy Be, à Madagascar, semble être un véritable bijou!
-    Les clients l’ont loué pour son emplacement charmant au bord de l’eau, ses chambres spacieuses et joliment décorées avec vue sur la mer et son atmosphère relaxante
-    . L’hôtel propose des commodités telles que deux piscines, un bar et un restaurant avec un menu varié
-    . C’est un endroit idéal pour une escapade sereine avec une vue imprenable sur la baie et les couchers de soleil.
+  Située à Toliara, la Villa Claire propose un hébergement climatisé avec une piscine privée, une vue sur la montagne et une terrasse. Cet hébergement en bord de mer dispose d'un balcon, d'une table de ping-pong ainsi que d'une connexion Wi-Fi et d'un parking privé gratuits. Il propose une réception ouverte 24h/24, un service de sécurité et un service de change.
+Cette villa spacieuse comprend 3 chambres, une salle de bains, du linge de lit, des serviettes, une télévision à écran plat avec des services de streaming, un coin repas, une cuisine entièrement équipée et une terrasse avec vue sur la mer. Une entrée privée vous mènera à la villa, où vous pourrez déguster du vin ou du champagne et des fruits. Cette villa est non-fumeurs et insonorisée.
+Un petit-déjeuner continental et américain est servi tous les matins sur place. Le restaurant sur place sert une cuisine africaine ainsi que des plats végétariens et halal.
   </p>
 
   <!-- Portfolio Gallery Grid -->
   <div class="row">
     <div class="column">
       <div class="content">
-        <img src="photo/tableExora.jpg" alt="Mountains" style="width:100%">
+        <img src="ptitdejvc.jpg" alt="sakafo" style="width:100%">
         <h3>Le petit-déjeuner</h3>
-        <p>tous à vos goûts <a href="photo/tableExora.jpg">voir</a></p>
+        <p>Tous simplement divin <a href="ptitdejvc.jpg">voir</a></p>
       </div>
     </div>
     <div class="column">
       <div class="content">
-        <img src="photo/inapercu_exora.webp" alt="Lights" style="width:100%">
-        <h3>L'hôtel de rêve</h3>
-        <p>Spécialement conçue pour vous <a href="photo/inapercu_exora.webp">voir</a></p>
+        <img src="vue.jpg" alt="Lights" style="width:100%">
+        <h3>Endroit </h3>
+        <p>Vue imprenable sur la mer <a href="vue.jpg">voir</a></p>
       </div>
     </div>
     <div class="column">
       <div class="content">
-        <img src="photo/chambre1.webp" alt="Nature" style="width:100%">
+        <img src="chambrevc.jpg" alt="Nature" style="width:100%">
         <h3>Chambre de luxe</h3>
-        <p>Le confort est à porter des mains <a href="photo/chambre1.webp">voir</a></p>
+        <p>Mettez-vous à votre aise <a href="chambrevc.jpg">voir</a></p>
       </div>
     </div>
     <div class="column">
       <div class="content">
-        <img src="photo/plage_entrevu.webp" alt="Mountains" style="width:100%">
-        <h3>La piscine</h3>
-        <p>Idéale pour se rafraîchir <a href="photo/plage_entrevu.webp">voir</a></p>
+        <img src="piscinevc.jpg" alt="Mountains" style="width:100%">
+        <h3>Piscine</h3>
+        <p>Piscine splendide <a href="piscinevc.jpg">voir</a></p>
       </div>
     </div>
   </div>
 
   <div class="content">
-    <img src="photo/exoralogo.jpg" alt="Bear" style="width:100%">
-    <h3>EXORA BEACH HÔTEL  <a href="photo/exoralogo.jpg">voir Logo</a></h3>
+    <img src="villaclaire.jpg" alt="Bear" style="width:100%">
+    <h3>VILLA CLAIRE <a href="villaclaire.jpg">voir Logo</a></h3>
     <form action="" method="post">
       <input type="submit" value="voir les offres" class="btn btn-primary">
   </form>
@@ -124,43 +125,47 @@
 
   <h1 style="color:white;">MADA_TRAVEL.COM</h1>
   <hr>
-  <p>Sur la péninsule d'Andilana à Nosy Be, l'Hôtel Le Grand Bleu est niché en hauteur sur la colline, permettant à une légère brise naturelle de rendre l'atmosphère moins chaude</p>
+  <p>
+  Situé à Toliara, à seulement 5,6 km du musée Rabesandratana, le Serena Village Tulear propose un hébergement avec accès à une piscine à débordement, un jardin et une réception ouverte 24h/24. Vous bénéficierez gratuitement d'un parking privé et d'une connexion Wi-Fi. Cet établissement non-fumeurs se trouve à 7,9 km de l'arboretum d'Antsokay.
+Cette villa spacieuse comprend 3 chambres, 2 salles de bains, du linge de lit, des serviettes, une télévision à écran plat avec services de streaming, une cuisine entièrement équipée et une terrasse avec vue sur le jardin. Ce logement climatisé dispose d'une douche à l'italienne et d'un dressing. Pour plus d'intimité, l'hébergement dispose d'une entrée privée et est protégé par une sécurité d'une journée.
+
+  </p>
 
   <!-- Portfolio Gallery Grid -->
   <div class="row">
     <div class="column">
       <div class="content">
-        <img src="photo/ptitdejGB.jpeg" alt="Mountains" style="width:100%">
-        <h3>Le petit-déjeuner</h3>
-        <p>tous à vos goûts  <a href="photo/ptitdejGB.jpeg">voir</a></p>
+        <img src="ptitdejs.jpg" alt="Mountains" style="width:100%">
+        <h3>Petit déjener</h3>
+        <p>Un vrai délice <a href="ptitdejs.jpg">voir</a></p>
       </div>
     </div>
     <div class="column">
       <div class="content">
-        <img src="photo/SalonGB.webp" alt="Lights" style="width:100%">
-        <h3>Relaxation</h3>
-        <p>Moment de détente  <a href="photo/SalonGB.webp">voir</a></p>
+        <img src="piscines.jpg" alt="Lights" style="width:100%">
+        <h3>Piscine </h3>
+        <p>La meilleure de toutes <a href="piscines.jpg">voir</a></p>
       </div>
     </div>
     <div class="column">
       <div class="content">
-        <img src="photo/GB.avif" alt="Nature" style="width:100%">
+        <img src="chambres.jpg" alt="Nature" style="width:100%">
         <h3>Vos chambres</h3>
-        <p>A la traditionnelle  <a href="photo/GB.avif">voir</a></p>
+        <p>Passez de belles nuits  <a href="chambres.jpg">voir</a></p>
       </div>
     </div>
     <div class="column">
       <div class="content">
-        <img src="photo/saryGB.webp" alt="Mountains" style="width:100%">
-        <h3>Le dîner tête à tête</h3>
-        <p>A la chandelle <a href="photo/saryGB.webp">Voir</a></p>
+        <img src="activité.jpg" alt="Mountains" style="width:100%">
+        <h3>Activités</h3>
+        <p>Ping Pong <a href="activité.jpg">Voir</a></p>
       </div>
     </div>
   </div>
 
   <div class="content">
-    <img src="photo/logoGB.png" alt="Bear" style="width:100%">
-    <h3>LE GRAND BLEU  <a href="photo/logoGB.png">voir logo</a></h3>
+    <img src="serenas.png" alt="Bear" style="width:100%">
+    <h3>HOTEL SERENA  <a href="serenas.png">voir logo</a></h3>
     <form action="" method="post">
       <input type="submit" value="voir les offres" class="btn btn-primary">
   </form>

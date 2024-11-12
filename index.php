@@ -82,10 +82,12 @@ if(isset($_GET["action"])){
         include("vue-hotel/antsirabe-offre/mahafayHotel/mahafayhotel_offre.php");
     }elseif($_GET["action"]=="suimangaoffre"){
         include("vue-hotel/antsirabe-offre/suimanga/suimanga_offre.php");
+    }elseif($_GET["action"]=="reserver"){
+        include("views/home-view.php");
     }
     
 }else{
-    include("views/home-view.php");
+    include("views/home.php");
     
 }
 

@@ -10,7 +10,7 @@
 <body>
     <img src="photo/drims.webp" alt="fond">
     <div class="connexion">
-        <img src="logoMada.jpg" alt="logo" id="logo">
+        <img src="photo/logoMada.jpg" alt="logo" id="logo">
         <div class="boutton">
             <ul>
                 <li><a href="index.php?action=register" class="btn btn-success">s'inscrire</a></li>
