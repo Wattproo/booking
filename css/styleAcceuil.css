@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+header{
+    height: 100vh;
+    position: relative;
+    display: flex;
+}
+.bgSpaceTop{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 10%;
+    background-color: rgb(3, 3, 94);
+    z-index: 1;
+}
+header nav{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10%;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgba(5, 97, 121, 0.76);
+    flex-direction: wrap;
+    padding: 1%;
+    margin-top: 2%;
+    z-index: 10;
+    box-shadow: 0px 3px 20px 5px black;
+}
+header nav ul{
+    width: 70%;
+    display: flex;
+    justify-content: flex-start;
+}
+header nav ul li{
+    margin: 1%;
+    margin-left: 2%;
+    margin-right: 2%;
+    display: flex;
+    align-items: center;
+}
+header nav ul li a{
+    display: inline-block;
+    padding: 20%;
+    color:  rgb(3, 3, 94);
+    font-weight: bold;
+}
+header nav ul li a:hover{
+    background-color: transparent;
+    border-bottom: 2px solid burlywood;
+    transform: scale(1.2, 1.2);
+}
+.videoConteiner{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.videoConteiner video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    object-fit: cover;
+    object-position: center;
+    width: 100vw;
+    height: 99.9vh;
+}
+.textParagraphe{
+    z-index: 2;
+    text-align: center;
+    line-height: 2;
+}
+.textParagraphe p{
+    font-size: 400%;
+    color: white;
+}
+.textParagraphe a{
+    display: inline-block;
+    font-size: 100%;
+    color: white;
+    padding: 1%;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    background-color: rgb(3, 3, 94);
+    box-shadow: 0px 0px 16px 10px black;
+}
+a:hover{
+    background-color: rgba(3, 3, 94, 0.411);
+    transform: scale(1.5, 1.5);
+}
+.btnMenu{
+    display: none;
+    z-index: 999;
+    font-size: 200%;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+.btnMenu.open{
+    transform: rotate(360deg);
+}
+.showDesconnectList{
+    margin: 0;
+    transition: 0.1s ease-in-out;
+}
+.desconnectBtn{
+    padding: 1%;
+    box-shadow: 1px 1px 5px 3px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 50px;
+    position: relative;
+}
+.desconnectList{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+.desconnectList a{
+    text-align: center;
+    color: rgb(3, 3, 94);
+    padding: 1%;
+    display: block;
+    font-size: 100%;
+    background-color: white;
+    border-radius: 50px;
+    box-shadow: 0px 0px 5px 10px black;
+    margin: 2%;
+}
+.desconnectList a:hover{
+    transition: 0.25s ease-in;
+    padding: 2%;
+    transform: scale(1.2,1.2);
+}
+.showDesconnectListUl{
+    display: block;
+    position: absolute;
+    top: 100%;
+    text-align: center;
+}
+.logo{
+    width: 10%;
+}
+.logo img{
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+@media (max-width: 900px) {
+    header nav{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 10%;
+        height: 5%;
+    }
+    .btnMenu{
+        display: block;
+    }
+    .btnMenu:hover{
+        color: burlywood;
+    }
+    header{
+        position: relative;
+    }
+    header nav ul{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: -1000%;
+        backdrop-filter: blur(10px);
+    }
+    header nav ul li{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    header nav ul li a{
+        display: block;
+        font-size: 200%;
+        color: rgb(211, 211, 243);
+    }
+    header nav ul li a:hover{
+        color: burlywood;
+        transform: scale(1.5,1.5);
+    }
+}
