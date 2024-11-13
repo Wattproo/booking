@@ -11,7 +11,7 @@
    <header>
     <div class="nav">
         <img src="photo/travelMada.png" alt="logoMADATRAVEL" class="logo">
-        <p><a href="index.php?action=acceuil" >Accueil</a></p>
+        <p><a href="index.php?action=accueil" >Accueil</a></p>
         <p><a href="index.php?action=destination" id="Accueil">Réservation</a></p>
         <p><a href="index.php?action=contact">Contact</a></p>
         <p><a href="#"><i class="fas fa-shopping-cart"></i></a></p>
@@ -38,11 +38,18 @@
                 </form>
             </div>
             <div class="input2">
-                <form action="" method="post">
+                <form action="index.php?action=destination" method="post">
                     <input type="submit" value="Réserver" id="btn">
                 </form>
             </div>
         </div>
     </section>
+    <script>
+        const reserver = document.querySelector('#btn');
+
+        reserver.addEventListener('click', () => {
+            alert("Votre réservation est validé ! Merci beaucoup !")
+        })
+    </script>
 </body>
 </html>

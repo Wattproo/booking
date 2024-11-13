@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- <link rel="stylesheet" href="style.css" type="text/css"> -->
-    <link rel="stylesheet" href="css/destination.css" type="text/css">
+    <link rel="stylesheet" href="css/destination.css?v echo php?>" type="text/css">
     <link rel="stylesheet" href="css/nav.css?v echo php?>">
     <title>Destination-MADA_TRAVEL.com</title>
     <link rel="stylesheet" href="publics/bootstrap-4.6.2-dist/css/bootstrap.css">
@@ -13,6 +13,8 @@
 </head>
 <body>
     <header>
+        <div class="bgSpaceTop">
+        </div>
         <nav>
             <div class="logo">
                 <img src="photo/travelMada.png" alt="logo">
@@ -22,19 +24,28 @@
                 <li><a href="index.php?action=destination">Destination</a></li>
                 <li><a href="index.php?action=contact">Contact</a></li>
             </ul>
-            <form action="">
-                <input type="serach" placeholder="Search...." id="recherche">
-                <label for="recherche"><i class="fa fa-search"></i></label>
-            </form>
             <div class="btnMenu">
                 <i class="fa fa-bars"></i>
+            </div>
+            <form action="">
+                <input type="search" placeholder="Rechercher">
+                <i class="fa fa-search"></i>
+            </form>
+            <div class="desconnectBtn">
+                <div class="desconnectBtnDesconnect">
+                    <i class="fa fa-user"></i>
+                </div>
+                <div class="desconnectList">
+                    <a href="index.php?action=login">Se Connecter</a>
+                    <a href="index.php?action=register">S'inscrire</a>
+                </div>
             </div>
         </nav>
     </header>
     <div class="container">
         <h1>Idée de destinatin pour vous</h1>
-<br>
-<br>
+        <br>
+        <br>
         <div class="destination-grid">
             <div class="destination">
                 <img src="photo/Antsirabe1.jpeg" alt="">
@@ -147,7 +158,9 @@
         const btnMenu = document.querySelector(".btnMenu");
         const navLinks = document.querySelector(".navLinks");
         const barsX = document.querySelector(".fa-bars");
-        const navBar = document.querySelector("header");
+
+        const desconnectBtn = document.querySelector(".desconnectBtn");
+        const desconnectList =document.querySelector(".desconnectList");
 
         btnMenu.addEventListener("click", () => {
             btnMenu.classList.toggle("open");
@@ -155,13 +168,9 @@
             barsX.classList.toggle("fa-times");
             navLinks.classList.toggle("showDesconnectList");
         })
-        
-        window.addEventListener("scroll", () => {
-            if (window.scrollY > 50) {
-                navBar.classList.add("hide");
-            }else{
-                navBar.classList.remove("hide");
-            }
+
+        desconnectBtn.addEventListener("click", () => {
+            desconnectList.classList.toggle("showDesconnectListUl");
         })
     </script>
 </body>

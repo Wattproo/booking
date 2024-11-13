@@ -6,7 +6,8 @@ if(isset($_GET["action"])){
         if (isset($_POST['soumettre'])) {
             include("model/membre_model.php");
             $cc= new membre_model();
-            $cc->verifyEmail();                  
+            $cc->verifyEmail(); 
+            include("views/reserver.php");                 
         }else{
             //redirection
             header: 'location:index.php?action=login';
@@ -26,7 +27,7 @@ if(isset($_GET["action"])){
             require_once("controlleur/membre.php");
             $m= new membre ();
             $m->enregistrer($_POST["nom"],$_POST["prenom"],$_POST["pseudo"],$_POST["email"],$_POST["pass1"],$_POST["pass2"]);
-            include("views/home.php");
+            include("views/reserver.php"); 
         }else{
             include("register-view.php");
         }

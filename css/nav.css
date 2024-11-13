@@ -4,34 +4,34 @@
     text-decoration: none;
     list-style: none;
 }
-body{
-    overflow: auto;
-}
 header{
-    width: 100%;
-    margin: 0 auto;
-    position: sticky;
-    top: 0;
-    transition: all 0.5s ease-in-out;
-    background-image: url("../photo/photoNavBar.jpg");
-    background-size: cover;
-    background-position: center;
+    position: relative;
+    display: flex;
+    padding-top: 1%;
 }
-header.hide{
-    transform: translateY(-100%);
+.bgSpaceTop{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 10vh;
+    background-color: rgba(5, 97, 121, 0.76);
+    z-index: -1;
 }
 header nav{
-    width: 100%;
+    width: 70%;
     margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 20vh;
+    height: 10%;
     border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgb(3, 3, 94);
     flex-direction: wrap;
+    padding: 1%;
     z-index: 10;
-    box-shadow: 0px 3px 20px 2px black;
-    z-index: 999;
+    box-shadow: 0px 3px 20px 5px black;
 }
 header nav ul{
     width: 70%;
@@ -46,36 +46,16 @@ header nav ul li{
     align-items: center;
 }
 header nav ul li a{
-    text-shadow: 2px 2px 3px black;
-    font-size: 200%;
     display: inline-block;
-    color: rgb(51, 51, 223);
+    padding: 20%;
+    color:  white;
     font-weight: bold;
 }
 header nav ul li a:hover{
     background-color: transparent;
     border-bottom: 2px solid burlywood;
     transform: scale(1.2, 1.2);
-}
-header form{
-    border: 3px solid rgb(8, 8, 185);
-    padding: 0.5%;
-    border-radius: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-header form input{
-    border: 1px solid transparent;
-    padding: 0.5%;
-    border-radius: 50px;
-    background: transparent;
-    color: white;
-    font-weight: bolder;
-}
-header form input::placeholder{
-    color: white;
-    font-weight: bolder;
+    text-decoration: none;
 }
 .btnMenu{
     display: none;
@@ -89,23 +69,84 @@ header form input::placeholder{
 }
 .showDesconnectList{
     margin: 0;
-    transition: 0.5s ease-in-out;
+    transition: 0.1s ease-in-out;
 }
-.fa{
-    color: rgb(8, 8, 185);
+.desconnectBtn{
+    padding: 1%;
+    box-shadow: 1px 1px 5px 3px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 50px;
+    position: relative;
+}
+.desconnectList{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+.desconnectList a{
+    text-align: center;
+    color: rgb(3, 3, 94);
+    padding: 1%;
+    display: block;
+    font-size: 100%;
+    background-color: white;
+    border-radius: 50px;
+    box-shadow: 0px 0px 5px 10px black;
+    margin: 2%;
+}
+.desconnectList a:hover{
+    transition: 0.25s ease-in;
+    padding: 2%;
+    transform: scale(1.2,1.2);
+    text-decoration: none;
+}
+.showDesconnectListUl{
+    display: block;
+    position: absolute;
+    top: 100%;
+    text-align: center;
+}
+.logo{
+    width: 10%;
+}
+.logo img{
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+header nav form{
+    margin-right: 1%;
+    margin-left: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 0.5%;
+    background-color: white;
+}
+header nav form input[type="search"]{
+    width: 90%;
+    border: none;
+}
+.fa-search{
+    background-color: transparent;
+    color: black;
 }
 @media (max-width: 900px) {
     header nav{
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-around;
+        margin-top: 10%;
+        height: 5%;
     }
     .btnMenu{
         display: block;
     }
-    .fa-bars:hover{
-        color: burlywood;
-    }
-    .fa-times:hover{
+    .btnMenu:hover{
         color: burlywood;
     }
     header{
@@ -121,8 +162,11 @@ header form input::placeholder{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-left: -1000px;
-        backdrop-filter: blur(10px);
+        margin-left: -1000%;
+        background-color: black;
+        color: white;
+        z-index: 100;
+        /* backdrop-filter: blur(10px); */
     }
     header nav ul li{
         display: flex;
@@ -132,11 +176,13 @@ header form input::placeholder{
     header nav ul li a{
         display: block;
         font-size: 200%;
-        color: rgb(3, 3, 94);
+        color: rgb(211, 211, 243);
     }
     header nav ul li a:hover{
-        color: rgb(116, 65, 0);
-        border-bottom: 1px solid rgb(116, 65, 0);
+        color: burlywood;
         transform: scale(1.5,1.5);
+    }
+    .fa-bars, .fa-times{
+        color: white;
     }
 }
