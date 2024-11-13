@@ -1,0 +1,36 @@
+ body{
+    background-image:  linear-gradient(to top left,rgba(9, 209, 216, 0.788), rgba(232, 233, 225, 0) ),url('../photo/fond22.jpg');
+    background-repeat: no-repeat; 
+    background-size: cover;
+    width: 100%;
+}
+
+
+input{
+    background: transparent;
+    border: 1px solid #ccc;
+    color: #000;
+}
+form{
+    width: 100%;
+    height: 100vh;
+}
+/* .login{
+    width: 100%;
+    height: 678px;
+} */
+.btn{
+    background-color: aqua;
+}
+#lavie{
+    background-color: #40e0D0;  
+}
+.form-control{
+    background: transparent;
+    border: 1px solide #ccc;
+    color: #000;
+}
+#mavie{
+    background-color: #40e0D0;  
+    color:blue;
+}

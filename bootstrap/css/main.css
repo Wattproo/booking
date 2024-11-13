@@ -1,0 +1,27 @@
+body{
+    background-color: beige;
+}
+.tab{
+    border: bisque 10px dashed;
+    border-color: bisque;
+}
+.bout{
+    text-align: center;
+    margin-left: 350px;
+}
+#one{
+    background-image: url('assets/image/received_1007471443778366.jpeg');
+    background-size: cover;
+}
+#two{
+    background-image: url('assets/image/received_1337287533678192.jpeg');
+    background-size: cover;
+}
+#three{
+    background-image: url('assets/image/received_1446857239267700.jpeg');
+    background-size: cover;
+}
+#four{
+    background-image: url('assets/image/received_404284332207740.jpeg');
+    background-size: cover;
+}
