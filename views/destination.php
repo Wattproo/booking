@@ -15,13 +15,13 @@
     <header>
         <div class="bgSpaceTop">
         </div>
-        <nav>
+        <nav class="navBar">
             <div class="logo">
                 <img src="photo/travelMada.png" alt="logo">
             </div>
             <ul class="navLinks">
                 <li><a href="index.php?action=accueil">Acceuil</a></li>
-                <li><a href="index.php?action=destination">Destination</a></li>
+                <li><a href="index.php?action=destination" id="active">Destination</a></li>
                 <li><a href="index.php?action=contact">Contact</a></li>
             </ul>
             <div class="btnMenu">
@@ -43,7 +43,7 @@
         </nav>
     </header>
     <div class="container">
-        <h1>Idée de destinatin pour vous</h1>
+        <!-- <h1>Idée de destinatin pour vous</h1> -->
         <br>
         <br>
         <div class="destination-grid">
@@ -172,6 +172,30 @@
         desconnectBtn.addEventListener("click", () => {
             desconnectList.classList.toggle("showDesconnectListUl");
         })
+
+        
+        const btnMenu = document.querySelector(".btnMenu");
+        const navLinks = document.querySelector(".navLinks");
+        const barsX = document.querySelector(".fa-bars");
+        const navBar = document.querySelector(".navBar");
+
+        btnMenu.addEventListener("click", () => {
+            btnMenu.classList.toggle("open");
+            barsX.classList.toggle("fa-bars");
+            barsX.classList.toggle("fa-times");
+            navLinks.classList.toggle("showDesconnectList");
+        });
+        
+        const navbar = document.querySelector('.navbar');
+
+        window.addEventListener('scroll', () => {
+        if (window.scrollY > 50) { // Ajuster la valeur 100 selon vos besoins
+            navbar.classList.add('hidden');
+        } else {
+            navbar.classList.remove('hidden');
+        }
+        });
+    
     </script>
 </body>
 </html>

@@ -161,6 +161,7 @@ footer{
     padding-top: 20px;
     font-size: 17px;
     font-family: sans-serif;
+    line-height: 3;
 }
 .fa-mail-bulk{
     color: white;
@@ -170,5 +171,8 @@ footer{
 }
 .fa-youtube{
     color: red;
+}
+.pied p{
+    margin: 0;
 }
 

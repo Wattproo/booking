@@ -3,6 +3,7 @@
     padding: 0;
     text-decoration: none;
     list-style: none;
+    font-family: Arial , sans-serif;
 }
 header{
     position: relative;
@@ -18,6 +19,9 @@ header{
     background-color: rgba(5, 97, 121, 0.76);
     z-index: -1;
 }
+nav.hidden {
+    top: -100px;
+}
 header nav{
     width: 70%;
     margin: 0 auto;
@@ -32,6 +36,7 @@ header nav{
     padding: 1%;
     z-index: 10;
     box-shadow: 0px 3px 20px 5px black;
+    position: sticky;
 }
 header nav ul{
     width: 70%;
@@ -53,8 +58,8 @@ header nav ul li a{
 }
 header nav ul li a:hover{
     background-color: transparent;
-    border-bottom: 2px solid burlywood;
-    transform: scale(1.2, 1.2);
+    /* border-bottom: 2px solid burlywood; */
+    transform: scale(1.5, 1.5);
     text-decoration: none;
 }
 .btnMenu{
@@ -185,4 +190,8 @@ header nav form input[type="search"]{
     .fa-bars, .fa-times{
         color: white;
     }
+}
+#active{
+    /* text-decoration: underline; */
+    border-bottom: 5px solid burlywood;
 }
