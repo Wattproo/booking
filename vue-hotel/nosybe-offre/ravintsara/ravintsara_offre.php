@@ -16,12 +16,12 @@
         </i>
         <div class="hotels">
             <div class="hotel-card">
-                <img src="../photo/Nosy be/Ravintsara Hotel/expediav2-555068-337b99-935841.jpg" alt="# " id="Sary">
+                <img src="ramena7.jpg" alt="# " id="Sary">
                 <div class="info">
                      <ul>
-                        <li>ʍɑժɑ_ԵɾɑѵҽӀ.ϲօʍᴳᵒ</li>
+                        <li></li>
                     </ul>
-                    <p> <i class="fa fa-map-marker" aria-hidden="true"></i> Nosy Be, Madagascar</p>
+                    <p> <i class="fa fa-map-marker" aria-hidden="true"></i> Antsiranana, Madagascar</p>
                     <p class="rating"> <i class="fa fa-check-circle" aria-hidden="true"></i></p>
                     <p class="price"> <br> Ar 355 000/ NIGHT</p>
                     <a href="index.php?action=reserver" class="button">RESERVER</a>
@@ -29,13 +29,13 @@
             </div>
 
             <div class="hotel-card">
-                <img src="../photo/Nosy be/Ravintsara Hotel/images.jpg" alt="#">
+                <img src="royal4.jpg" alt="#">
                 <div class="info">
                    
                      <ul>
-                        <li>ʍɑժɑ_ԵɾɑѵҽӀ.ϲօʍᴳᵒ</li>
+                        <li></li>
                     </ul>
-                    <p> <i class="fa fa-map-marker" aria-hidden="true"></i> Nosy Be, Madagascar</p>
+                    <p> <i class="fa fa-map-marker" aria-hidden="true"></i> Antsiranana, Madagascar</p>
                     <p class="rating"> <i class="fa fa-check-circle" aria-hidden="true"></i>  </p>
                     <p class="price"> Ar 420 000/ NIGHT</p>
                     <a href="index.php?action=reserver" class="button">RESERVER</a>
@@ -43,13 +43,13 @@
             </div>
 
             <div class="hotel-card">
-                <img src="../photo/Nosy be/Ravintsara Hotel/Sans titre.jpg" alt="#">
+                <img src="royal5.jpg" alt="#">
                 <div class="info">
                     
                      <ul>
-                        <li>ʍɑժɑ_ԵɾɑѵҽӀ.ϲօʍᴳᵒ</li>
+                        <li></li>
                     </ul>
-                    <p> <i class="fa fa-map-marker" aria-hidden="true"></i> Nosy Be, Madagascar</p>
+                    <p> <i class="fa fa-map-marker" aria-hidden="true"></i> Antsiranana, Madagascar</p>
                     <p class="rating"> <i class="fa fa-check-circle" aria-hidden="true"></i>  </p>
                     <p class="price">Ar 380 000/ NIGHT</p>
                     <a href="index.php?action=reserver" class="button">RESERVER</a>

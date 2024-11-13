@@ -54,7 +54,7 @@
   <div class="content">
     <img src="logoaht.png" alt="Bear" style="width:100%">
     <h3>HOTEL AMAZONE TULEAR <a href="logoaht.png">voir Logo</a></h3>
-    <form action="" method="post">
+    <form action="index.php?action=Métisoffre" method="post">
       <input type="submit" value="voir les offres" class="btn btn-primary">
   </form>
   </div>
@@ -110,7 +110,7 @@ Un petit-déjeuner continental et américain est servi tous les matins sur place
   <div class="content">
     <img src="villaclaire.jpg" alt="Bear" style="width:100%">
     <h3>VILLA CLAIRE <a href="villaclaire.jpg">voir Logo</a></h3>
-    <form action="" method="post">
+    <form action="index.php?action=Serenaoffre" method="post">
       <input type="submit" value="voir les offres" class="btn btn-primary">
   </form>
   </div>
@@ -166,7 +166,7 @@ Cette villa spacieuse comprend 3 chambres, 2 salles de bains, du linge de lit, d
   <div class="content">
     <img src="serenas.png" alt="Bear" style="width:100%">
     <h3>HOTEL SERENA  <a href="serenas.png">voir logo</a></h3>
-    <form action="" method="post">
+    <form action="index.php?action=Villaoffre" method="post">
       <input type="submit" value="voir les offres" class="btn btn-primary">
   </form>
   </div>
