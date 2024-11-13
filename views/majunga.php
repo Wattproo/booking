@@ -38,7 +38,7 @@
     </div>
     <div class="column">
       <div class="content">
-        <img src="/photo/majunga_photo/chambre b.jpg" alt="Nature" style="width:100%">
+        <img src="photo/majunga_photo/chambre b.jpg" alt="Nature" style="width:100%">
         <h3>Chambre de luxe</h3>
         <p>Le confort est à porter de mains <a href="photo/majunga_photo/chambre b.jpg">voir</a></p>
 
@@ -56,7 +56,7 @@
   <div class="content">
     <img src="photo/majunga_photo/shop.png" alt="Bear" style="width:100%">
     <h3>BAOBAB TREE HOTEL &#38; SPA  <a href="photo/majunga_photo/shop.png">voir Logo</a></h3>
-    <form action="" method="post">
+    <form action="index.php?action=Baobaboffre" method="post">
       <input type="submit" value="voir les offres" class="btn btn-primary">
     </form>
   </div>
@@ -113,7 +113,7 @@
 
     <img src="photo/majunga_photo/logo psp.png" alt="Bear" style="width:100%">
     <h3>PAP'S CHAMBRE D'HÔTES <a href="photo/majunga_photo/logo psp.png">voir Logo</a></h3>
-    <form action="" method="post">
+    <form action="index.php?action=Papsoffre" method="post">
       <input type="submit" value="voir les offres" class="btn btn-primary">
   </form>
   </div>
@@ -173,7 +173,7 @@
   <div class="content">
     <img src="photo/majunga_photo/LOGO antsa.png" alt="Bear" style="width:100%">
     <h3>ANTSANITIA RESORT <a href="photo/majunga_photo/LOGO antsa.png">voir logo</a></h3>
-    <form action="" method="post">
+    <form action="index.php?action=Antsanitiaoffre" method="post">
       <input type="submit" value="voir les offres" class="btn btn-primary">
   </form>
   </div>

@@ -70,6 +70,8 @@ if(isset($_GET["action"])){
         include("views/nosybe.php");
     }elseif($_GET["action"]=="tamatave"){
         include("views/tamatave.php");
+    }elseif($_GET["action"]=="stmarie"){
+        include("views/stmarie.php");
     }elseif($_GET["action"]=="ravintsaraoffre"){
         include("vue-hotel/nosybe-offre/ravintsara/ravintsara_offre.php");
     }elseif($_GET["action"]=="exoraoffre"){

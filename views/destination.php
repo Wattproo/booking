@@ -12,10 +12,34 @@
     <link rel="stylesheet" href="views/fontawesome-free-5.15.3-web/css/all.css">
 </head>
 <body>
+<<<<<<< HEAD
     <header>
         <nav>
             <div class="logo">
                 <img src="photo/travelMada.png" alt="logo">
+=======
+<nav class="navBar">
+        <a href="" class="logo"><img src="photo/logoMada.jpg" alt="Logo"></a>
+        <div class="navLinks">
+            <ul>
+                <li><a href="index.php?action=accueil">Acceuil</a></li>
+                <li><a href="index.php?action=destination">Destination</a></li>
+                <li><a href="index.php?action=contact">Contact</a></li>
+            </ul>
+        </div>
+        <form action="" class="searchBar">
+            <input type="search" id="recherche" placeholder="Search">
+            <label for="recherche"><i class="fa fa-search"></i></label>
+        </form>
+        <div class="menuHumberger"><i class="fa fa-bars"></i></div>
+        <div class="desconnectButton">
+            <i class="fa fa-user"></i>
+            <div class="desconnectList">
+                <ul>
+                    <li><a href="index.php?action=logout">Se déconnecter</a></li>
+                    <li><a href="index.php?action=login">changer de compte</a></li>
+                </ul>
+>>>>>>> 1900c455dc3fdb30c4a2fa32c377ee01a3fb9fe4
             </div>
             <ul class="navLinks">
                 <li><a href="#">Acceuil</a></li>
@@ -42,31 +66,31 @@
             <div class="destination">
                 <img src="photo/Antsirabe1.jpeg" alt="">
                 <div class="overlay">
-                <button class="discover-btn"><a href="#"></a>Découvrir</button>
+                <button class="discover-btn"><a href="index.php?action=antsirabe">Découvrir</a></button>
                 </div>
             </div>
             <div class="destination">
                 <img src="photo/Foulpointe.jpeg" alt="">
                 <div class="overlay">
-                <button class="discover-btn"><a href="#"></a>Découvrir</button>
+                <button class="discover-btn"><a href="index.php?action=foulpointe">Découvrir</a></button>
                 </div>
             </div>
             <div class="destination">
                 <img src="photo/Diego1.jpeg" alt="">
                 <div class="overlay">
-                <button class="discover-btn"><a href="#"></a>Découvrir</button>
+                <button class="discover-btn"><a href="index.php?action=diego">Découvrir</a></button>
                 </div>
             </div>
             <div class="destination">
                 <img src="photo/IMG_9443.JPG" alt="">
                 <div class="overlay">
-                <button class="discover-btn"><a href="#"></a>Découvrir</button>
+                <button class="discover-btn"><a href="index.php?action=tamatave">Découvrir</a></button>
                 </div>
             </div>
             <div class="destination">
                 <img src="photo/Mahajanga1.jpeg" alt="">
                 <div class="overlay">
-                <button class="discover-btn"><a href="#"></a>Découvrir</button>
+                <button class="discover-btn"><a href="index.php?action=majunga">Découvrir</a></button>
                 </div>
             </div>
         </div>
@@ -78,31 +102,31 @@
             <div class="destination">
                 <img src="photo/Morondava1.jpeg" alt="">
                 <div class="overlay">
-                <button class="discover-btn"><a href="#"></a>Découvrir</button>
+                <button class="discover-btn"><a href="index.php?action=morondava">Découvrir</a></button>
                 </div>
             </div>
             <div class="destination">
                 <img src="photo/Nosy Be.jpeg" alt="">
                 <div class="overlay">
-                <button class="discover-btn"><a href="#"></a>Découvrir</button>
+                <button class="discover-btn"><a href="index.php?action=nosybe">Découvrir</a></button>
                 </div>
             </div>
             <div class="destination">
                 <img src="photo/tana.jpg" alt="">
                 <div class="overlay">
-                <button class="discover-btn"><a href="#"></a>Découvrir</button>
+                <button class="discover-btn"><a href="index.php?action=tana">Découvrir</a></button>
                 </div>
             </div>
             <div class="destination">
                 <img src="photo/St Marie.jpeg" alt="">
                 <div class="overlay">
-                <button class="discover-btn"><a href="#"></a>Découvrir</button>
+                <button class="discover-btn"><a href="index.php?action=stmarie">Découvrir</a></button>
                 </div>
             </div>
             <div class="destination">
                 <img src="photo/Tuléar.jpeg" alt="">
                 <div class="overlay">
-                <button class="discover-btn"><a href="#"></a>Découvrir</button>
+                <button class="discover-btn"><a href="index.php?action=tulear">Découvrir</a></button>
                 </div>
             </div>
             
@@ -111,7 +135,7 @@
     <div class="destination" id="faire">
                 <img src="photo/Ampefy.JPG" alt="">
                 <div class="overlay">
-                <button class="discover-btn"><a href="#"></a>Découvrir</button>
+                <button class="discover-btn"><a href="index.php?action=ampefy">Découvrir</a></button>
                 </div>
             </div>
 
