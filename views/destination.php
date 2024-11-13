@@ -38,114 +38,119 @@
         </div>
     </nav>
 
-<section>
-<div class="destination">
-    <div class="heberge1">
-        <div class="card dest" style="width:500px" id="moi">
-            <img class="card-img-top" src="photo/ampefy1.png" alt="Card image">
-            <div class="card-img-overlay">
-                <h4 class="card-title" style=";">ʍɑժɑ_ԵɾɑѵҽӀ.ϲօʍᴳᵒ</h4>
-                <p class="card-text" style="color:;">♥ Un paysage calme et paisible ♥</p>
-                <a href="index.php?action=ampefy" class="btn btn-primary">Découvrir</a>
+
+    <div class="container">
+        <h1>Idée de destinatin pour vous</h1>
+<br>
+<br>
+        <div class="destination-grid">
+            <div class="destination">
+                <img src="photo/Antsirabe1.jpeg" alt="">
+                <div class="overlay">
+                <button class="discover-btn"><a href="#"></a>Découvrir</button>
+                </div>
             </div>
-        </div>
-        <div class="card dest" style="width:500px" id="moi">
-            <img class="card-img-top" src="photo/majunga1.png" alt="Card image">
-            <div class="card-img-overlay">
-                <h4 class="card-title" style="color:;">ʍɑժɑ_ԵɾɑѵҽӀ.ϲօʍᴳᵒ</h4>
-                <p class="card-text" style="color:;">♥ Baobab, l'arbre mythique de Majunga ♥</p>
-                <a href="index.php?action=majunga" class="btn btn-primary">Découvrir</a>
+            <div class="destination">
+                <img src="photo/Foulpointe.jpeg" alt="">
+                <div class="overlay">
+                <button class="discover-btn"><a href="#"></a>Découvrir</button>
+                </div>
             </div>
-        </div>
-    </div>
-    <div class="heberge2">
-        <div class="card dest" style="width:650px" id="moi">
-            <img class="card-img-top" src="photo/foulpointe1.png" alt="Card image">
-            <div class="card-img-overlay">
-                <h4 class="card-title" style="color:;">ʍɑժɑ_ԵɾɑѵҽӀ.ϲօʍᴳᵒ</h4>
-                <p class="card-text" style="color:;">♥ La richesse de la faune et de la flore ♥</p>
-                <a href="index.php?action=foulpointe" class="btn btn-primary">Découvrir</a>
+            <div class="destination">
+                <img src="photo/Diego1.jpeg" alt="">
+                <div class="overlay">
+                <button class="discover-btn"><a href="#"></a>Découvrir</button>
+                </div>
             </div>
-        </div>
-        <div class="card dest" style="width:600px" id="moi">
-            <img class="card-img-top" src="photo/tulear1.png" alt="Card image">
-            <div class="card-img-overlay">
-                <h4 class="card-title"style="color:;">ʍɑժɑ_ԵɾɑѵҽӀ.ϲօʍᴳᵒ</h4>
-                <p class="card-text" style="color:;">♥ Les sables Blancs vous attend ♥</p>
-                <a href="index.php?action=tulear" class="btn btn-primary">Découvrir</a>
+            <div class="destination">
+                <img src="photo/IMG_9443.JPG" alt="">
+                <div class="overlay">
+                <button class="discover-btn"><a href="#"></a>Découvrir</button>
+                </div>
             </div>
-        </div>
-    </div>
-    <div class="heberge3">
-        <div class="card dest" style="width:500px" id="moi">
-            <img class="card-img-top" src="photo/diego1.png" alt="Card image">
-            <div class="card-img-overlay">
-                <h4 class="card-title" style="color:;">ʍɑժɑ_ԵɾɑѵҽӀ.ϲօʍᴳᵒ</h4>
-                <p class="card-text" style="color:;">♥ La ville francophile, pleine d'histoire ♥</p>
-                <a href="index.php?action=diego" class="btn btn-primary">Découvrir</a>
-            </div>
-        </div>
-        <div class="card dest" style="width:500px" id="moi">
-            <img class="card-img-top" src="photo/tana.jpg" alt="Card image">
-            <div class="card-img-overlay">
-                <h4 class="card-title" style=";">ʍɑժɑ_ԵɾɑѵҽӀ.ϲօʍᴳᵒ</h4>
-                <p class="card-text" style="color:;">♥ La capitale surprenante ♥</p>
-                <a href="index.php?action=tana" class="btn btn-primary">Découvrir</a>
+            <div class="destination">
+                <img src="photo/Mahajanga1.jpeg" alt="">
+                <div class="overlay">
+                <button class="discover-btn"><a href="#"></a>Découvrir</button>
+                </div>
             </div>
         </div>
     </div>
-    
-    <div class="heberge4">
-        <div class="card dest" style="width:500px" id="moi">
-            <img class="card-img-top" src="photo/antsirabe1.png" alt="Card image">
-            <div class="card-img-overlay">
-                <h4 class="card-title" style="color:;">ʍɑժɑ_ԵɾɑѵҽӀ.ϲօʍᴳᵒ</h4>
-                <p class="card-text" style="color:;" >♥ La ville des produits laitiers ♥</p>
-                <a href="index.php?action=antsirabe" class="btn btn-primary">Découvrir</a>
+    <div class="container">
+<br>
+<br>
+        <div class="destination-grid">
+            <div class="destination">
+                <img src="photo/Morondava1.jpeg" alt="">
+                <div class="overlay">
+                <button class="discover-btn"><a href="#"></a>Découvrir</button>
+                </div>
             </div>
-        </div>
-        <div class="card dest" style="width:500px" id="moi">
-            <img class="card-img-top" src="photo/nosybe1.png" alt="Card image">
-            <div class="card-img-overlay">
-                <h4 class="card-title" style="color:;">ʍɑժɑ_ԵɾɑѵҽӀ.ϲօʍᴳᵒ</h4>
-                <p class="card-text" style="color;">♥ La plage de vos rêves ♥</p>
-                <a href="index.php?action=nosybe" class="btn btn-primary" style="background: blue" style="bottom: 10px;">Découvrir</a>
+            <div class="destination">
+                <img src="photo/Nosy Be.jpeg" alt="">
+                <div class="overlay">
+                <button class="discover-btn"><a href="#"></a>Découvrir</button>
+                </div>
             </div>
-        </div>
-    </div>
-    
-    <div class="heberge5">
-        <div class="card dest" style="width:500px" id="moi">
-            <img class="card-img-top" src="photo/tamatave1.png" alt="Card image">
-            <div class="card-img-overlay">
-                <h4 class="card-title" style="color:">ʍɑժɑ_ԵɾɑѵҽӀ.ϲօʍᴳᵒ</h4>
-                <p class="card-text" style="color:; font-family: 'Arial', sans-serif;">♥ La ville haute en couleurs ♥</p>
-                <a href="index.php?action=tamatave" class="btn btn-primary">Découvrir</a>
+            <div class="destination">
+                <img src="photo/tana.jpg" alt="">
+                <div class="overlay">
+                <button class="discover-btn"><a href="#"></a>Découvrir</button>
+                </div>
             </div>
-        </div>
-        <div class="card dest" style="width:500px" id="moi">
-            <img class="card-img-top" src="photo/St-Marie.png" alt="Card image">
-            <div class="card-img-overlay">
-                <h4 class="card-title" style="color:">ʍɑժɑ_ԵɾɑѵҽӀ.ϲօʍᴳᵒ</h4>
-                <p class="card-text" style="color:;">♥ Sainte-Marie, Une île de rêve ♥</p>
-                <a href="index.php?action=tamatave" class="btn btn-primary">Découvrir</a>
+            <div class="destination">
+                <img src="photo/St Marie.jpeg" alt="">
+                <div class="overlay">
+                <button class="discover-btn"><a href="#"></a>Découvrir</button>
+                </div>
             </div>
-        </div>
-    </div>
-    
-    <div class="heberge6">
-        <div class="card dest" style="width:500px" id="moi">
-            <img class="card-img-top" src="photo/morondava2.jpg" alt="Card image">
-            <div class="card-img-overlay">
-                <h4 class="card-title" style="color:>ʍɑժɑ_ԵɾɑѵҽӀ.ϲօʍᴳᵒ</h4>
-                <p class="card-text" style="color:;">♥ L'incroyable allée des Baobab ♥</p>
-                <a href="index.php?action=morondava" class="btn btn-primary">Découvrir</a>
+            <div class="destination">
+                <img src="photo/Tuléar.jpeg" alt="">
+                <div class="overlay">
+                <button class="discover-btn"><a href="#"></a>Découvrir</button>
+                </div>
             </div>
+            
         </div>
     </div>
-    
-</div>
-</section>
+    <div class="destination" id="faire">
+                <img src="photo/Ampefy.JPG" alt="">
+                <div class="overlay">
+                <button class="discover-btn"><a href="#"></a>Découvrir</button>
+                </div>
+            </div>
+
+   
+<br>
+<br>
+
+<footer>
+    <div class="texte">
+        <div class="texte1">
+            <h5>L'AGENCE</h5>
+            <p>Qui sommes-nous?</p>
+            <p>Agence Web|Refonte de sites</p>
+            <p>Agence Media|voyage,résérvation</p>
+        </div>
+        <div class="texte2">
+            <h5>NOS CLIENTS</h5>
+            <p>Cas Assurance & Mutuelle</p>
+            <p>Voyageurs</p>
+            <p>Avis clients</p>
+        </div>
+        <div class="texte3">
+            <h5>RESTONS EN CONTACT</h5>
+            <p><i class="fas fa-mail-bulk "> Email</i></p>
+            <p><i class="fab fa-facebook"> Facebook</i></p>
+            <p><i class="fab fa-youtube"> Youtube</i></p>
+        </div>
+    </div>
+    <hr>
+    <div class="pied">
+        <p> &copy copyright site créer par "nous" </p>
+    </div>
+
+</footer>
     <script>
         const menuHumberger = document.querySelector(".menuHumberger");
         const navLinks = document.querySelector(".navLinks");

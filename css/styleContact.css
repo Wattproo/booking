@@ -10,6 +10,9 @@
     width: 50%;
     margin: 0;
     padding: 0;
+    /* background-color: rgba(0, 0, 205, 0.212); */
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 .leftHand hr{
     width: 90%;
@@ -22,6 +25,7 @@
     width: 40%;
     margin: 0 auto;
     list-style: none;
+    line-height: 1.5;
 }
 .leftHand ul li{
     width: 100%;
@@ -43,6 +47,8 @@
     width: 50%;
     margin: 0;
     padding: 0;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 .rightHand form{
     width: 100%;
@@ -136,5 +142,32 @@ h1{
         width: 70%;
         margin: 0 auto;
     }
+}
+.texte{
+    display: flex;
+    justify-content: space-around;
+}
+.pied{
+    line-height: center;
+    text-align: center;
+}
+hr{
+    background-color:white;
+}
+footer{
+    background-color: rgb(3, 3, 94);
+    color: white;
+    padding-top: 20px;
+    font-size: 17px;
+    font-family: sans-serif;
+}
+.fa-mail-bulk{
+    color: white;
+}
+.fa-facebook{
+    color: skyblue;
+}
+.fa-youtube{
+    color: red;
 }
 

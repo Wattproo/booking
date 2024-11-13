@@ -3,39 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styleContact.css" type="text/css">
+    <link rel="stylesheet" href="css/styleContact.css?v echo php ?>" type="text/css">
+    <!-- <link rel="stylesheet" href="css/styleContact.css" type="text/css"> -->
     <link rel="stylesheet" href="css/nav.css">
     <title>Contact-MADA_TRAVEL.com</title>
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
-    <link rel="stylesheet" href="publics/bootstrap-4.6.2-dist/css/bootstrap.css">
+    <!-- <link rel="stylesheet" href="bootstrap/css/bootstrap.css"> -->
+    <!-- <link rel="stylesheet" href="publics/bootstrap-4.6.2-dist/css/bootstrap.css"> -->
     <link rel="stylesheet" href="views/fontawesome-free-5.15.3-web/css/all.css">
 </head>
 <body>
-<nav class="navBar">
-        <a href="" class="logo"><img src="photo/logoMada.jpg" alt="Logo"></a>
-        <div class="navLinks">
-            <ul>
-                <li><a href="index.php?action=accueil">Acceuil</a></li>
-                <li><a href="index.php?action=destination">Destination</a></li>
-                <li><a href="index.php?action=offres">Offres</a></li>
-                <li><a href="index.php?action=contact">Contact</a></li>
-            </ul>
-        </div>
-        <form action="" class="searchBar">
-            <input type="search" id="recherche" placeholder="Search">
-            <label for="recherche"><i class="fa fa-search"></i></label>
-        </form>
-        <div class="menuHumberger"><i class="fa fa-bars"></i></div>
-        <div class="desconnectButton">
-            <i class="fa fa-user"></i>
-            <div class="desconnectList">
-                <ul>
-                    <li><a href="index.php?action=logout">Se déconnecter</a></li>
-                    <li><a href="index.php?action=login">changer de compte</a></li>
-                </ul>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="photo/travelMada.png" alt="logo">
             </div>
-        </div>
-    </nav>
+            <ul class="navLinks">
+                <li><a href="#">Acceuil</a></li>
+                <li><a href="#">Destination</a></li>
+                <li><a href="#">Offres</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <form action="">
+                <input type="serach" placeholder="Search...." id="recherche">
+                <label for="recherche"><i class="fa fa-search"></i></label>
+            </form>
+            <div class="btnMenu">
+                <i class="fa fa-bars"></i>
+            </div>
+        </nav>
+    </header>
     <section class="contact">
         <div class="leftHand">
             <h1>Contactez-nous</h1>
@@ -93,18 +89,52 @@
             </form>
         </div>
     </section>
-    <script>
-        const menuHumberger = document.querySelector(".menuHumberger");
-        const navLinks = document.querySelector(".navLinks");
-        const desconnectButton = document.querySelector(".desconnectButton");
-        const desconnectList = document.querySelector(".desconnectList");
-        
-        menuHumberger.addEventListener("click", () => {
-            navLinks.classList.toggle("mobileMenu");
-        })
+    <footer>
+    <div class="texte">
+        <div class="texte1">
+            <h5>L'AGENCE</h5>
+            <p>Qui sommes-nous?</p>
+            <p>Agence Web|Refonte de sites</p>
+            <p>Agence Media|voyage,résérvation</p>
+        </div>
+        <div class="texte2">
+            <h5>NOS CLIENTS</h5>
+            <p>Cas Assurance & Mutuelle</p>
+            <p>Voyageurs</p>
+            <p>Avis clients</p>
+        </div>
+        <div class="texte3">
+            <h5>RESTONS EN CONTACT</h5>
+            <p><i class="fas fa-mail-bulk "> Email</i></p>
+            <p><i class="fab fa-facebook"> Facebook</i></p>
+            <p><i class="fab fa-youtube"> Youtube</i></p>
+        </div>
+    </div>
+    <hr>
+    <div class="pied">
+        <p> &copy copyright site créer par "nous" </p>
+    </div>
 
-        desconnectButton.addEventListener("click", () => {
-            desconnectList.classList.toggle("showDesconnectList");
+</footer>
+    <script>
+        const btnMenu = document.querySelector(".btnMenu");
+        const navLinks = document.querySelector(".navLinks");
+        const barsX = document.querySelector(".fa-bars");
+        const navBar = document.querySelector("header");
+
+        btnMenu.addEventListener("click", () => {
+            btnMenu.classList.toggle("open");
+            barsX.classList.toggle("fa-bars");
+            barsX.classList.toggle("fa-times");
+            navLinks.classList.toggle("showDesconnectList");
+        })
+        
+        window.addEventListener("scroll", () => {
+            if (window.scrollY > 50) {
+                navBar.classList.add("hide");
+            }else{
+                navBar.classList.remove("hide");
+            }
         })
     </script>
 </body>
