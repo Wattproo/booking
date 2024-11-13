@@ -9,6 +9,7 @@ body{
 }
 header{
     width: 100%;
+    margin: 0 auto;
     position: sticky;
     top: 0;
     transition: all 0.5s ease-in-out;
@@ -48,7 +49,7 @@ header nav ul li a{
     text-shadow: 2px 2px 3px black;
     font-size: 200%;
     display: inline-block;
-    color: #5FF84A2;
+    color: rgb(51, 51, 223);
     font-weight: bold;
 }
 header nav ul li a:hover{
@@ -69,6 +70,8 @@ header form input{
     padding: 0.5%;
     border-radius: 50px;
     background: transparent;
+    color: white;
+    font-weight: bolder;
 }
 header form input::placeholder{
     color: white;

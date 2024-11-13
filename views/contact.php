@@ -18,10 +18,9 @@
                 <img src="photo/travelMada.png" alt="logo">
             </div>
             <ul class="navLinks">
-                <li><a href="#">Acceuil</a></li>
-                <li><a href="#">Destination</a></li>
-                <li><a href="#">Offres</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="index.php?action=accueil">Acceuil</a></li>
+                <li><a href="index.php?action=destination">Destination</a></li>
+                <li><a href="index.php?action=contact">Contact</a></li>
             </ul>
             <form action="">
                 <input type="serach" placeholder="Search...." id="recherche">

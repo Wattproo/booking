@@ -16,10 +16,10 @@ body{
     background-color: #f8f9fa;
     color: #333;
     
-    align-items: center;
+    /* align-items: center;
     
     min-height: 100vh;
-    padding: 20px;
+    padding: 20px; */
 }
 .container{
     max-width: 1400px;
@@ -52,7 +52,7 @@ h1{
 .destination img{
     width: 100%;
     height: 100%;
-    object-fit: ;
+    object-fit: contain;
     transition: transform 0.3s ease;
 }
 .destination:hover{
