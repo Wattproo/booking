@@ -38,7 +38,7 @@
     </div>
     <div class="column">
       <div class="content">
-        <img src="/photo/majunga_photo/chambre b.jpg" alt="Nature" style="width:100%">
+        <img src="photo/majunga_photo/chambre b.jpg" alt="Nature" style="width:100%">
         <h3>Chambre de luxe</h3>
         <p>Le confort est à porter de mains <a href="photo/majunga_photo/chambre b.jpg">voir</a></p>
 

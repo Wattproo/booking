@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
 </head>
 <body>
-<div class="tana">
+<div class="tamatave">
   <div class="main" id="main1">
 
   <h1 style="color:white;">MADA_TRAVEL.COM</h1>
