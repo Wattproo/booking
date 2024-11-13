@@ -86,6 +86,20 @@ if(isset($_GET["action"])){
         include("vue-hotel/antsirabe-offre/suimanga/suimanga_offre.php");
     }elseif($_GET["action"]=="reserver"){
         include("views/home-view.php");
+    }elseif($_GET["action"]=="Baobaboffre"){
+        include("vue-hotel/Mahajanga-offre/Baobab/Baobab.php");
+    }elseif($_GET["action"]=="Papsoffre"){
+    include("vue-hotel/Mahajanga-offre/Papschambre/Paps.php");
+    }elseif($_GET["action"]=="Antsanitiaoffre"){
+        include("vue-hotel/Mahajanga-offre/Antsanitia/Antsanitia.php");
+    }elseif($_GET["action"]=="Papsoffre"){
+        include("vue-hotel/Mahajanga-offre/Baobab/Paps.php");
+    }elseif($_GET["action"]=="Métisoffre"){
+        include("vue-hotel/Toliary-offre/Aux 2 métis/Métis.php");
+    }elseif($_GET["action"]=="Serenaoffre"){
+        include("vue-hotel/Toliary-offre/Serena Village/Serena.php");
+    }elseif($_GET["action"]=="Villaoffre"){
+        include("vue-hotel/Toliary-offre/Villa Claire/Villa.php");
     }
     
 }else{

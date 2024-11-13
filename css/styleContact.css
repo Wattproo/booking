@@ -1,6 +1,7 @@
 /* style contact */
 .contact{
     width: 100%;
+    font-size: 150%;
     display: flex;
     justify-content: space-between;
     /* align-items: center; */

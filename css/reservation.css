@@ -1,0 +1,79 @@
+body{
+    width: 1326px;
+    height: auto;
+    background-image: url("../photo/photoNavBarTest.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.logo{
+    float: left;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    background-color: rgb(3, 3, 94);
+    width: 1200px;
+    border-radius: 25px;
+    align-items: center;
+    margin: 2px auto;
+}
+.nav p a {
+    text-decoration: none;
+    color: white;
+}
+.nav p a:hover{
+    cursor: pointer;
+    color: goldenrod;
+}
+.nav p{
+    line-height: 100px;
+}
+#Accueil{
+    text-decoration: underline goldenrod;
+
+}
+.contenaire{
+    width: 1000px;
+    height: 100px;
+    background-color: rgba(255, 127, 80, 0.199);
+    border: 2px solid black;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 15% auto;
+}
+.input1{
+    width: 200px;
+    height: 40px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 30px;
+
+}
+input{
+    border: none;
+    width: 120px;
+}
+.input2{
+    width: 200px;
+    height: 40px;
+    background-color: rgb(3, 3, 94);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 30px;
+
+
+}
+#btn{
+    background-color: rgb(3, 3, 94);
+    color: rgb(248, 246, 246);
+}
+#btn:hover{
+    cursor: pointer;
+    color: coral;
+}
