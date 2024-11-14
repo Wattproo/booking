@@ -10,8 +10,7 @@
 <body>
 <div class="tamatave">
   <div class="main" id="main1">
-
-  <h1 style="color:white;">ʍɑժɑ_ԵɾɑѵҽӀ.ϲօʍᴳᵒ</h1>
+  <img src="kk.png" alt="">
   <hr>
   <p>
   Situé à Toamasina, l'établissement 4 étoiles The Streamliner Hotel Apartment propose une piscine avec vue, un spa et centre de bien-être ainsi qu'une salle de sport. Il propose un restaurant, une réception ouverte 24h/24, un ascenseur et une connexion Wi-Fi gratuite dans l'ensemble de ses locaux. Vous bénéficierez d'un parking privé gratuit et d'un service de navette aéroport payant.
@@ -56,20 +55,17 @@
   <div class="content">
     <img src="SHASHA.png" alt="Bear" style="width:100%">
     <h3>THE STRIMLINER HOTEL TAMATAVE <a href="SHASHA.png">voir Logo</a></h3>
-    <form action="" method="post">
+    <form action="index.php?action=streamoffre" method="post">
       <input type="submit" value="voir les offres" class="btn btn-primary">
     </form>
   </div>
   <br>
-  <br>
 
   <!-- END MAIN -->
   </div>
-  <br>
-  <br>
+  
   <div class="main" id="main1">
-
-  <h1 style="color:white;">ʍɑժɑ_ԵɾɑѵҽӀ.ϲօʍᴳᵒ</h1>
+  <img src="kk.png" alt="">
   <hr>
   <p>
   Situé à Toamasina, le SATRANA HOTEL TAMATAVE possède un jardin et une terrasse. L'établissement possède un restaurant servant une cuisine locale et un parking privé gratuit.
@@ -118,20 +114,16 @@ Les couples apprécient particulièrement l'emplacement de cet établissement. I
 
     <img src="satrana.png" alt="Bear" style="width:100%">
     <h3>SATRANA HOTEL <a href="satrana.png">voir Logo</a></h3>
-    <form action="" method="post">
+    <form action="index.php?action=vicoffre" method="post">
       <input type="submit" value="voir les offres" class="btn btn-primary">
   </form>
   </div>
-
+<br>
   <!-- END MAIN -->
   </div>
-  <br>
-  <br>
+  
   <div class="main">
-    <br>
-    <br>
-
-  <h1 style="color:white;">ʍɑժɑ_ԵɾɑѵҽӀ.ϲօʍᴳᵒ</h1>
+  <img src="kk.png" alt="">
   <hr>
   <p>
   Situé à Toamasina, à quelques minutes de l'océan et à 3 km du port, le Calypso dispose d'une salle de sport et d'une piscine intérieure.
@@ -183,7 +175,7 @@ Les couples apprécient particulièrement l'emplacement de cet établissement. I
   <div class="content">
     <img src="calypso.png" alt="Bear" style="width:100%">
     <h3>CALYPSO HOTEL<a href="calypso.png">voir logo</a></h3>
-    <form action="" method="post">
+    <form action="index.php?action=caloffre" method="post">
       <input type="submit" value="voir les offres" class="btn btn-primary">
   </form>
   </div>

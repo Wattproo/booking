@@ -16,12 +16,12 @@
         </i>
         <div class="hotels">
             <div class="hotel-card">
-                <img src="../photo/Ampefy/Chez Jeanne/img2.jpg" alt="# " id="Sary">
+                <img src="Ampefy/Chez Jeanne/img2.jpg" alt="# " id="Sary">
                 <div class="info">
                      <ul>
                         <li>ʍɑժɑ_ԵɾɑѵҽӀ.ϲօʍᴳᵒ</li>
                     </ul>
-                    <p> <i class="fa fa-map-marker" aria-hidden="true"></i> St Marie, Madagascar</p>
+                    <p> <i class="fa fa-map-marker" aria-hidden="true"></i> Ampefy, Madagascar</p>
                     <p class="rating"> <i class="fa fa-check-circle" aria-hidden="true"></i></p>
                     <p class="price"> <br> Ar 205 000/ NIGHT</p>
                     <a href="index.php?action=reserver" class="button">RESERVER </a>
@@ -29,13 +29,13 @@
             </div>
 
             <div class="hotel-card">
-                <img src="../photo/Ampefy/Chez Jeanne/images.jpg" alt="#">
+                <img src="Ampefy/Chez Jeanne/images.jpg" alt="#">
                 <div class="info">
                    
                      <ul>
                         <li>ʍɑժɑ_ԵɾɑѵҽӀ.ϲօʍᴳᵒ</li>
                     </ul>
-                    <p> <i class="fa fa-map-marker" aria-hidden="true"></i> St Marie, Madagascar</p>
+                    <p> <i class="fa fa-map-marker" aria-hidden="true"></i> Ampefy, Madagascar</p>
                     <p class="rating"> <i class="fa fa-check-circle" aria-hidden="true"></i>  </p>
                     <p class="price"> Ar 250 000/ NIGHT</p>
                     <a href="index.php?action=reserver" class="button">RESERVER </a>
@@ -43,13 +43,13 @@
             </div>
 
             <div class="hotel-card">
-                <img src="../photo/Ampefy/Chez Jeanne/Sans titre.jpg" alt="#">
+                <img src="Ampefy/Chez Jeanne/Sans titre.jpg" alt="#">
                 <div class="info">
                     
                      <ul>
                         <li>ʍɑժɑ_ԵɾɑѵҽӀ.ϲօʍᴳᵒ</li>
                     </ul>
-                    <p> <i class="fa fa-map-marker" aria-hidden="true"></i> St Marie, Madagascar</p>
+                    <p> <i class="fa fa-map-marker" aria-hidden="true"></i> Ampefy, Madagascar</p>
                     <p class="rating"> <i class="fa fa-check-circle" aria-hidden="true"></i>  </p>
                     <p class="price">Ar 300 000/ NIGHT</p>
                     <a href="index.php?action=reserver" class="button">RESERVER </a>

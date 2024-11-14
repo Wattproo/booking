@@ -10,8 +10,7 @@
 <body>
 <div class="nosybe">
   <div class="main" id="main1">
-
-  <h1 style="color:white;">MADA_TRAVEL.COM</h1>
+  <img src="kk.png" alt="">
   <hr>
   <p>
   LE RAVINTSARA WELLNESS est un Hôtel né d’une rencontre harmonieuse de la nature et du luxe. Situé à seulement 35 min de l’aéroport de Nosy-Be (Fascene) et 20 min du centre ville (Hell Ville) sur la côte ouest, face à l’ile de Sakatia où le soleil du soir dévoile ses couleurs chatoyantes. L’hôtel accueille ses hôtes dans un jardin tropical de 5 hectares calme et relaxant, rehaussé par la végétation luxuriante de Madagascar. Les sons et les odeurs de cette nature étant propice au bien être, le Ravintsara Wellness Hôtel vous donne la sensation d’être immergé en pleine nature. Soucieux de votre bien être et parce que nous pensons que luxe rime avec espace, nos bungalows ont été pensés pour vous offrir tout le raffinement et le confort d’un hôtel 4 étoiles.
@@ -57,15 +56,10 @@
   </form>
   </div>
   <br>
-  <br>
-
   <!-- END MAIN -->
   </div>
-  <br>
-  <br>
   <div class="main" id="main1">
-
-  <h1 style="color:white;">MADA_TRAVEL.COM</h1>
+  <img src="kk.png" alt="">
   <hr>
   <p>
     L’hôtel Exora Beach à Nosy Be, à Madagascar, semble être un véritable bijou!
@@ -117,12 +111,8 @@
   <!-- END MAIN -->
   </div>
   <br>
-  <br>
   <div class="main">
-    <br>
-    <br>
-
-  <h1 style="color:white;">MADA_TRAVEL.COM</h1>
+  <img src="kk.png" alt="">
   <hr>
   <p>Sur la péninsule d'Andilana à Nosy Be, l'Hôtel Le Grand Bleu est niché en hauteur sur la colline, permettant à une légère brise naturelle de rendre l'atmosphère moins chaude</p>
 

@@ -101,6 +101,48 @@ if(isset($_GET["action"])){
         include("vue-hotel/Toliary-offre/Serena Village/Serena.php");
     }elseif($_GET["action"]=="Villaoffre"){
         include("vue-hotel/Toliary-offre/Villa Claire/Villa.php");
+    }elseif($_GET["action"]=="chezjeanneoffre"){
+        include("vue-hotel/ampefy-offre/chezJeanne/chezJeanne_offre.php");
+    }elseif($_GET["action"]=="cocodyoffre"){
+        include("vue-hotel/ampefy-offre/cocodyroc/cocodyEoc_offre.php");
+    }elseif($_GET["action"]=="ecoleoffre"){
+        include("vue-hotel/ampefy-offre/ecoleLodge/ecoleLoge_offre.php");
+    }elseif($_GET["action"]=="radisoffre"){
+        include("vue-hotel/Antananarivo-offre/Radisson/Radisson.php");
+    }elseif($_GET["action"]=="grandhoteloffre"){
+        include("vue-hotel/Antananarivo-offre/Grandhotel/Grandhotel.php");
+    }elseif($_GET["action"]=="urbanoffre"){
+        include("vue-hotel/Antananarivo-offre/Varangue/Varangue.php");
+    }elseif($_GET["action"]=="grhoffre"){
+        include("vue-hotel/Antsiranana-offre/Grand-hotel/Grandhotel.php");
+    }elseif($_GET["action"]=="ramenaoffre"){
+        include("vue-hotel/Antsiranana-offre/Hotel lakana Ramena/Hotellakana.php");
+    }elseif($_GET["action"]=="royaloffre"){
+        include("vue-hotel/Antsiranana-offre/Royal Sakalava/Royal.php");
+    }elseif($_GET["action"]=="cigaleoffre"){
+        include("vue-hotel/foulpointe-offre/laCigale/laCigale_offre.php");
+    }elseif($_GET["action"]=="lagonoffre"){
+        include("vue-hotel/foulpointe-offre/leLagon/leLagon_offre.php");
+    }elseif($_GET["action"]=="sanctoffre"){
+        include("vue-hotel/foulpointe-offre/theSanctuary/theSanctuary_offre.php");
+    }elseif($_GET["action"]=="cafeoffre"){
+        include("vue-hotel/morondava-offre/baobabcafe/baobabCafe_offre.php");
+    }elseif($_GET["action"]=="gunaoffre"){
+        include("vue-hotel/morondava-offre/lagunaBeach/lagunaBeach_offre.php");
+    }elseif($_GET["action"]=="capoffre"){
+        include("vue-hotel/morondava-offre/capKimony/capKimony_offre.php");
+    }elseif($_GET["action"]=="ibeachoffre"){
+        include("vue-hotel/stMarie-offre/idylleBeach/idylleBeach.php");
+    }elseif($_GET["action"]=="rocheroffre"){
+        include("vue-hotel/stMarie-offre/leRocher/lerocher.php");
+    }elseif($_GET["action"]=="samoffre"){
+        include("vue-hotel/stMarie-offre/Samaria/samaria.php");
+    }elseif($_GET["action"]=="caloffre"){
+        include("vue-hotel/Toamasina-offre/Calypso/Calypso.php");
+    }elseif($_GET["action"]=="streamoffre"){
+        include("vue-hotel/Toamasina-offre/Streamliner/Streamliner.php");
+    }elseif($_GET["action"]=="vicoffre"){
+        include("vue-hotel/Toamasina-offre/Victoria/Victoria.php");
     }
     
 }else{

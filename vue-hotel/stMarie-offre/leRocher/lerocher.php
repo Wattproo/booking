@@ -17,7 +17,7 @@
 
         <div class="hotels">
             <div class="hotel-card">
-                <img src="../photo/St Marie/Le Rocher/image2.jpg" alt="# " id="Sary">
+                <img src="St Marie/Le Rocher/image2.jpg" alt="# " id="Sary">
                 <div class="info">
                      <ul>
                         <li>ʍɑժɑ_ԵɾɑѵҽӀ.ϲօʍᴳᵒ</li>
@@ -30,7 +30,7 @@
             </div>
 
             <div class="hotel-card">
-                <img src="../photo/St Marie/Le Rocher/images1.jpg" alt="#">
+                <img src="St Marie/Le Rocher/images1.jpg" alt="#">
                 <div class="info">
                      <ul>
                         <li>ʍɑժɑ_ԵɾɑѵҽӀ.ϲօʍᴳᵒ</li>
@@ -43,7 +43,7 @@
             </div>
 
             <div class="hotel-card">
-                <img src="../photo/St Marie/Le Rocher/Le Rocher.jpg" alt="#">
+                <img src="St Marie/Le Rocher/Le Rocher.jpg" alt="#">
                 <div class="info">
                      <ul>
                         <li>ʍɑժɑ_ԵɾɑѵҽӀ.ϲօʍᴳᵒ</li>

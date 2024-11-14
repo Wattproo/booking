@@ -17,7 +17,7 @@
 
         <div class="hotels">
             <div class="hotel-card">
-                <img src="../MORONDAVA/Cap Kimony/246281600.jpg" alt="# " id="Sary">
+                <img src="MORONDAVA/Cap Kimony/246281600.jpg" alt="# " id="Sary">
                 <div class="info">
                      <ul>
                         <li>ʍɑժɑ_ԵɾɑѵҽӀ.ϲօʍᴳᵒ</li>
@@ -30,7 +30,7 @@
             </div>
           
             <div class="hotel-card">
-                <img src="../MORONDAVA/Cap Kimony/image.jpg" alt="#">
+                <img src="MORONDAVA/Cap Kimony/image.jpg" alt="#">
                 <div class="info">
                     <ul>
                         <li>ʍɑժɑ_ԵɾɑѵҽӀ.ϲօʍᴳᵒ</li>
@@ -43,7 +43,7 @@
             </div>
 
             <div class="hotel-card">
-                <img src="../MORONDAVA/Cap Kimony/images.jpg" alt="#">
+                <img src="MORONDAVA/Cap Kimony/images.jpg" alt="#">
                 <div class="info">
                      <ul>
                         <li>ʍɑժɑ_ԵɾɑѵҽӀ.ϲօʍᴳᵒ</li>

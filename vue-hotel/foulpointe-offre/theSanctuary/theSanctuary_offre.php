@@ -17,13 +17,13 @@
 
         <div class="hotels">
             <div class="hotel-card">
-                <img src="../photo/Foulpoint/The Sanctuary Lodge/320121252.jpg" alt="# " id="Sary">
+                <img src="Foulpoint/The Sanctuary Lodge/320121252.jpg" alt="# " id="Sary">
                 <div class="info">
                     
                      <ul>
                         <li>ʍɑժɑ_ԵɾɑѵҽӀ.ϲօʍᴳᵒ</li>
                     </ul>
-                    <p> <i class="fa fa-map-marker" aria-hidden="true"></i> St Marie, Madagascar</p>
+                    <p> <i class="fa fa-map-marker" aria-hidden="true"></i> Foulpointe, Madagascar</p>
                     <p class="rating"> <i class="fa fa-check-circle" aria-hidden="true"></i> 9.1 Confortable et Aimable</p>
                     <p class="price"> <br> Ar 150 000/ NIGHT</p>
                     <a href="index.php?action=reserver" class="button">RESERVER</a>
@@ -31,13 +31,13 @@
             </div>
 
             <div class="hotel-card">
-                <img src="../photo/Foulpoint/The Sanctuary Lodge/images.jpg" alt="#">
+                <img src="Foulpoint/The Sanctuary Lodge/images.jpg" alt="#">
                 <div class="info">
                     
                      <ul>
                         <li>ʍɑժɑ_ԵɾɑѵҽӀ.ϲօʍᴳᵒ</li>
                     </ul>
-                    <p> <i class="fa fa-map-marker" aria-hidden="true"></i> St Marie, Madagascar</p>
+                    <p> <i class="fa fa-map-marker" aria-hidden="true"></i> Foulpointe, Madagascar</p>
                     <p class="rating"> <i class="fa fa-check-circle" aria-hidden="true"></i> 8.5 Très Bien </p>
                     <p class="price"> Ar 220 000/ NIGHT</p>
                     <a href="index.php?action=reserver" class="button">RESERVER</a>
@@ -45,13 +45,13 @@
             </div>
 
             <div class="hotel-card">
-                <img src="../photo/Foulpoint/The Sanctuary Lodge/Sans titre.jpg" alt="#">
+                <img src="Foulpoint/The Sanctuary Lodge/Sans titre.jpg" alt="#">
                 <div class="info">
                     
                      <ul>
                         <li>ʍɑժɑ_ԵɾɑѵҽӀ.ϲօʍᴳᵒ</li>
                     </ul>
-                    <p> <i class="fa fa-map-marker" aria-hidden="true"></i> St Marie, Madagascar</p>
+                    <p> <i class="fa fa-map-marker" aria-hidden="true"></i>Foulpointe, Madagascar</p>
                     <p class="rating"> <i class="fa fa-check-circle" aria-hidden="true"></i> 8.9 Superbe </p>
                     <p class="price">Ar 180 000/ NIGHT</p>
                     <a href="index.php?action=reserver" class="button">RESERVER</a>

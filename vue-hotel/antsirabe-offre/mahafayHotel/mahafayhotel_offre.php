@@ -16,12 +16,12 @@
         </i>
         <div class="hotels">
             <div class="hotel-card">
-                <img src="../photo/Atsirabe/Mahafay Hotel & Resort/519115960.jpg" alt="# " id="Sary">
+                <img src="Atsirabe/Mahafay Hotel & Resort/519115960.jpg" alt="# " id="Sary">
                 <div class="info">
                      <ul>
                         <li>ʍɑժɑ_ԵɾɑѵҽӀ.ϲօʍᴳᵒ</li>
                     </ul>
-                    <p> <i class="fa fa-map-marker" aria-hidden="true"></i>St marie, Madagascar</p>
+                    <p> <i class="fa fa-map-marker" aria-hidden="true"></i> Antsirabe, Madagascar</p>
                     <p class="rating"> <i class="fa fa-check-circle" aria-hidden="true"></i> 9.1 Confortable et Aimable</p>
                     <p class="price"> <br> Ar 105 000/ NIGHT</p>
                     <a href="index.php?action=reserver" class="button">RESERVER </a>
@@ -29,12 +29,12 @@
             </div>
 
             <div class="hotel-card">
-                <img src="../photo/Atsirabe/Mahafay Hotel & Resort/Sans titre.jpg" alt="#">
+                <img src="Atsirabe/Mahafay Hotel & Resort/Sans titre.jpg" alt="#">
                 <div class="info">
                      <ul>
                         <li>ʍɑժɑ_ԵɾɑѵҽӀ.ϲօʍᴳᵒ</li>
                     </ul>
-                    <p> <i class="fa fa-map-marker" aria-hidden="true"></i> St Marie, Madagascar</p>
+                    <p> <i class="fa fa-map-marker" aria-hidden="true"></i> Antsirabe, Madagascar</p>
                     <p class="rating"> <i class="fa fa-check-circle" aria-hidden="true"></i> 8.5 Très Bien </p>
                     <p class="price"> Ar 220 000/ NIGHT</p>
                     <a href="index.php?action=reserver" class="button">RESERVER </a>
@@ -42,12 +42,12 @@
             </div>
 
             <div class="hotel-card">
-                <img src="../photo/Atsirabe/Mahafay Hotel & Resort/Sans titre2.jpg" alt="#">
+                <img src="Atsirabe/Mahafay Hotel & Resort/Sans titre2.jpg" alt="#">
                 <div class="info">
                      <ul>
                         <li>ʍɑժɑ_ԵɾɑѵҽӀ.ϲօʍᴳᵒ</li>
                     </ul>
-                    <p> <i class="fa fa-map-marker" aria-hidden="true"></i> St Marie, Madagascar</p>
+                    <p> <i class="fa fa-map-marker" aria-hidden="true"></i>Antsirabe, Madagascar</p>
                     <p class="rating"> <i class="fa fa-check-circle" aria-hidden="true"></i> 8.9 Superbe </p>
                     <p class="price">Ar 380 000/ NIGHT</p>
                     <a href="index.php?action=reserver" class="button">RESERVER </a>

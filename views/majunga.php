@@ -10,8 +10,7 @@
 <body>
 <div class="majunga">
   <div class="main" id="main1">
-
-  <h1 style="color:white;">ʍɑժɑ_ԵɾɑѵҽӀ.ϲօʍᴳᵒ</h1>
+  <img src="kk.png" alt="">
   <hr>
   <p>
   Le Baobab Tree est un hôtel 4 étoiles se situant dans le centre de Majunga,à quelques mètres du célèbre bord de Majunga et du Grand Baobab.Avec 48 chambres et 4 Suites ,l'équipe du Baobab Tree s'éfforce de répondre aux besoins particuliers de ses hôtes ,en voyage d'affaires ou en vacances dans la région. 
@@ -61,15 +60,10 @@
     </form>
   </div>
   <br>
-  <br>
-
   <!-- END MAIN -->
   </div>
-  <br>
-  <br>
   <div class="main" id="main1">
-
-  <h1 style="color:white;">ʍɑժɑ_ԵɾɑѵҽӀ.ϲօʍᴳᵒ</h1>
+  <img src="kk.png" alt="">
   <hr>
   <p>
     Situé à Majunga ,à moins de 100 mètres de la plage de Soma ,le PAP'S Chambre d'Hôtes propose des hébergements dotés d'une connexion Wi-Fi gratuite.Chaque chambre de l'établissement 2 étoiles est pourvue de tout pour subvenir à vos besoins quotidiens avec un paysage qui sort de l'ordinaire. 
@@ -117,16 +111,11 @@
       <input type="submit" value="voir les offres" class="btn btn-primary">
   </form>
   </div>
-
+<br>
   <!-- END MAIN -->
   </div>
-  <br>
-  <br>
   <div class="main">
-    <br>
-    <br>
-
-  <h1 style="color:white;">ʍɑժɑ_ԵɾɑѵҽӀ.ϲօʍᴳᵒ</h1>
+  <img src="kk.png" alt="">
   <hr>
   <p>
     Situé non loin de la ville de Majunga ,au bord de la rivière Morira, l'hôtel Antsanitia Resort domine tout l' estuaire et offre une vue extraordinaire sur l'océan Indien et le canal du Mozambique.Niché dans un grand jardin tropical,l'hôtel propose un hébergement de 33 unités différentes .Toutes parfaitements conçues pour vous stisfaire .

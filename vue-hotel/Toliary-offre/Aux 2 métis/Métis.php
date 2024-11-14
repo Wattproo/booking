@@ -22,7 +22,7 @@
                         <li></li>
                     </ul>
                     <p> <i class="fa fa-map-marker" aria-hidden="true"></i>Tuléar, Madagascar</p>
-                    <p class="rating"> <i class="fa fa-check-circle" aria-hidden="true"></i></p>
+                    <p class="rating"> <i class="fa fa-check-circle" aria-hidden="true"></i> 9.1 Confortable et Aimable</p>
                     <p class="price"> <br> Ar 170 000/ 24h</p>
                     <a href="index.php?action=reserver" class="button">RESERVER</a>
                 </div>
@@ -35,7 +35,7 @@
                         <li></li>
                     </ul>
                     <p> <i class="fa fa-map-marker" aria-hidden="true"></i>Tuléar, Madagascar</p>
-                    <p class="rating"> <i class="fa fa-check-circle" aria-hidden="true"></i>  </p>
+                    <p class="rating"> <i class="fa fa-check-circle" aria-hidden="true"></i>  8.5 Très Bien </p>
                     <p class="price"> Ar 150 000/ 24h</p>
                     <a href="index.php?action=reserver" class="button">RESERVER</a>
                 </div>
@@ -48,7 +48,7 @@
                         <li></li>
                     </ul>
                     <p> <i class="fa fa-map-marker" aria-hidden="true"></i> Tuléar, Madagascar</p>
-                    <p class="rating"> <i class="fa fa-check-circle" aria-hidden="true"></i>  </p>
+                    <p class="rating"> <i class="fa fa-check-circle" aria-hidden="true"></i> 8.9 Superbe </p>
                     <p class="price">Ar 100 000/ 24h</p>
                     <a href="index.php?action=reserver" class="button">RESERVER</a>
                 </div>

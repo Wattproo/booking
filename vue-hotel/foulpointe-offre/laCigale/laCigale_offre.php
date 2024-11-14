@@ -17,12 +17,12 @@
 
         <div class="hotels">
             <div class="hotel-card">
-                <img src="../photo/Foulpoint/La Cigale/170592919.jpg" alt="# " id="Sary">
+                <img src="Foulpoint/La Cigale/170592919.jpg" alt="# " id="Sary">
                 <div class="info">
                      <ul>
                         <li>ʍɑժɑ_ԵɾɑѵҽӀ.ϲօʍᴳᵒ</li>
                     </ul>
-                    <p> <i class="fa fa-map-marker" aria-hidden="true"></i>St marie, Madagascar</p>
+                    <p> <i class="fa fa-map-marker" aria-hidden="true"></i>Foulointe, Madagascar</p>
                     <p class="rating"> <i class="fa fa-check-circle" aria-hidden="true"></i> 9.1 Confortable et Aimable</p>
                     <p class="price"> <br> Ar 195 000/ NIGHT</p>
                     <a href="index.php?action=reserver" class="button">RESERVER</a>
@@ -30,12 +30,12 @@
             </div>
 
             <div class="hotel-card">
-                <img src="../photo/Foulpoint/La Cigale/170611739.jpg" alt="#">
+                <img src="Foulpoint/La Cigale/170611739.jpg" alt="#">
                 <div class="info">
                      <ul>
                         <li>ʍɑժɑ_ԵɾɑѵҽӀ.ϲօʍᴳᵒ</li>
                     </ul>
-                    <p> <i class="fa fa-map-marker" aria-hidden="true"></i> St Marie, Madagascar</p>
+                    <p> <i class="fa fa-map-marker" aria-hidden="true"></i> Foulointe, Madagascar</p>
                     <p class="rating"> <i class="fa fa-check-circle" aria-hidden="true"></i> 8.5 Très Bien </p>
                     <p class="price"> Ar 220 000/ NIGHT</p>
                     <a href="index.php?action=reserver" class="button">RESERVER</a>
@@ -43,12 +43,12 @@
             </div>
 
             <div class="hotel-card">
-                <img src="../photo/Foulpoint/La Cigale/images.jpg" alt="#">
+                <img src="Foulpoint/La Cigale/images.jpg" alt="#">
                 <div class="info">
                      <ul>
                         <li>ʍɑժɑ_ԵɾɑѵҽӀ.ϲօʍᴳᵒ</li>
                     </ul>
-                    <p> <i class="fa fa-map-marker" aria-hidden="true"></i> St Marie, Madagascar</p>
+                    <p> <i class="fa fa-map-marker" aria-hidden="true"></i> Foulointe, Madagascar</p>
                     <p class="rating"> <i class="fa fa-check-circle" aria-hidden="true"></i> 8.9 Superbe </p>
                     <p class="price">Ar 280 000/ NIGHT</p>
                     <a href="index.php?action=reserver" class="button">RESERVER</a>

@@ -17,13 +17,13 @@
 
         <div class="hotels">
             <div class="hotel-card">
-                <img src="../MORONDAVA/Laguna/image3.jpg" alt="# " id="Sary">
+                <img src="MORONDAVA/Laguna/image3.jpg" alt="# " id="Sary">
                 <div class="info">
                     
                      <ul>
                         <li>ʍɑժɑ_ԵɾɑѵҽӀ.ϲօʍᴳᵒ</li>
                     </ul>
-                    <p> <i class="fa fa-map-marker" aria-hidden="true"></i> Nosy Be, Madagascar</p>
+                    <p> <i class="fa fa-map-marker" aria-hidden="true"></i> MORONDAVA, Madagascar</p>
                     <p class="rating"> <i class="fa fa-check-circle" aria-hidden="true"></i> 9.1 Confortable et Aimable</p>
                     <p class="price"> <br> Ar 175 000/ NIGHT</p>
                     <a href="index.php?action=reserver" class="button">RESERVER</a>
@@ -32,13 +32,13 @@
             </div>
 
             <div class="hotel-card">
-                <img src="../MORONDAVA/Laguna/images.jpg" alt="#">
+                <img src="MORONDAVA/Laguna/images.jpg" alt="#">
                 <div class="info">
                     
                      <ul>
                         <li>ʍɑժɑ_ԵɾɑѵҽӀ.ϲօʍᴳᵒ</li>
                     </ul>
-                    <p> <i class="fa fa-map-marker" aria-hidden="true"></i> Nosy Be, Madagascar</p>
+                    <p> <i class="fa fa-map-marker" aria-hidden="true"></i>  MORONDAVA, Madagascar</p>
                     <p class="rating"> <i class="fa fa-check-circle" aria-hidden="true"></i> 8.5 Très Bien </p>
                     <p class="price"> Ar 190 000/ NIGHT</p>
                     <a href="index.php?action=reserver" class="button">RESERVER</a>
@@ -46,7 +46,7 @@
             </div>
 
             <div class="hotel-card">
-                <img src="../MORONDAVA/Laguna/images2.jpg" alt="#">
+                <img src="MORONDAVA/Laguna/images2.jpg" alt="#">
                 <div class="info">
                     
                      <ul>

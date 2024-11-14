@@ -3,41 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/offreko.css">
+    <title>tamatave</title>
+    <link rel="stylesheet" href="css/style2.css">
+    <link rel="stylesheet" href="views/fontawesome-free-5.15.3-web/css/all.css">
 </head>
 <body>
-    <div class="be">
-        <h2>Calypso Hotel</h2>
-        <div class="container">
-            <div class="box">
-                <div><img src="img/calypso4.jpg" alt=""></div>
-                <ul>
-                    <li>Mada Travel.com</li>
-                </ul>
-                <p>Chambre du Souffle </p>
-                <div class="sebox"><p class="prix">130 000 Ar</p></div>
-                <div class="button"><input type="button" id="mot" value="Reserver"></div>
+    <section>
+        <i>
+            <li>
+                <h2>Calypso :</h2>
+            </li>
+        </i>
+
+        <div class="hotels">
+            <div class="hotel-card">
+                <img src="v1.jpg" alt="# " id="Sary">
+                <div class="info">
+                     <ul>
+                        <li></li>
+                    </ul>
+                    <p> <i class="fa fa-map-marker" aria-hidden="true"></i> Tamatave, Madagascar</p>
+                    <p class="rating"> <i class="fa fa-check-circle" aria-hidden="true"></i> 9.1 Confortable et Aimable</p>
+                    <p class="price"> <br> Ar 255 000/ NIGHT</p>
+                    <a href="index.php?action=reserver" class="button">RESERVER </a>
+                </div>  
             </div>
-            <div class="box">
-                <div><img src="img/calypso5.jpg" alt=""></div>
-                <ul>
-                    <li>Mada Travel.com</li>
-                </ul>
-                <p>Suite du Crépuscule </p>
-                <div class="sebox"><p class="prix">135 000 Ar</p></div>
-                <div class="button"><input type="button" id="mot" value="Reserver"></div>
+
+            <div class="hotel-card">
+                <img src="v2.jpg" alt="#">
+                <div class="info">
+                     <ul>
+                        <li></li>
+                    </ul>
+                    <p> <i class="fa fa-map-marker" aria-hidden="true"></i> Tamatave, Madagascar</p>
+                    <p class="rating"> <i class="fa fa-check-circle" aria-hidden="true"></i> 8.5 Très Bien </p>
+                    <p class="price"> Ar 190 000/ NIGHT</p>
+                    <a href="index.php?action=reserver" class="button">RESERVER </a>
+                </div>
+                
             </div>
-            <div class="box">
-                <div><img src="img/calypso6.jpg" alt=""></div>
-                <ul>
-                    <li>Mada Travel.com</li>
-                </ul>
-                <p>Chambre des Mirages</p>
-                <div class="sebox"><p class="prix">120 000 Ar</p></div>
-                <div class="button"><input type="button" id="mot" value="Reserver"></div>
+            <div class="hotel-card">
+                <img src="v3.jpg" alt="#">
+                <div class="info">
+                     <ul>
+                        <li></li>
+                    </ul>
+                    <p> <i class="fa fa-map-marker" aria-hidden="true"></i>Tamatave, Madagascar</p>
+                    <p class="rating"> <i class="fa fa-check-circle" aria-hidden="true"></i> 8.5 Très Bien </p>
+                    <p class="price"> Ar 190 000/ NIGHT</p>
+                    <a href="index.php?action=reserver" class="button">RESERVER </a>
+                </div>
+                
             </div>
         </div>
-    </div>
+        <h1>__________________________________________________</h1>
+    </section>
 </body>
 </html>

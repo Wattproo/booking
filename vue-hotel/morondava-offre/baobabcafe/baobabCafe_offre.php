@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>les offres chez baobab café</title>
-    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="css/style2.css">
     <link rel="stylesheet" href="views/fontawesome-free-5.15.3-web/css/all.css">
 </head>
 <body>
@@ -16,7 +16,7 @@
         </i>
         <div class="hotels">
             <div class="hotel-card">
-                <img src="../MORONDAVA/Baobab café/1730030602923.jpg" alt="# " id="Sary">
+                <img src="MORONDAVA/Baobab café/1730030602923.jpg" alt="# " id="Sary">
                 <div class="info">
                      <ul>
                         <li>ʍɑժɑ_ԵɾɑѵҽӀ.ϲօʍᴳᵒ</li>
@@ -29,7 +29,7 @@
             </div>
 
             <div class="hotel-card">
-                <img src="../MORONDAVA/Baobab café/1730030625359.jpg" alt="#">
+                <img src="MORONDAVA/Baobab café/1730030625359.jpg" alt="#">
                 <div class="info">
                    
                      <ul>
@@ -43,7 +43,7 @@
             </div>
 
             <div class="hotel-card">
-                <img src="../MORONDAVA/Baobab café/1730030673505.jpg" alt="#">
+                <img src="MORONDAVA/Baobab café/1730030673505.jpg" alt="#">
                 <div class="info">
                     
                      <ul>

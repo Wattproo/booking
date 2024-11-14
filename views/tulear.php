@@ -10,8 +10,7 @@
 <body>
 <div class="foulpointe">
   <div class="main" id="main1">
-
-  <h1 style="color:white;">MADA_TRAVEL.COM</h1>
+  <img src="kk.png" alt="">
   <hr>
   <p>
   Situé à Toliara, à 2,5 km de la plage de la Batterie, L'Amazone Hotel Tulear propose un salon commun, un parking privé gratuit, une terrasse et un restaurant. Chaque hébergement de cet hôtel 3 étoiles offre une vue sur la ville et vous aurez accès à une piscine intérieure. Il propose une réception ouverte 24h/24, des transferts aéroport, un service d'étage et une connexion Wi-Fi gratuite dans l'ensemble de ses locaux.
@@ -59,15 +58,10 @@
   </form>
   </div>
   <br>
-  <br>
-
   <!-- END MAIN -->
   </div>
-  <br>
-  <br>
   <div class="main" id="main1">
-
-  <h1 style="color:white;">MADA_TRAVEL.COM</h1>
+  <img src="kk.png" alt="">
   <hr>
   <p>
   Située à Toliara, la Villa Claire propose un hébergement climatisé avec une piscine privée, une vue sur la montagne et une terrasse. Cet hébergement en bord de mer dispose d'un balcon, d'une table de ping-pong ainsi que d'une connexion Wi-Fi et d'un parking privé gratuits. Il propose une réception ouverte 24h/24, un service de sécurité et un service de change.
@@ -118,12 +112,9 @@ Un petit-déjeuner continental et américain est servi tous les matins sur place
   <!-- END MAIN -->
   </div>
   <br>
-  <br>
+  
   <div class="main">
-    <br>
-    <br>
-
-  <h1 style="color:white;">MADA_TRAVEL.COM</h1>
+  <img src="kk.png" alt="">
   <hr>
   <p>
   Situé à Toliara, à seulement 5,6 km du musée Rabesandratana, le Serena Village Tulear propose un hébergement avec accès à une piscine à débordement, un jardin et une réception ouverte 24h/24. Vous bénéficierez gratuitement d'un parking privé et d'une connexion Wi-Fi. Cet établissement non-fumeurs se trouve à 7,9 km de l'arboretum d'Antsokay.

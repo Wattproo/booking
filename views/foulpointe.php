@@ -10,8 +10,7 @@
 <body>
 <div class="foulpointe">
   <div class="main" id="main1">
-
-  <h1 style="color:white;">MADA_TRAVEL.COM</h1>
+  <img src="kk.png" alt="">
   <hr>
   <p>
   Situé en bord de mer à Foulpointe, l'établissement 3 étoiles LA CIGALE propose une piscine extérieure, une salle de sport et un jardin. Il possède une plage privée et un bar. Il possède un restaurant servant une cuisine française et un parking privé gratuit.
@@ -54,20 +53,15 @@ Toutes les chambres comprennent un bureau et une armoire. Leur salle de bains pr
   <div class="content">
     <img src="logolacigale.png" alt="Bear" style="width:100%">
     <h3>LA CIGALE  <a href="logolacigale.png">voir Logo</a></h3>
-    <form action="" method="post">
+    <form action="index.php?action=cigaleoffre" method="post">
       <input type="submit" value="voir les offres" class="btn btn-primary">
   </form>
   </div>
-  <br>
-  <br>
-
+<br>
   <!-- END MAIN -->
   </div>
-  <br>
-  <br>
   <div class="main" id="main1">
-
-  <h1 style="color:white;">MADA_TRAVEL.COM</h1>
+  <img src="kk.png" alt="">
   <hr>
   <p>
   Le Lagon,une oasis de sérénité nichée au cœur d'un jardin tropical verdoyant qui donne sur le magnifique lagon de Foulpointe.L'Hotel Le Lagon possède un bar-restaurant et propose des bungalows au toit de chaume.Tous les bungalows disposent d'une terrasse privée et offrent une vue sur le jardin. 
@@ -108,20 +102,16 @@ Toutes les chambres comprennent un bureau et une armoire. Leur salle de bains pr
   <div class="content">
     <img src="logolag.png" alt="Bear" style="width:100%">
     <h3>LE LAGON <a href="logolag.png">voir Logo</a></h3>
-    <form action="" method="post">
+    <form action="index.php?action=lagonoffre" method="post">
       <input type="submit" value="voir les offres" class="btn btn-primary">
   </form>
   </div>
-
+<br>
   <!-- END MAIN -->
   </div>
-  <br>
-  <br>
+ 
   <div class="main">
-    <br>
-    <br>
-
-  <h1 style="color:white;">MADA_TRAVEL.COM</h1>
+  <img src="kk.png" alt="">
   <hr>
   <p>
     Niché dans une forêt et juste à dix minutes de la plage où règnent le calme et l'apaisement.The Sanctuary Lodge est implanté dans un cadre naturel aménagé pour garder son esprit refuge ,réconciliant,confort et havre.C'est un endroit discret du site balnéaire de l'Est Malgache.Tout simplement le sanctuaire de la paix et du bonheur! </p>
@@ -161,7 +151,7 @@ Toutes les chambres comprennent un bureau et une armoire. Leur salle de bains pr
   <div class="content">
     <img src="logos.jpg" alt="Bear" style="width:100%">
     <h3>THE SANCTUARY LODGE <a href="logos.jpg">voir logo</a></h3>
-    <form action="" method="post">
+    <form action="index.php?action=sanctoffre" method="post">
       <input type="submit" value="voir les offres" class="btn btn-primary">
   </form>
   </div>

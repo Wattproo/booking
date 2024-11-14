@@ -10,8 +10,7 @@
 <body>
 <div class="stmarie">
   <div class="main" id="main1">
-
-  <h1 style="color:white;">ʍɑժɑ_ԵɾɑѵҽӀ.ϲօʍᴳᵒ</h1>
+  <img src="kk.png" alt="">
   <hr>
   <p>
   La plage d'Idylle est située au large de la côte nord-est de Madagascar, sur l'île Sainte-Marie. Il dispose d'un restaurant et d'un bar-salon directement sur la mer.
@@ -60,20 +59,15 @@ Les couples apprécient particulièrement l'emplacement de cet établissement. I
   <div class="content">
     <img src="idylleBEACH.png" alt="Bear" style="width:100%">
     <h3>IDYLLE BEACH HOTEL <a href="idylleBEACH.png">voir Logo</a></h3>
-    <form action="" method="post">
+    <form action="index.php?action=ibeachoffre" method="post">
       <input type="submit" value="voir les offres" class="btn btn-primary">
     </form>
   </div>
   <br>
-  <br>
-
   <!-- END MAIN -->
   </div>
-  <br>
-  <br>
   <div class="main" id="main1">
-
-  <h1 style="color:white;">ʍɑժɑ_ԵɾɑѵҽӀ.ϲօʍᴳᵒ</h1>
+  <img src="kk.png" alt="">
   <hr>
   <p>
   Situé à Sainte-Marie, l'établissement Le Rocher dispose d'un bar et d'un salon commun. Cet hébergement en bord de mer dispose d'un balcon et d'un parking privé gratuit. L'établissement possède un jardin ainsi qu'un restaurant familial servant une cuisine française et locale.
@@ -122,20 +116,15 @@ Les couples apprécient particulièrement l'emplacement de cet établissement. I
 
     <img src="lerocher0.png" alt="Bear" style="width:100%">
     <h3>LE ROCHER  <a href="lerocher0.png">voir Logo</a></h3>
-    <form action="" method="post">
+    <form action="index.php?action=rocheroffre" method="post">
       <input type="submit" value="voir les offres" class="btn btn-primary">
   </form>
   </div>
-
+<br>
   <!-- END MAIN -->
   </div>
-  <br>
-  <br>
   <div class="main">
-    <br>
-    <br>
-
-  <h1 style="color:white;">ʍɑժɑ_ԵɾɑѵҽӀ.ϲօʍᴳᵒ</h1>
+  <img src="kk.png" alt="">
   <hr>
   <p>
   Situé à Sainte-Marie, le Samaria Lodge possède un jardin, une plage privée, un salon commun et une terrasse. Il possède un bar et des installations de sports nautiques. Il possède un restaurant servant une cuisine française et un parking privé gratuit.
@@ -187,7 +176,7 @@ Les couples apprécient particulièrement l'emplacement de cet établissement. I
   <div class="content">
     <img src="samarialdg.png" alt="Bear" style="width:100%">
     <h3>SAMARIA LODGE <a href="samarialdg.png">voir logo</a></h3>
-    <form action="" method="post">
+    <form action="index.php?action=samoffre" method="post">
       <input type="submit" value="voir les offres" class="btn btn-primary">
   </form>
   </div>

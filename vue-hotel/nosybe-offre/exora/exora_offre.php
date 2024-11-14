@@ -22,7 +22,7 @@
                      <ul>
                         <li></li>
                     </ul>
-                    <p> <i class="fa fa-map-marker" aria-hidden="true"></i>Antsiranana, Madagascar</p>
+                    <p> <i class="fa fa-map-marker" aria-hidden="true"></i> Nosy Be, Madagascar</p>
                     <p class="rating"> <i class="fa fa-check-circle" aria-hidden="true"></i> 9.1 Confortable et Aimable</p>
                     <p class="price"> <br> Ar 255 000/ NIGHT</p>
                     <a href="index.php?action=reserver" class="button">RESERVER </a>
@@ -35,7 +35,7 @@
                      <ul>
                         <li></li>
                     </ul>
-                    <p> <i class="fa fa-map-marker" aria-hidden="true"></i> Antsiranana, Madagascar</p>
+                    <p> <i class="fa fa-map-marker" aria-hidden="true"></i> Nosy Be, Madagascar</p>
                     <p class="rating"> <i class="fa fa-check-circle" aria-hidden="true"></i> 8.5 Très Bien </p>
                     <p class="price"> Ar 190 000/ NIGHT</p>
                     <a href="index.php?action=reserver" class="button">RESERVER </a>
@@ -48,7 +48,7 @@
                      <ul>
                         <li></li>
                     </ul>
-                    <p> <i class="fa fa-map-marker" aria-hidden="true"></i> Antsiranana, Madagascar</p>
+                    <p> <i class="fa fa-map-marker" aria-hidden="true"></i> Nosy Be, Madagascar</p>
                     <p class="rating"> <i class="fa fa-check-circle" aria-hidden="true"></i> 8.5 Très Bien </p>
                     <p class="price"> Ar 190 000/ NIGHT</p>
                     <a href="index.php?action=reserver" class="button">RESERVER </a>

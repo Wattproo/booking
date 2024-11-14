@@ -29,8 +29,8 @@
                     <i class="fa fa-user"></i>
                 </div>
                 <div class="desconnectList">
-                    <a href="#">Se déconnecter</a>
-                    <a href="#">Se connecter</a>
+                    <a href="index.php?action=register">S'inscrire</a>
+                    <a href="index.php?action=login">Se connecter</a>
                 </div>
             </div>
         </nav>

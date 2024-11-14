@@ -11,8 +11,7 @@
 <body>
 <div class="nosybe">
   <div class="main" id="main1">
-
-  <h1 style="color:white;">MADA_TRAVEL.COM</h1>
+  <img src="kk.png" alt="">
   <hr>
   <p>
   Vous souhaitez vous détendre une nuit ou plus lors de vos transits entre deux vols intérieurs ou au retour d'une destination de province en vol intérieur la veille de votre départ, ou tout simplement découvrir la capitale Antananarivo et ses environs.
@@ -53,20 +52,16 @@
   <div class="content">
     <img src="photo/logo CJ.jpg" alt="Bear" style="width:100%">
     <h3>CHEZ JEANNE  <a href="photo/logo CJ.jpg">voir Logo</a></h3>
-    <form action="index.php?action=ravintsaraoffre" method="post">
+    <form action="index.php?action=chezjeanneoffre" method="post">
       <input type="submit" value="voir les offres" class="btn btn-primary">
   </form>
   </div>
   <br>
-  <br>
 
   <!-- END MAIN -->
   </div>
-  <br>
-  <br>
   <div class="main" id="main1">
-
-  <h1 style="color:white;">MADA_TRAVEL.COM</h1>
+  <img src="kk.png" alt="">
   <hr>
   <p>
   Offrant une vue sur la piscine, le COCODY ROC propose un hébergement avec terrasse. L'établissement possède un restaurant et un parking privé gratuit. Il propose des chambres familiales et une piscine extérieure ouverte toute l'année.
@@ -107,7 +102,7 @@
   <div class="content">
     <img src="photo/logo CR.jpg" alt="Bear" style="width:100%">
     <h3>COCODY ROC  <a href="photo/logo CR.jpg">voir Logo</a></h3>
-    <form action="index.php?action=exoraoffre" method="post">
+    <form action="index.php?action=cocodyoffre" method="post">
       <input type="submit" value="voir les offres" class="btn btn-primary">
   </form>
   </div>
@@ -115,12 +110,8 @@
   <!-- END MAIN -->
   </div>
   <br>
-  <br>
   <div class="main">
-    <br>
-    <br>
-
-  <h1 style="color:white;">MADA_TRAVEL.COM</h1>
+  <img src="kk.png" alt="">
   <hr>
   <p>
   Doté d'une piscine avec vue, d'une baignoire en plein air et d'un jardin, l'Ecole Lodge Antananarivo propose un hébergement avec connexion Wi-Fi gratuite et vue sur le jardin. Bénéficiant d'une sécurité toute la journée, cet établissement possède également une cheminée extérieure. L'établissement possède un restaurant servant une cuisine africaine et un parking privé gratuit.
@@ -161,7 +152,7 @@
   <div class="content">
     <img src="photo/logo EL.jpg" alt="Bear" style="width:100%">
     <h3>ECOLE LOGDE <a href="photo/logo EL.jpg">voir logo</a></h3>
-    <form action="index.php?action=gboffre" method="post">
+    <form action="index.php?action=ecoleoffre" method="post">
       <input type="submit" value="voir les offres" class="btn btn-primary">
   </form>
   </div>

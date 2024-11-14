@@ -10,8 +10,7 @@
 <body>
 <div class="morondava">
   <div class="main" id="main1">
-
-  <h1 style="color:white;">MADA_TRAVEL.COM</h1>
+  <img src="kk.png" alt="">
   <hr>
   <p>
   Situé à Morondava, à 400 mètres de la plage, l'Hôtel Baobab Café propose une piscine extérieure, un parking privé gratuit, un jardin et une terrasse. Il propose un restaurant, un service d'étage, une réception ouverte 24h/24 et une connexion Wi-Fi gratuite dans l'ensemble de ses locaux. Vous pourrez prendre un verre au bar.
@@ -53,20 +52,15 @@
   <div class="content">
     <img src="photo/Messenger_creation_C1EF28AF-C7F5-41AA-8AF0-127D7A014628.jpeg" alt="Bear" style="width:100%">
     <h3>BAOBAB CAFE  <a href="photo/logo BR.jpg">voir Logo</a></h3>
-    <form action="index.php?action=ravintsaraoffre" method="post">
+    <form action="index.php?action=cafeoffre" method="post">
       <input type="submit" value="voir les offres" class="btn btn-primary">
   </form>
   </div>
-  <br>
-  <br>
-
   <!-- END MAIN -->
   </div>
   <br>
-  <br>
   <div class="main" id="main1">
-
-  <h1 style="color:white;">MADA_TRAVEL.COM</h1>
+  <img src="kk.png" alt="">
   <hr>
   <p>
   Vous pouvez peut-être bénéficier d’une réduction Genius dans l’établissement LAGUNA BEACH. 
@@ -107,7 +101,7 @@
   <div class="content">
     <img src="photo/Messenger_creation_003ADEDF-D3AF-46C9-A5B7-6E35FAD370A4.jpeg" alt="Bear" style="width:100%">
     <h3>LAGUNA BEACH  <a href="photo/Messenger_creation_003ADEDF-D3AF-46C9-A5B7-6E35FAD370A4.jpeg">voir Logo</a></h3>
-    <form action="index.php?action=exoraoffre" method="post">
+    <form action="index.php?action=gunaoffre" method="post">
       <input type="submit" value="voir les offres" class="btn btn-primary">
   </form>
   </div>
@@ -115,12 +109,8 @@
   <!-- END MAIN -->
   </div>
   <br>
-  <br>
   <div class="main">
-    <br>
-    <br>
-
-  <h1 style="color:white;">MADA_TRAVEL.COM</h1>
+  <img src="kk.png" alt="">
   <hr>
   <p>
   Vous pouvez peut-être bénéficier d’une réduction Genius dans l’établissement CAP KIMONY. Les réductions Genius proposées par cet établissement dépendent des dates de réservation, des dates de séjour et des autres offres disponibles.
@@ -160,7 +150,7 @@
   <div class="content">
     <img src="photo/lastImage.jpeg" alt="Bear" style="width:100%">
     <h3>CAP KIMONY <a href="photo/lastImage.jpeg">voir logo</a></h3>
-    <form action="index.php?action=gboffre" method="post">
+    <form action="index.php?action=capoffre" method="post">
       <input type="submit" value="voir les offres" class="btn btn-primary">
   </form>
   </div>

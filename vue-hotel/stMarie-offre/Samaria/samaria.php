@@ -17,7 +17,7 @@
 
         <div class="hotels">
             <div class="hotel-card">
-                <img src="../photo/St Marie/Samaria Lodge/images.jpg" alt="# " id="Sary">
+                <img src="St Marie/Samaria Lodge/images.jpg" alt="# " id="Sary">
                 <div class="info">
                     
                      <ul>
@@ -31,7 +31,7 @@
             </div>
 
             <div class="hotel-card">
-                <img src="../photo/St Marie/Samaria Lodge/Samaria Lodge.jpg" alt="#">
+                <img src="St Marie/Samaria Lodge/Samaria Lodge.jpg" alt="#">
                 <div class="info">
                     
                      <ul>
@@ -45,7 +45,7 @@
             </div>
 
             <div class="hotel-card">
-                <img src="../photo/St Marie/Samaria Lodge/Sans titre.jpg" alt="#">
+                <img src="St Marie/Samaria Lodge/Sans titre.jpg" alt="#">
                 <div class="info">
                     
                      <ul>

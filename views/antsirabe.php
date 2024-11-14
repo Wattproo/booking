@@ -10,8 +10,7 @@
 <body>
 <div class="nosybe">
   <div class="main" id="main1">
-
-  <h1 style="color:white;">MADA_TRAVEL.COM</h1>
+  <img src="kk.png" alt="">
   <hr>
   <p>
   Situé à Antsirabe, à 5,8 km de la gare, le BIRA Hotel propose un jardin, un parking privé gratuit, une terrasse et un restaurant. Cet hôtel 3 étoiles propose un service d'étage, une réception ouverte 24h/24 et une connexion Wi-Fi gratuite. Vous pourrez prendre un verre au bar.
@@ -52,20 +51,15 @@
   <div class="content">
     <img src="photo/logo BR.jpg" alt="Bear" style="width:100%">
     <h3>BIRA HOTEL  <a href="photo/logo BR.jpg">voir Logo</a></h3>
-    <form action="index.php?action=ravintsaraoffre" method="post">
+    <form action="index.php?action=biraoffre" method="post">
       <input type="submit" value="voir les offres" class="btn btn-primary">
   </form>
   </div>
   <br>
-  <br>
-
   <!-- END MAIN -->
   </div>
-  <br>
-  <br>
   <div class="main" id="main1">
-
-  <h1 style="color:white;">MADA_TRAVEL.COM</h1>
+  <img src="kk.png" alt="">
   <hr>
   <p>
   Situé à Antsirabe, à 4,2 km de la gare, le Mahafaly Hotel & Resort propose un jardin, un parking privé gratuit, un salon commun et une terrasse. Chaque hébergement de cet hôtel 2 étoiles offre une vue sur la piscine. Vous aurez accès à un restaurant et à un bar. Il propose une réception ouverte 24h/24, un service de navette aéroport, un club pour enfants et une connexion Wi-Fi gratuite.
@@ -106,7 +100,7 @@
   <div class="content">
     <img src="photo/logo MH.png" alt="Bear" style="width:100%">
     <h3>MAHAFALY HOTEL  <a href="photo/logo MH.png">voir Logo</a></h3>
-    <form action="index.php?action=exoraoffre" method="post">
+    <form action="index.php?action=mahafayoffre" method="post">
       <input type="submit" value="voir les offres" class="btn btn-primary">
   </form>
   </div>
@@ -114,12 +108,8 @@
   <!-- END MAIN -->
   </div>
   <br>
-  <br>
   <div class="main">
-    <br>
-    <br>
-
-  <h1 style="color:white;">MADA_TRAVEL.COM</h1>
+  <img src="kk.png" alt="">
   <hr>
   <p>
   A trois kilomètres du centre-ville d’Antsirabe, au milieu d’un jardin conservatoire de plantes endémiques malgaches et d’ailleurs, dans un cadre d’exception, un havre de paix, l’équipe du « Souimanga Hôtel-Restaurant » vous accueille dans une ambiance chaleureuse et conviviale. Un hôtel original qui met en avant le développement durable et écologique à travers ses concepts d’autonomie et de culture naturelle et ses projets solidaires.
@@ -159,7 +149,7 @@
   <div class="content">
     <img src="photo/logo SH.jpg" alt="Bear" style="width:100%">
     <h3>SOUIMANGA HOTEL <a href="photo/logo SH.jpg">voir logo</a></h3>
-    <form action="index.php?action=gboffre" method="post">
+    <form action="index.php?action=suimangaoffre" method="post">
       <input type="submit" value="voir les offres" class="btn btn-primary">
   </form>
   </div>
