@@ -11,6 +11,7 @@
 }
   
 body {
+
   /* background-image: linear-gradient(to top left,rgb(252, 251, 248), rgba(172, 240, 13, 0.952) ),url(''); */
   padding: 20px;
   font-family: Arial;
@@ -52,7 +53,9 @@ body {
   
   /* Content */
   .content {
+
     background-color: #DBECF4;
+
     padding: 10px;
   }
   
@@ -70,7 +73,6 @@ body {
     }
   }
 .diego {
-  
   width: 100%;
   height: auto;
 }
