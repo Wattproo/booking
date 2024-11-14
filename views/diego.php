@@ -51,7 +51,7 @@ Le Grand Hôtel Diego est situé à Diego Suarez, à 800 mètres de Diego Suarez
 <div class="content">
   <img src="photo/logo GHD.jpg" alt="Bear" style="width:100%">
   <h3>Le GRAND HOTEL  <a href="photo/logo GHD.jpg">voir Logo</a></h3>
-  <form action="index.php?action=ravintsaraoffre" method="post">
+  <form action="index.php?action=grandhoteloffre" method="post">
     <input type="submit" value="voir les offres" class="btn btn-primary">
 </form>
   </div>
@@ -100,11 +100,7 @@ Le Grand Hôtel Diego est situé à Diego Suarez, à 800 mètres de Diego Suarez
   <div class="content">
     <img src="photo/logo HLR.jpg" alt="Bear" style="width:100%">
     <h3>HOTEL LAKANA RAMENA  <a href="photo/logo HLR.jpg">voir Logo</a></h3>
-<<<<<<< HEAD
     <form action="index.php?action=ramenaoffre" method="post">
-=======
-    <form action="index.php?action=exoraoffre" method="post">
->>>>>>> 8e157c892db51b5b1da168028bd5acf97379bdee
       <input type="submit" value="voir les offres" class="btn btn-primary">
   </form>
   </div>
